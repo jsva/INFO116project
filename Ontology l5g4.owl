@@ -1,0 +1,3813 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/jonas/ontologies/2019/9/untitled-ontology-14"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/jonas/ontologies/2019/9/untitled-ontology-14">
+    <Prefix name="" IRI="http://www.semanticweb.org/jonas/ontologies/2019/9/untitled-ontology-14"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Afrika"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agiorgitiko"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aglianico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Akevitt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Albarossa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Albillo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aleatico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alfrocheiro_Preto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alicante_Bouschet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alsace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ancellotta_Lancellotta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Annet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aperitif"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aprikos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aragónez"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aramon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Armagnac"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aspiran_Noir_Ribeyrenc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Baga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barbarossa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barbera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barley_wine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bastardo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Belgia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bitter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blatina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blauburgunder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blauer_Portugieser"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Blaufränkisch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bobal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boblevin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bonarda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bordeaux"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brachetto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brancellao_Alvarelhao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brasserie_Huyghe_Brewery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brennevin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brown_ale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brunello"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bulgaria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Burgund"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Caberlot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cabernet_Franc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cabernet_Sauvignon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cabernet_blanc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Caino_Blanco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Caino_Tinto_Borracal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Caladoc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Callet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Calvados"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Camarate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Canaiolo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Canaiolo_Nero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cannonau"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carignan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carignane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carignano"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cariñena"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carménère"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carricante"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Casetta_Foja_Tonda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Castelão"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Catarratto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cencibel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cesanese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ch.Giscours"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Champagne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chardonnay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Charente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chiavennasca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chiavennasca_Nebbiolo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ciliegiolo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cinsault"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cinsaut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clairette"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cognac_Brut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cognac_Tradisjonell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Colorino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Corinto_Nero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cornalin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Corvina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Corvinone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Counoise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Croatina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Danmark"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dessert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dindarella"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dolcetto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dorrance_Wines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Druebrennevin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#England"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Estland"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Europa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fast_og_fruktig"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fat_og_frukt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fer_Servadou"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Feteasca_Neagra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Finland"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fisk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Foglia_Tonda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frankrike"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frappato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Freisa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frisk_og_fruktig"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frukt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fruktbrennevin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frühburgunder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fumin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Furmint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fyldig_og_saftig"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gaglioppo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gamay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Garnacha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Garnacha_Blanca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Garnatxa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genever"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gewürztraminer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gjær"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Godello"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Graciano"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Graciano_Bovale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grand_Noir"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grasparossa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Greco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grenache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grenache_Blanc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grenache_Gris"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grignolino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grolleau"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Groppello"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Groslot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grønnsaker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gutedel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hellas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Humle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hveteøl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hvitvin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#India_pale_ale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Irland"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Island"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Italia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jaen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Juan_García"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jura"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kadarka"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kaktus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kerner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kjøtt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Klosterstil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Korn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Korsika"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kotsifali"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Krassato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Krydret_og_sødmefull"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kékfrankos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lacrima"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lagrein"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lam_og_sau"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lambrusco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Languedoc-Rousillon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Latvia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lemberger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Likør"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Limnio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Listan_Palomino_Fino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Listán_Negro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Litauen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lledoner_Pelut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Loire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lys_lager"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lyst_kjøtt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Macabeo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Madeira"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Magliocco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mais"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Makedonia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Malbec"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Malbo_Gentile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Malt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maltet_Bygg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Malvasia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mammolo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mandó"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Margaux"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Marsanne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Marselan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Marzemino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mataro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maturana_Trousseau"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mavrud"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mazuelo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Merlot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Minella_bianca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Misket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Molinara"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Monastrell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mondeuse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Monica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Montepulciano"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moravia_Agria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mouraton_Alicante_Bouschet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mourvèdre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Muscardin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Muscat_of_Alexandria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Musserendevin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Méditerranée"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mørk_lager"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nebbiolo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nederland"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Negrara"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Negroamaro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nerello_Cappuccio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nerello_Mascalese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nero_di_Troia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nielluccio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nocera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nord_Amerika"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Norge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Normandie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nosiola"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Négrette_Folle_Noir"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nøytralt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oceania"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oeillade_Noire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Olaszrizling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Opphav"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oselata"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oseleta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pais"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pale_ale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Palomino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pelaverga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Periquita"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perlendevin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perricone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Persan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Petit_Verdot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Petite_Arvine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Petite_Syrah"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Piedirosso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pignolo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pinot_Gris"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pinot_Meunier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pinot_Nero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pinot_Noir"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pinotage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plavac_Mali"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plomme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Polen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Portugal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Portvin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Potet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Poulsard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prieto_Picudo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Primitivo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Produsent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Provence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prugnolo_Gentile_Sangiovese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pugnitello"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pære"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Raboso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ramisco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rebo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Refosco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rhône_Sør"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rhône_nord"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Riesling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Robola"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Romania"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Romé"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rondinella"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rossese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rossignola"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rossola_Nera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rosévin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rotgipfler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roussanne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ruby_Cabernet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ruché"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rufete"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Råstoff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rødvin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sagrantino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Saison_farmhouse_ale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sangiovese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Saperavi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sauvignon_Blanc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Savoie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Schiava"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Schioppettino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Schwarzriesling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scotch_ale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shavkapito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sherry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shiraz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sider"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sjømat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Skalldyr"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Skottland"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Slovenia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Smak_og_Aroma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Småvilt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sousão"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spania"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spesial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Speyside"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spätburgunder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#St._Laurent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sterkvin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Storbritannia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Storfe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Storvilt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sukker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sumoll"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Surøl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sveits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sverige"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Svin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Syrah"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sør_Afrika"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sør_Amerika"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sørvest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tai_Rosso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tannat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tempranillo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tempranillo_Tinto_del_Pais"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teran"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teroldego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Terrantez"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Terret_Gris"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tinta_Amarela"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tinta_Barroca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tinta_Caiada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tinta_Miuda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tinta_National_Tempranillo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tinta_Negra_Mole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tinta_Roriz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tinta_del_Pais"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tinta_del_Toro_Tempranillo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tintilia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tinto_Cão"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tinto_Fino_Tempranillo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tokay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Touriga_Franca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Touriga_Nacional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trebbiano"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trepat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tribidrag_Kratosija"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trincadeira"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trousseau_Merenzao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tsjekkia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tyskland"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ukraina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ungarn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Utviklet_og_nyansert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Uva_Rara"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Uva_di_Troia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vaccarese"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Valdiguie_Gros_Auxerrois"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vegetar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vermut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vespaiola"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vespolina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vilt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vinhão_Sousón"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vinmonopolet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Viognier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Viura"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vodka"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vranac"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wemyss_Vintage_Malts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Western_Cape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Whisky"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Xynomavro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zinfandel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zweigelt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Øl"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Østerrike"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Øvrige"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Calabrese_Nero_d&apos;Avola"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Muscat_Moscatel,_Moscato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nero_d&apos;Avola"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pineau_d&apos;Aunis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Porter_&amp;_stout"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Red/amber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Saperavi,_rød"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#locatedIn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Alkoholinnhold"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Bitterhet"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Friskhet"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Fylde"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Garvestoff"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Innhold"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Karakteristikk"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Lagring"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Pris"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Sukker"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Syre"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Sødme"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Trykk"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Varenummer"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Volum"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Årgang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ch._Giscours_2010"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Delirium_Tremens"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wemyss_Auld_Scots_Bakery_Glenrothes_1996_22_YO"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Afrika"/>
+        <Class IRI="#Opphav"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Agiorgitiko"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aglianico"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Akevitt"/>
+        <Class IRI="#Brennevin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Albarossa"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Albillo"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aleatico"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alfrocheiro_Preto"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alicante_Bouschet"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alsace"/>
+        <Class IRI="#Frankrike"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ancellotta_Lancellotta"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Annet"/>
+        <Class IRI="#Brennevin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Annet"/>
+        <Class IRI="#Sterkvin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aperitif"/>
+        <Class IRI="#Mat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aprikos"/>
+        <Class IRI="#Frukt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aragónez"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aramon"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Armagnac"/>
+        <Class IRI="#Frankrike"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asia"/>
+        <Class IRI="#Opphav"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aspiran_Noir_Ribeyrenc"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Baga"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Barbarossa"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Barbera"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Barley_wine"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bastardo"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Belgia"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bitter"/>
+        <Class IRI="#Brennevin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blatina"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blauburgunder"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blauer_Portugieser"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blaufränkisch"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bobal"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boblevin"/>
+        <Class IRI="#Vin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bonarda"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bordeaux"/>
+        <Class IRI="#Frankrike"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brachetto"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brancellao_Alvarelhao"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brasserie_Huyghe_Brewery"/>
+        <Class IRI="#Produsent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brasserie_Huyghe_Brewery"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#locatedIn"/>
+            <Class IRI="#Belgia"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brennevin"/>
+        <Class IRI="#Vinmonopolet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brown_ale"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brunello"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bulgaria"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Burgund"/>
+        <Class IRI="#Frankrike"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caberlot"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cabernet_Franc"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cabernet_Sauvignon"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cabernet_blanc"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caino_Blanco"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caino_Tinto_Borracal"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Caladoc"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Callet"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Calvados"/>
+        <Class IRI="#Frankrike"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Camarate"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Canaiolo"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Canaiolo_Nero"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cannonau"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carignan"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carignane"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carignano"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cariñena"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carménère"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carricante"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Casetta_Foja_Tonda"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Castelão"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Catarratto"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cencibel"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cesanese"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ch.Giscours"/>
+        <Class IRI="#Produsent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ch.Giscours"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#locatedIn"/>
+            <Class IRI="#Margaux"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Champagne"/>
+        <Class IRI="#Frankrike"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chardonnay"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Charente"/>
+        <Class IRI="#Frankrike"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chiavennasca"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chiavennasca_Nebbiolo"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ciliegiolo"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cinsault"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cinsaut"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clairette"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cognac_Brut"/>
+        <Class IRI="#Frankrike"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cognac_Tradisjonell"/>
+        <Class IRI="#Frankrike"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Colorino"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Corinto_Nero"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cornalin"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Corvina"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Corvinone"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cot"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Counoise"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Croatina"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Danmark"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dessert"/>
+        <Class IRI="#Mat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dindarella"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dolcetto"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dorrance_Wines"/>
+        <Class IRI="#Produsent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dorrance_Wines"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#locatedIn"/>
+            <Class IRI="#Western_Cape"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drue"/>
+        <Class IRI="#Frukt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Druebrennevin"/>
+        <Class IRI="#Brennevin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EU"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#England"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eple"/>
+        <Class IRI="#Frukt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estland"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Europa"/>
+        <Class IRI="#Opphav"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fast_og_fruktig"/>
+        <Class IRI="#Smak_og_Aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fat_og_frukt"/>
+        <Class IRI="#Smak_og_Aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fer"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fer_Servadou"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Feteasca_Neagra"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Finland"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fisk"/>
+        <Class IRI="#Sjømat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Foglia_Tonda"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frankrike"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frappato"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Freisa"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frisk_og_fruktig"/>
+        <Class IRI="#Smak_og_Aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frukt"/>
+        <Class IRI="#Råstoff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fruktbrennevin"/>
+        <Class IRI="#Brennevin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frühburgunder"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fumin"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Furmint"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fyldig_og_saftig"/>
+        <Class IRI="#Smak_og_Aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gaglioppo"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gamay"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Garnacha"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Garnacha_Blanca"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Garnatxa"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Genever"/>
+        <Class IRI="#Brennevin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gewürztraminer"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gin"/>
+        <Class IRI="#Brennevin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gjær"/>
+        <Class IRI="#Råstoff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Godello"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Graciano"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Graciano_Bovale"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grand_Noir"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grasparossa"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Greco"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grenache"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grenache_Blanc"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grenache_Gris"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grignolino"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grolleau"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Groppello"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Groslot"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grønnsaker"/>
+        <Class IRI="#Vegetar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gutedel"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hellas"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Humle"/>
+        <Class IRI="#Råstoff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hveteøl"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hvitvin"/>
+        <Class IRI="#Vin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#India_pale_ale"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Irland"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Island"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Italia"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jaen"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Juan_García"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jura"/>
+        <Class IRI="#Frankrike"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kadarka"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kaktus"/>
+        <Class IRI="#Råstoff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kerner"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kjøtt"/>
+        <Class IRI="#Mat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Klosterstil"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Korn"/>
+        <Class IRI="#Råstoff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Korsika"/>
+        <Class IRI="#Frankrike"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kotsifali"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Krassato"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Krydret_og_sødmefull"/>
+        <Class IRI="#Smak_og_Aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kékfrankos"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lacrima"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lagrein"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lam_og_sau"/>
+        <Class IRI="#Kjøtt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lambrusco"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Languedoc-Rousillon"/>
+        <Class IRI="#Frankrike"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Latvia"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lemberger"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Likør"/>
+        <Class IRI="#Brennevin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Limnio"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Listan_Palomino_Fino"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Listán_Negro"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Litauen"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lledoner_Pelut"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Loire"/>
+        <Class IRI="#Frankrike"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lys_lager"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lyst_kjøtt"/>
+        <Class IRI="#Kjøtt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Macabeo"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Madeira"/>
+        <Class IRI="#Sterkvin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Magliocco"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mais"/>
+        <Class IRI="#Råstoff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Makedonia"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malbec"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malbo_Gentile"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malt"/>
+        <Class IRI="#Korn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maltet_Bygg"/>
+        <Class IRI="#Korn"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malvasia"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mammolo"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mandó"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Margaux"/>
+        <Class IRI="#Bordeaux"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Marsanne"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Marselan"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Marzemino"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mataro"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maturana_Trousseau"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mavrud"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mazuelo"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mencia"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Merlot"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Minella_bianca"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Misket"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Molinara"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monastrell"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mondeuse"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monica"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Montepulciano"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moravia_Agria"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mouraton_Alicante_Bouschet"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mourvèdre"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Muscardin"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Muscat_of_Alexandria"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Musserendevin"/>
+        <Class IRI="#Boblevin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Méditerranée"/>
+        <Class IRI="#Frankrike"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mørk_lager"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nebbiolo"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nederland"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Negrara"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Negroamaro"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nerello_Cappuccio"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nerello_Mascalese"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nero_di_Troia"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nielluccio"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nocera"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nord_Amerika"/>
+        <Class IRI="#Opphav"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Norge"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Normandie"/>
+        <Class IRI="#Frankrike"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nosiola"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Négrette_Folle_Noir"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nøytralt"/>
+        <Class IRI="#Brennevin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oceania"/>
+        <Class IRI="#Opphav"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oeillade_Noire"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Olaszrizling"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oselata"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oseleta"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ost"/>
+        <Class IRI="#Vegetar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pais"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pale_ale"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Palomino"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pelaverga"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Periquita"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perlendevin"/>
+        <Class IRI="#Boblevin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perricone"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Persan"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Petit_Verdot"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Petite_Arvine"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Petite_Syrah"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Piedirosso"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pignolo"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pinot_Gris"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pinot_Meunier"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pinot_Nero"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pinot_Noir"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pinotage"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plavac_Mali"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plomme"/>
+        <Class IRI="#Frukt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Polen"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Portugal"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Portvin"/>
+        <Class IRI="#Sterkvin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Potet"/>
+        <Class IRI="#Råstoff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Poulsard"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prieto_Picudo"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primitivo"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Provence"/>
+        <Class IRI="#Frankrike"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prugnolo_Gentile_Sangiovese"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pugnitello"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pære"/>
+        <Class IRI="#Frukt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Raboso"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ramisco"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rebo"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Refosco"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rhône_Sør"/>
+        <Class IRI="#Frankrike"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rhône_nord"/>
+        <Class IRI="#Frankrike"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Riesling"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Robola"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rom"/>
+        <Class IRI="#Brennevin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Romania"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Romé"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rondinella"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rossese"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rossignola"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rossola_Nera"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rosévin"/>
+        <Class IRI="#Vin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rotgipfler"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Roussanne"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ruby_Cabernet"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ruché"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rufete"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rødvin"/>
+        <Class IRI="#Vin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sagrantino"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Saison_farmhouse_ale"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sangiovese"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Saperavi"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sauvignon_Blanc"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Savoie"/>
+        <Class IRI="#Frankrike"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Schiava"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Schioppettino"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Schwarzriesling"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scotch_ale"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shavkapito"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sherry"/>
+        <Class IRI="#Sterkvin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shiraz"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sider"/>
+        <Class IRI="#Vinmonopolet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sjømat"/>
+        <Class IRI="#Mat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skalldyr"/>
+        <Class IRI="#Sjømat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Skottland"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Slovenia"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Småvilt"/>
+        <Class IRI="#Vilt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sousão"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spania"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spesial"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Speyside"/>
+        <Class IRI="#Skottland"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spätburgunder"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#St._Laurent"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sterkvin"/>
+        <Class IRI="#Vin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Storbritannia"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Storfe"/>
+        <Class IRI="#Kjøtt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Storvilt"/>
+        <Class IRI="#Vilt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sukker"/>
+        <Class IRI="#Råstoff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sumoll"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Surøl"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sveits"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sverige"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Svin"/>
+        <Class IRI="#Kjøtt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Syrah"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sør_Afrika"/>
+        <Class IRI="#Afrika"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sør_Amerika"/>
+        <Class IRI="#Opphav"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sørvest"/>
+        <Class IRI="#Frankrike"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tai_Rosso"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tannat"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tempranillo"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tempranillo_Tinto_del_Pais"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teran"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teroldego"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Terrantez"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Terret_Gris"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tinta_Amarela"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tinta_Barroca"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tinta_Caiada"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tinta_Miuda"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tinta_National_Tempranillo"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tinta_Negra_Mole"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tinta_Roriz"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tinta_del_Pais"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tinta_del_Toro_Tempranillo"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tintilia"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tinto_Cão"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tinto_Fino_Tempranillo"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tokay"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Touriga_Franca"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Touriga_Nacional"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trebbiano"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trepat"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tribidrag_Kratosija"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trincadeira"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trousseau_Merenzao"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tsjekkia"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tyskland"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ukraina"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ungarn"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Utviklet_og_nyansert"/>
+        <Class IRI="#Smak_og_Aroma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Uva_Rara"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Uva_di_Troia"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vaccarese"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Valdiguie_Gros_Auxerrois"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vegetar"/>
+        <Class IRI="#Mat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vermut"/>
+        <Class IRI="#Sterkvin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vespaiola"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vespolina"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vilt"/>
+        <Class IRI="#Kjøtt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vin"/>
+        <Class IRI="#Vinmonopolet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vinhão_Sousón"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Viognier"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Viura"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vodka"/>
+        <Class IRI="#Brennevin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vranac"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wemyss_Vintage_Malts"/>
+        <Class IRI="#Produsent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wemyss_Vintage_Malts"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#locatedIn"/>
+            <Class IRI="#Speyside"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Western_Cape"/>
+        <Class IRI="#Sør_Afrika"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Whisky"/>
+        <Class IRI="#Brennevin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Xynomavro"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zinfandel"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zweigelt"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Øl"/>
+        <Class IRI="#Vinmonopolet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Østerrike"/>
+        <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Øvrige"/>
+        <Class IRI="#Frankrike"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Calabrese_Nero_d&apos;Avola"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Muscat_Moscatel,_Moscato"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nero_d&apos;Avola"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pineau_d&apos;Aunis"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Porter_&amp;_stout"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Red/amber"/>
+        <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Saperavi,_rød"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Afrika"/>
+        <Class IRI="#Asia"/>
+        <Class IRI="#Europa"/>
+        <Class IRI="#Nord_Amerika"/>
+        <Class IRI="#Oceania"/>
+        <Class IRI="#Sør_Amerika"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Afrika"/>
+        <Class IRI="#Asia"/>
+        <Class IRI="#Europa"/>
+        <Class IRI="#Nord_Amerika"/>
+        <Class IRI="#Sør_Amerika"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Agiorgitiko"/>
+        <Class IRI="#Aglianico"/>
+        <Class IRI="#Albarossa"/>
+        <Class IRI="#Albillo"/>
+        <Class IRI="#Aleatico"/>
+        <Class IRI="#Alfrocheiro_Preto"/>
+        <Class IRI="#Alicante_Bouschet"/>
+        <Class IRI="#Ancellotta_Lancellotta"/>
+        <Class IRI="#Aragónez"/>
+        <Class IRI="#Aramon"/>
+        <Class IRI="#Aspiran_Noir_Ribeyrenc"/>
+        <Class IRI="#Baga"/>
+        <Class IRI="#Barbarossa"/>
+        <Class IRI="#Barbera"/>
+        <Class IRI="#Bastardo"/>
+        <Class IRI="#Blatina"/>
+        <Class IRI="#Blauburgunder"/>
+        <Class IRI="#Blauer_Portugieser"/>
+        <Class IRI="#Blaufränkisch"/>
+        <Class IRI="#Bobal"/>
+        <Class IRI="#Bonarda"/>
+        <Class IRI="#Brachetto"/>
+        <Class IRI="#Brancellao_Alvarelhao"/>
+        <Class IRI="#Brunello"/>
+        <Class IRI="#Caberlot"/>
+        <Class IRI="#Cabernet_Franc"/>
+        <Class IRI="#Cabernet_Sauvignon"/>
+        <Class IRI="#Cabernet_blanc"/>
+        <Class IRI="#Caino_Blanco"/>
+        <Class IRI="#Caino_Tinto_Borracal"/>
+        <Class IRI="#Caladoc"/>
+        <Class IRI="#Callet"/>
+        <Class IRI="#Camarate"/>
+        <Class IRI="#Canaiolo"/>
+        <Class IRI="#Canaiolo_Nero"/>
+        <Class IRI="#Cannonau"/>
+        <Class IRI="#Carignan"/>
+        <Class IRI="#Carignane"/>
+        <Class IRI="#Carignano"/>
+        <Class IRI="#Cariñena"/>
+        <Class IRI="#Carménère"/>
+        <Class IRI="#Carricante"/>
+        <Class IRI="#Casetta_Foja_Tonda"/>
+        <Class IRI="#Castelão"/>
+        <Class IRI="#Catarratto"/>
+        <Class IRI="#Cencibel"/>
+        <Class IRI="#Cesanese"/>
+        <Class IRI="#Chardonnay"/>
+        <Class IRI="#Chiavennasca"/>
+        <Class IRI="#Chiavennasca_Nebbiolo"/>
+        <Class IRI="#Ciliegiolo"/>
+        <Class IRI="#Cinsault"/>
+        <Class IRI="#Cinsaut"/>
+        <Class IRI="#Clairette"/>
+        <Class IRI="#Colorino"/>
+        <Class IRI="#Corinto_Nero"/>
+        <Class IRI="#Cornalin"/>
+        <Class IRI="#Corvina"/>
+        <Class IRI="#Corvinone"/>
+        <Class IRI="#Cot"/>
+        <Class IRI="#Counoise"/>
+        <Class IRI="#Croatina"/>
+        <Class IRI="#Dindarella"/>
+        <Class IRI="#Dolcetto"/>
+        <Class IRI="#Fer"/>
+        <Class IRI="#Fer_Servadou"/>
+        <Class IRI="#Feteasca_Neagra"/>
+        <Class IRI="#Foglia_Tonda"/>
+        <Class IRI="#Frappato"/>
+        <Class IRI="#Freisa"/>
+        <Class IRI="#Frühburgunder"/>
+        <Class IRI="#Fumin"/>
+        <Class IRI="#Furmint"/>
+        <Class IRI="#Gaglioppo"/>
+        <Class IRI="#Gamay"/>
+        <Class IRI="#Garnacha"/>
+        <Class IRI="#Garnacha_Blanca"/>
+        <Class IRI="#Garnatxa"/>
+        <Class IRI="#Gewürztraminer"/>
+        <Class IRI="#Godello"/>
+        <Class IRI="#Graciano"/>
+        <Class IRI="#Graciano_Bovale"/>
+        <Class IRI="#Grand_Noir"/>
+        <Class IRI="#Grasparossa"/>
+        <Class IRI="#Greco"/>
+        <Class IRI="#Grenache"/>
+        <Class IRI="#Grenache_Blanc"/>
+        <Class IRI="#Grenache_Gris"/>
+        <Class IRI="#Grignolino"/>
+        <Class IRI="#Grolleau"/>
+        <Class IRI="#Groppello"/>
+        <Class IRI="#Groslot"/>
+        <Class IRI="#Gutedel"/>
+        <Class IRI="#Jaen"/>
+        <Class IRI="#Juan_García"/>
+        <Class IRI="#Kadarka"/>
+        <Class IRI="#Kerner"/>
+        <Class IRI="#Kotsifali"/>
+        <Class IRI="#Krassato"/>
+        <Class IRI="#Kékfrankos"/>
+        <Class IRI="#Lacrima"/>
+        <Class IRI="#Lagrein"/>
+        <Class IRI="#Lambrusco"/>
+        <Class IRI="#Lemberger"/>
+        <Class IRI="#Limnio"/>
+        <Class IRI="#Listan_Palomino_Fino"/>
+        <Class IRI="#Listán_Negro"/>
+        <Class IRI="#Lledoner_Pelut"/>
+        <Class IRI="#Macabeo"/>
+        <Class IRI="#Magliocco"/>
+        <Class IRI="#Malbec"/>
+        <Class IRI="#Malbo_Gentile"/>
+        <Class IRI="#Malvasia"/>
+        <Class IRI="#Mammolo"/>
+        <Class IRI="#Mandó"/>
+        <Class IRI="#Marsanne"/>
+        <Class IRI="#Marselan"/>
+        <Class IRI="#Marzemino"/>
+        <Class IRI="#Mataro"/>
+        <Class IRI="#Maturana_Trousseau"/>
+        <Class IRI="#Mavrud"/>
+        <Class IRI="#Mazuelo"/>
+        <Class IRI="#Mencia"/>
+        <Class IRI="#Merlot"/>
+        <Class IRI="#Minella_bianca"/>
+        <Class IRI="#Misket"/>
+        <Class IRI="#Molinara"/>
+        <Class IRI="#Monastrell"/>
+        <Class IRI="#Mondeuse"/>
+        <Class IRI="#Monica"/>
+        <Class IRI="#Montepulciano"/>
+        <Class IRI="#Moravia_Agria"/>
+        <Class IRI="#Mouraton_Alicante_Bouschet"/>
+        <Class IRI="#Mourvèdre"/>
+        <Class IRI="#Muscardin"/>
+        <Class IRI="#Muscat_of_Alexandria"/>
+        <Class IRI="#Nebbiolo"/>
+        <Class IRI="#Negrara"/>
+        <Class IRI="#Negroamaro"/>
+        <Class IRI="#Nerello_Cappuccio"/>
+        <Class IRI="#Nerello_Mascalese"/>
+        <Class IRI="#Nero_di_Troia"/>
+        <Class IRI="#Nielluccio"/>
+        <Class IRI="#Nocera"/>
+        <Class IRI="#Nosiola"/>
+        <Class IRI="#Négrette_Folle_Noir"/>
+        <Class IRI="#Oeillade_Noire"/>
+        <Class IRI="#Olaszrizling"/>
+        <Class IRI="#Oselata"/>
+        <Class IRI="#Oseleta"/>
+        <Class IRI="#Pais"/>
+        <Class IRI="#Palomino"/>
+        <Class IRI="#Pelaverga"/>
+        <Class IRI="#Periquita"/>
+        <Class IRI="#Perricone"/>
+        <Class IRI="#Persan"/>
+        <Class IRI="#Petit_Verdot"/>
+        <Class IRI="#Petite_Arvine"/>
+        <Class IRI="#Petite_Syrah"/>
+        <Class IRI="#Piedirosso"/>
+        <Class IRI="#Pignolo"/>
+        <Class IRI="#Pinot_Gris"/>
+        <Class IRI="#Pinot_Meunier"/>
+        <Class IRI="#Pinot_Nero"/>
+        <Class IRI="#Pinot_Noir"/>
+        <Class IRI="#Pinotage"/>
+        <Class IRI="#Plavac_Mali"/>
+        <Class IRI="#Poulsard"/>
+        <Class IRI="#Prieto_Picudo"/>
+        <Class IRI="#Primitivo"/>
+        <Class IRI="#Prugnolo_Gentile_Sangiovese"/>
+        <Class IRI="#Pugnitello"/>
+        <Class IRI="#Raboso"/>
+        <Class IRI="#Ramisco"/>
+        <Class IRI="#Rebo"/>
+        <Class IRI="#Refosco"/>
+        <Class IRI="#Riesling"/>
+        <Class IRI="#Robola"/>
+        <Class IRI="#Romé"/>
+        <Class IRI="#Rondinella"/>
+        <Class IRI="#Rossese"/>
+        <Class IRI="#Rossignola"/>
+        <Class IRI="#Rossola_Nera"/>
+        <Class IRI="#Rotgipfler"/>
+        <Class IRI="#Roussanne"/>
+        <Class IRI="#Ruby_Cabernet"/>
+        <Class IRI="#Ruché"/>
+        <Class IRI="#Rufete"/>
+        <Class IRI="#Sagrantino"/>
+        <Class IRI="#Sangiovese"/>
+        <Class IRI="#Saperavi"/>
+        <Class IRI="#Sauvignon_Blanc"/>
+        <Class IRI="#Schiava"/>
+        <Class IRI="#Schioppettino"/>
+        <Class IRI="#Schwarzriesling"/>
+        <Class IRI="#Shavkapito"/>
+        <Class IRI="#Shiraz"/>
+        <Class IRI="#Sousão"/>
+        <Class IRI="#Spätburgunder"/>
+        <Class IRI="#St._Laurent"/>
+        <Class IRI="#Sumoll"/>
+        <Class IRI="#Syrah"/>
+        <Class IRI="#Tai_Rosso"/>
+        <Class IRI="#Tannat"/>
+        <Class IRI="#Tempranillo"/>
+        <Class IRI="#Tempranillo_Tinto_del_Pais"/>
+        <Class IRI="#Teran"/>
+        <Class IRI="#Teroldego"/>
+        <Class IRI="#Terrantez"/>
+        <Class IRI="#Terret_Gris"/>
+        <Class IRI="#Tinta_Amarela"/>
+        <Class IRI="#Tinta_Barroca"/>
+        <Class IRI="#Tinta_Caiada"/>
+        <Class IRI="#Tinta_Miuda"/>
+        <Class IRI="#Tinta_National_Tempranillo"/>
+        <Class IRI="#Tinta_Negra_Mole"/>
+        <Class IRI="#Tinta_Roriz"/>
+        <Class IRI="#Tinta_del_Pais"/>
+        <Class IRI="#Tinta_del_Toro_Tempranillo"/>
+        <Class IRI="#Tintilia"/>
+        <Class IRI="#Tinto_Cão"/>
+        <Class IRI="#Tinto_Fino_Tempranillo"/>
+        <Class IRI="#Tokay"/>
+        <Class IRI="#Touriga_Franca"/>
+        <Class IRI="#Touriga_Nacional"/>
+        <Class IRI="#Trebbiano"/>
+        <Class IRI="#Trepat"/>
+        <Class IRI="#Tribidrag_Kratosija"/>
+        <Class IRI="#Trincadeira"/>
+        <Class IRI="#Trousseau_Merenzao"/>
+        <Class IRI="#Uva_Rara"/>
+        <Class IRI="#Uva_di_Troia"/>
+        <Class IRI="#Vaccarese"/>
+        <Class IRI="#Valdiguie_Gros_Auxerrois"/>
+        <Class IRI="#Vespaiola"/>
+        <Class IRI="#Vespolina"/>
+        <Class IRI="#Vinhão_Sousón"/>
+        <Class IRI="#Viognier"/>
+        <Class IRI="#Viura"/>
+        <Class IRI="#Vranac"/>
+        <Class IRI="#Xynomavro"/>
+        <Class IRI="#Zinfandel"/>
+        <Class IRI="#Zweigelt"/>
+        <Class IRI="#Calabrese_Nero_d&apos;Avola"/>
+        <Class IRI="#Muscat_Moscatel,_Moscato"/>
+        <Class IRI="#Nero_d&apos;Avola"/>
+        <Class IRI="#Pineau_d&apos;Aunis"/>
+        <Class IRI="#Saperavi,_rød"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Akevitt"/>
+        <Class IRI="#Annet"/>
+        <Class IRI="#Bitter"/>
+        <Class IRI="#Druebrennevin"/>
+        <Class IRI="#Fruktbrennevin"/>
+        <Class IRI="#Genever"/>
+        <Class IRI="#Gin"/>
+        <Class IRI="#Likør"/>
+        <Class IRI="#Nøytralt"/>
+        <Class IRI="#Rom"/>
+        <Class IRI="#Vodka"/>
+        <Class IRI="#Whisky"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Alsace"/>
+        <Class IRI="#Armagnac"/>
+        <Class IRI="#Bordeaux"/>
+        <Class IRI="#Burgund"/>
+        <Class IRI="#Calvados"/>
+        <Class IRI="#Champagne"/>
+        <Class IRI="#Charente"/>
+        <Class IRI="#Cognac_Brut"/>
+        <Class IRI="#Cognac_Tradisjonell"/>
+        <Class IRI="#Jura"/>
+        <Class IRI="#Korsika"/>
+        <Class IRI="#Languedoc-Rousillon"/>
+        <Class IRI="#Loire"/>
+        <Class IRI="#Méditerranée"/>
+        <Class IRI="#Normandie"/>
+        <Class IRI="#Provence"/>
+        <Class IRI="#Rhône_Sør"/>
+        <Class IRI="#Rhône_nord"/>
+        <Class IRI="#Savoie"/>
+        <Class IRI="#Sørvest"/>
+        <Class IRI="#Øvrige"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Annet"/>
+        <Class IRI="#Madeira"/>
+        <Class IRI="#Portvin"/>
+        <Class IRI="#Sherry"/>
+        <Class IRI="#Vermut"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Aprikos"/>
+        <Class IRI="#Drue"/>
+        <Class IRI="#Eple"/>
+        <Class IRI="#Plomme"/>
+        <Class IRI="#Pære"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Barley_wine"/>
+        <Class IRI="#Brown_ale"/>
+        <Class IRI="#Hveteøl"/>
+        <Class IRI="#India_pale_ale"/>
+        <Class IRI="#Klosterstil"/>
+        <Class IRI="#Lys_lager"/>
+        <Class IRI="#Mørk_lager"/>
+        <Class IRI="#Pale_ale"/>
+        <Class IRI="#Saison_farmhouse_ale"/>
+        <Class IRI="#Scotch_ale"/>
+        <Class IRI="#Spesial"/>
+        <Class IRI="#Surøl"/>
+        <Class IRI="#Porter_&amp;_stout"/>
+        <Class IRI="#Red/amber"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Belgia"/>
+        <Class IRI="#Bulgaria"/>
+        <Class IRI="#Danmark"/>
+        <Class IRI="#EU"/>
+        <Class IRI="#England"/>
+        <Class IRI="#Estland"/>
+        <Class IRI="#Finland"/>
+        <Class IRI="#Frankrike"/>
+        <Class IRI="#Hellas"/>
+        <Class IRI="#Irland"/>
+        <Class IRI="#Island"/>
+        <Class IRI="#Italia"/>
+        <Class IRI="#Latvia"/>
+        <Class IRI="#Litauen"/>
+        <Class IRI="#Makedonia"/>
+        <Class IRI="#Nederland"/>
+        <Class IRI="#Norge"/>
+        <Class IRI="#Polen"/>
+        <Class IRI="#Portugal"/>
+        <Class IRI="#Romania"/>
+        <Class IRI="#Skottland"/>
+        <Class IRI="#Slovenia"/>
+        <Class IRI="#Spania"/>
+        <Class IRI="#Storbritannia"/>
+        <Class IRI="#Sveits"/>
+        <Class IRI="#Sverige"/>
+        <Class IRI="#Tsjekkia"/>
+        <Class IRI="#Tyskland"/>
+        <Class IRI="#Ukraina"/>
+        <Class IRI="#Ungarn"/>
+        <Class IRI="#Østerrike"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Boblevin"/>
+        <Class IRI="#Hvitvin"/>
+        <Class IRI="#Rosévin"/>
+        <Class IRI="#Rødvin"/>
+        <Class IRI="#Sterkvin"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Brennevin"/>
+        <Class IRI="#Sider"/>
+        <Class IRI="#Vin"/>
+        <Class IRI="#Øl"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Fast_og_fruktig"/>
+        <Class IRI="#Frisk_og_fruktig"/>
+        <Class IRI="#Fyldig_og_saftig"/>
+        <Class IRI="#Krydret_og_sødmefull"/>
+        <Class IRI="#Utviklet_og_nyansert"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Frukt"/>
+        <Class IRI="#Kaktus"/>
+        <Class IRI="#Korn"/>
+        <Class IRI="#Mais"/>
+        <Class IRI="#Potet"/>
+        <Class IRI="#Sukker"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Musserendevin"/>
+        <Class IRI="#Perlendevin"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Småvilt"/>
+        <Class IRI="#Storvilt"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Cabernet_Sauvignon"/>
+        <NamedIndividual IRI="#Ch._Giscours_2010"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ch.Giscours"/>
+        <NamedIndividual IRI="#Ch._Giscours_2010"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lam_og_sau"/>
+        <NamedIndividual IRI="#Ch._Giscours_2010"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Merlot"/>
+        <NamedIndividual IRI="#Ch._Giscours_2010"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rødvin"/>
+        <NamedIndividual IRI="#Ch._Giscours_2010"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Storfe"/>
+        <NamedIndividual IRI="#Ch._Giscours_2010"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Storvilt"/>
+        <NamedIndividual IRI="#Ch._Giscours_2010"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Utviklet_og_nyansert"/>
+        <NamedIndividual IRI="#Ch._Giscours_2010"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aperitif"/>
+        <NamedIndividual IRI="#Delirium_Tremens"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Brasserie_Huyghe_Brewery"/>
+        <NamedIndividual IRI="#Delirium_Tremens"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fisk"/>
+        <NamedIndividual IRI="#Delirium_Tremens"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gjær"/>
+        <NamedIndividual IRI="#Delirium_Tremens"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Humle"/>
+        <NamedIndividual IRI="#Delirium_Tremens"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Klosterstil"/>
+        <NamedIndividual IRI="#Delirium_Tremens"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Malt"/>
+        <NamedIndividual IRI="#Delirium_Tremens"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ost"/>
+        <NamedIndividual IRI="#Delirium_Tremens"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chardonnay"/>
+        <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dorrance_Wines"/>
+        <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fat_og_frukt"/>
+        <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fisk"/>
+        <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hvitvin"/>
+        <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lyst_kjøtt"/>
+        <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Skalldyr"/>
+        <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Maltet_Bygg"/>
+        <NamedIndividual IRI="#Wemyss_Auld_Scots_Bakery_Glenrothes_1996_22_YO"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wemyss_Vintage_Malts"/>
+        <NamedIndividual IRI="#Wemyss_Auld_Scots_Bakery_Glenrothes_1996_22_YO"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Whisky"/>
+        <NamedIndividual IRI="#Wemyss_Auld_Scots_Bakery_Glenrothes_1996_22_YO"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Alkoholinnhold"/>
+        <NamedIndividual IRI="#Ch._Giscours_2010"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">13.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Friskhet"/>
+        <NamedIndividual IRI="#Ch._Giscours_2010"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Fylde"/>
+        <NamedIndividual IRI="#Ch._Giscours_2010"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Garvestoff"/>
+        <NamedIndividual IRI="#Ch._Giscours_2010"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Lagring"/>
+        <NamedIndividual IRI="#Ch._Giscours_2010"/>
+        <Literal>Blir bedre ved lagring</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Pris"/>
+        <NamedIndividual IRI="#Ch._Giscours_2010"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1229</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sukker"/>
+        <NamedIndividual IRI="#Ch._Giscours_2010"/>
+        <Literal>&lt;3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Syre"/>
+        <NamedIndividual IRI="#Ch._Giscours_2010"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Varenummer"/>
+        <NamedIndividual IRI="#Ch._Giscours_2010"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2838701</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Volum"/>
+        <NamedIndividual IRI="#Ch._Giscours_2010"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">75</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Årgang"/>
+        <NamedIndividual IRI="#Ch._Giscours_2010"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2010</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Alkoholinnhold"/>
+        <NamedIndividual IRI="#Delirium_Tremens"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">8.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bitterhet"/>
+        <NamedIndividual IRI="#Delirium_Tremens"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Friskhet"/>
+        <NamedIndividual IRI="#Delirium_Tremens"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Fylde"/>
+        <NamedIndividual IRI="#Delirium_Tremens"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Lagring"/>
+        <NamedIndividual IRI="#Delirium_Tremens"/>
+        <Literal>Kan ikke lagres</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Pris"/>
+        <NamedIndividual IRI="#Delirium_Tremens"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">67.90</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sødme"/>
+        <NamedIndividual IRI="#Delirium_Tremens"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Varenummer"/>
+        <NamedIndividual IRI="#Delirium_Tremens"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4397202</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Volum"/>
+        <NamedIndividual IRI="#Delirium_Tremens"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">33</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Alkoholinnhold"/>
+        <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Friskhet"/>
+        <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Fylde"/>
+        <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Fylde"/>
+        <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Lagring"/>
+        <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
+        <Literal>Kan lagres</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Pris"/>
+        <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">259.9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sukker"/>
+        <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
+        <Literal>&lt;3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Syre"/>
+        <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">4.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Varenummer"/>
+        <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">11280001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Volum"/>
+        <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">75</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Årgang"/>
+        <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2017</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Alkoholinnhold"/>
+        <NamedIndividual IRI="#Wemyss_Auld_Scots_Bakery_Glenrothes_1996_22_YO"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">46</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Pris"/>
+        <NamedIndividual IRI="#Wemyss_Auld_Scots_Bakery_Glenrothes_1996_22_YO"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1545</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Varenummer"/>
+        <NamedIndividual IRI="#Wemyss_Auld_Scots_Bakery_Glenrothes_1996_22_YO"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">11260701</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Volum"/>
+        <NamedIndividual IRI="#Wemyss_Auld_Scots_Bakery_Glenrothes_1996_22_YO"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">70</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Årgang"/>
+        <NamedIndividual IRI="#Wemyss_Auld_Scots_Bakery_Glenrothes_1996_22_YO"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1996</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#locatedIn"/>
+        <Class IRI="#Produsent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#locatedIn"/>
+        <Class IRI="#Opphav"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Alkoholinnhold"/>
+        <DataProperty IRI="#Innhold"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Bitterhet"/>
+        <DataProperty IRI="#Karakteristikk"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Friskhet"/>
+        <DataProperty IRI="#Karakteristikk"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Fylde"/>
+        <DataProperty IRI="#Karakteristikk"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Garvestoff"/>
+        <DataProperty IRI="#Karakteristikk"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Sukker"/>
+        <DataProperty IRI="#Innhold"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Syre"/>
+        <DataProperty IRI="#Innhold"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Sødme"/>
+        <DataProperty IRI="#Karakteristikk"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Trykk"/>
+        <DataProperty IRI="#Innhold"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Volum"/>
+        <DataProperty IRI="#Innhold"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Årgang"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Alkoholinnhold"/>
+        <Class IRI="#Vinmonopolet"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Bitterhet"/>
+        <Class IRI="#Øl"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Friskhet"/>
+        <Class IRI="#Sider"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Friskhet"/>
+        <Class IRI="#Vin"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Friskhet"/>
+        <Class IRI="#Øl"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Fylde"/>
+        <Class IRI="#Sider"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Fylde"/>
+        <Class IRI="#Vin"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Fylde"/>
+        <Class IRI="#Øl"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Garvestoff"/>
+        <Class IRI="#Rødvin"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Lagring"/>
+        <Class IRI="#Vin"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Pris"/>
+        <Class IRI="#Vinmonopolet"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Sukker"/>
+        <Class IRI="#Brennevin"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Sukker"/>
+        <Class IRI="#Sider"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Sukker"/>
+        <Class IRI="#Vin"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Syre"/>
+        <Class IRI="#Sider"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Syre"/>
+        <Class IRI="#Vin"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Sødme"/>
+        <Class IRI="#Boblevin"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Sødme"/>
+        <Class IRI="#Hvitvin"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Sødme"/>
+        <Class IRI="#Rosévin"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Sødme"/>
+        <Class IRI="#Sider"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Trykk"/>
+        <Class IRI="#Boblevin"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Varenummer"/>
+        <Class IRI="#Vinmonopolet"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Volum"/>
+        <Class IRI="#Vinmonopolet"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Årgang"/>
+        <Class IRI="#Brennevin"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Årgang"/>
+        <Class IRI="#Vin"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Alkoholinnhold"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Bitterhet"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Friskhet"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Fylde"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Garvestoff"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Lagring"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Pris"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Sukker"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Syre"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Sødme"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Trykk"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Varenummer"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Volum"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Årgang"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Alkoholinnhold</IRI>
+        <Literal>Anngitt i %</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bitterhet</IRI>
+        <Literal>Verdi mellom 1 og 12</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lagring</IRI>
+        <Literal>Bedre å måte å gjøre dette på?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lagring</IRI>
+        <Literal>Har 3 tillatte verdier
+Kan lagres
+Kan ikke lagres
+Bli bedre ved lagring</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sukker</IRI>
+        <Literal>g per Liter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Syre</IRI>
+        <Literal>g per liter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Trykk</IRI>
+        <Literal>I bar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Volum</IRI>
+        <Literal>cL</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
