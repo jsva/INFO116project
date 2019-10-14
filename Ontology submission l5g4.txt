@@ -1,0 +1,28 @@
+Ontology Submission
+
+Lab 5 group 4
+
+Jonas Svåsand
+Mathias Kalsnes
+Eyvind Hilding Eikeng
+
+
+We have constructed an ontology with some basic competency questions in mind.
+We want our ontology to be able to answer both basic questions about wine/what products
+vinmonopolet has as well as some more advanced ones.
+
+We therefore included information such as who produced the beverage, where they are located,
+what type of food the beverage suits. Basic information about the beverage provided by vinmonopolet
+as well as what the wine is made off and how the taste is classified.
+
+Our main question about is about how we decided to do our instance of beverages by having them be 
+an instane of several classes. We are not sure if this is allowed or proper to do, and even if it is
+if we might have done it too much and that some of these relationships should rather be 
+expressed through object properties(but then again you can't express relations between a class
+and instance with a object property which is why we did it this way). We are also unsure if some
+classes especially "Råstoff" and "smak_og_aroma" might be better suited as data properties.
+
+Concerning Data properties we wonder if we have chosen the correct data types, or if it's possible
+to do this in a better way, e.g. being able to restrict data properties such as "garvestoff"
+between levels of 1-12 instead of it just being an integer.
+
