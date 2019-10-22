@@ -6,6 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/jonas/ontologies/2019/9/untitled-ontology-14">
+    <Prefix name="" IRI="http://www.semanticweb.org/jonas/ontologies/2019/9/untitled-ontology-14"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -46,9 +47,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Annet"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Aperitif"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Aprikos"/>
@@ -273,9 +271,6 @@
         <Class IRI="#Danmark"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Dessert"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Dindarella"/>
     </Declaration>
     <Declaration>
@@ -318,13 +313,13 @@
         <Class IRI="#Fer_Servadou"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Fermentering"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Feteasca_Neagra"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Finland"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Fisk"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Foglia_Tonda"/>
@@ -426,9 +421,6 @@
         <Class IRI="#Groslot"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Grønnsaker"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Gutedel"/>
     </Declaration>
     <Declaration>
@@ -480,9 +472,6 @@
         <Class IRI="#Klosterstil"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Korn"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Korsika"/>
     </Declaration>
     <Declaration>
@@ -502,9 +491,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Lagrein"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Lam_og_sau"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Lambrusco"/>
@@ -541,9 +527,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Lys_lager"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Lyst_kjøtt"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Macabeo"/>
@@ -721,9 +704,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Oseleta"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Ost"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Pais"/>
@@ -936,9 +916,6 @@
         <Class IRI="#Sjømat"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Skalldyr"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Skottland"/>
     </Declaration>
     <Declaration>
@@ -946,9 +923,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Smak_og_Aroma"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Småvilt"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Sousão"/>
@@ -975,12 +949,6 @@
         <Class IRI="#Storbritannia"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Storfe"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Storvilt"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Sukker"/>
     </Declaration>
     <Declaration>
@@ -994,9 +962,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Sverige"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Svin"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Syrah"/>
@@ -1188,6 +1153,9 @@
         <Class IRI="#Calabrese_Nero_d&apos;Avola"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Korn/stivelse/sukker"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Muscat_Moscatel,_Moscato"/>
     </Declaration>
     <Declaration>
@@ -1206,7 +1174,13 @@
         <Class IRI="#Saperavi,_rød"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Smak/Krydder"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#locatedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#passerTil"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#Alkoholinnhold"/>
@@ -1257,13 +1231,49 @@
         <DataProperty IRI="#Årgang"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Aperitif"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Ch._Giscours_2010"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Delirium_Tremens"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Dessert"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fisk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Grønnsaker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lam_og_sau"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lyst_kjøtt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ost"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Skalldyr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Småvilt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Storfe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Storvilt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Svin"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Wemyss_Auld_Scots_Bakery_Glenrothes_1996_22_YO"/>
@@ -1319,10 +1329,6 @@
     <SubClassOf>
         <Class IRI="#Annet"/>
         <Class IRI="#Sterkvin"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Aperitif"/>
-        <Class IRI="#Mat"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Aprikos"/>
@@ -1635,10 +1641,6 @@
         <Class IRI="#Europa"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Dessert"/>
-        <Class IRI="#Mat"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Dindarella"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -1702,16 +1704,16 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Fermentering"/>
+        <Class IRI="#Råstoff"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Feteasca_Neagra"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Finland"/>
         <Class IRI="#Europa"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Fisk"/>
-        <Class IRI="#Sjømat"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Foglia_Tonda"/>
@@ -1791,7 +1793,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Gjær"/>
-        <Class IRI="#Råstoff"/>
+        <Class IRI="#Fermentering"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Godello"/>
@@ -1846,10 +1848,6 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Grønnsaker"/>
-        <Class IRI="#Vegetar"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Gutedel"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -1859,7 +1857,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Humle"/>
-        <Class IRI="#Råstoff"/>
+        <Class IRI="#Smak/Krydder"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Hveteøl"/>
@@ -1903,7 +1901,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Kaktus"/>
-        <Class IRI="#Råstoff"/>
+        <Class IRI="#Korn/stivelse/sukker"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Kerner"/>
@@ -1916,10 +1914,6 @@
     <SubClassOf>
         <Class IRI="#Klosterstil"/>
         <Class IRI="#Øl"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Korn"/>
-        <Class IRI="#Råstoff"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Korsika"/>
@@ -1948,10 +1942,6 @@
     <SubClassOf>
         <Class IRI="#Lagrein"/>
         <Class IRI="#Drue"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Lam_og_sau"/>
-        <Class IRI="#Kjøtt"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Lambrusco"/>
@@ -2002,10 +1992,6 @@
         <Class IRI="#Øl"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Lyst_kjøtt"/>
-        <Class IRI="#Kjøtt"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Macabeo"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -2019,7 +2005,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Mais"/>
-        <Class IRI="#Råstoff"/>
+        <Class IRI="#Korn/stivelse/sukker"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Makedonia"/>
@@ -2035,11 +2021,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Malt"/>
-        <Class IRI="#Korn"/>
+        <Class IRI="#Korn/stivelse/sukker"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Maltet_Bygg"/>
-        <Class IRI="#Korn"/>
+        <Class IRI="#Korn/stivelse/sukker"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Malvasia"/>
@@ -2234,10 +2220,6 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Ost"/>
-        <Class IRI="#Vegetar"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Pais"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -2331,7 +2313,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Potet"/>
-        <Class IRI="#Råstoff"/>
+        <Class IRI="#Korn/stivelse/sukker"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Poulsard"/>
@@ -2510,20 +2492,12 @@
         <Class IRI="#Mat"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Skalldyr"/>
-        <Class IRI="#Sjømat"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Skottland"/>
         <Class IRI="#Europa"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Slovenia"/>
         <Class IRI="#Europa"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Småvilt"/>
-        <Class IRI="#Vilt"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Sousão"/>
@@ -2558,16 +2532,8 @@
         <Class IRI="#Europa"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Storfe"/>
-        <Class IRI="#Kjøtt"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Storvilt"/>
-        <Class IRI="#Vilt"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Sukker"/>
-        <Class IRI="#Råstoff"/>
+        <Class IRI="#Korn/stivelse/sukker"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Sumoll"/>
@@ -2584,10 +2550,6 @@
     <SubClassOf>
         <Class IRI="#Sverige"/>
         <Class IRI="#Europa"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Svin"/>
-        <Class IRI="#Kjøtt"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Syrah"/>
@@ -2845,6 +2807,10 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Korn/stivelse/sukker"/>
+        <Class IRI="#Råstoff"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Muscat_Moscatel,_Moscato"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -2867,6 +2833,10 @@
     <SubClassOf>
         <Class IRI="#Saperavi,_rød"/>
         <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Smak/Krydder"/>
+        <Class IRI="#Råstoff"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#Afrika"/>
@@ -3256,29 +3226,25 @@
     <DisjointClasses>
         <Class IRI="#Frukt"/>
         <Class IRI="#Kaktus"/>
-        <Class IRI="#Korn"/>
         <Class IRI="#Mais"/>
         <Class IRI="#Potet"/>
         <Class IRI="#Sukker"/>
+        <Class IRI="#Korn/stivelse/sukker"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Musserendevin"/>
         <Class IRI="#Perlendevin"/>
     </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Småvilt"/>
-        <Class IRI="#Storvilt"/>
-    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Mat"/>
+        <NamedIndividual IRI="#Aperitif"/>
+    </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Cabernet_Sauvignon"/>
         <NamedIndividual IRI="#Ch._Giscours_2010"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Ch.Giscours"/>
-        <NamedIndividual IRI="#Ch._Giscours_2010"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Lam_og_sau"/>
         <NamedIndividual IRI="#Ch._Giscours_2010"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3290,27 +3256,11 @@
         <NamedIndividual IRI="#Ch._Giscours_2010"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Storfe"/>
-        <NamedIndividual IRI="#Ch._Giscours_2010"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Storvilt"/>
-        <NamedIndividual IRI="#Ch._Giscours_2010"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Utviklet_og_nyansert"/>
         <NamedIndividual IRI="#Ch._Giscours_2010"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Aperitif"/>
-        <NamedIndividual IRI="#Delirium_Tremens"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Brasserie_Huyghe_Brewery"/>
-        <NamedIndividual IRI="#Delirium_Tremens"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Fisk"/>
         <NamedIndividual IRI="#Delirium_Tremens"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3330,8 +3280,8 @@
         <NamedIndividual IRI="#Delirium_Tremens"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Ost"/>
-        <NamedIndividual IRI="#Delirium_Tremens"/>
+        <Class IRI="#Mat"/>
+        <NamedIndividual IRI="#Dessert"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Chardonnay"/>
@@ -3346,20 +3296,48 @@
         <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Fisk"/>
-        <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Hvitvin"/>
         <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Lyst_kjøtt"/>
-        <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
+        <Class IRI="#Sjømat"/>
+        <NamedIndividual IRI="#Fisk"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Skalldyr"/>
-        <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
+        <Class IRI="#Vegetar"/>
+        <NamedIndividual IRI="#Grønnsaker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kjøtt"/>
+        <NamedIndividual IRI="#Lam_og_sau"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kjøtt"/>
+        <NamedIndividual IRI="#Lyst_kjøtt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vegetar"/>
+        <NamedIndividual IRI="#Ost"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sjømat"/>
+        <NamedIndividual IRI="#Skalldyr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vilt"/>
+        <NamedIndividual IRI="#Småvilt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kjøtt"/>
+        <NamedIndividual IRI="#Storfe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vilt"/>
+        <NamedIndividual IRI="#Storvilt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kjøtt"/>
+        <NamedIndividual IRI="#Svin"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Maltet_Bygg"/>
@@ -3373,6 +3351,51 @@
         <Class IRI="#Whisky"/>
         <NamedIndividual IRI="#Wemyss_Auld_Scots_Bakery_Glenrothes_1996_22_YO"/>
     </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Ch._Giscours_2010"/>
+        <NamedIndividual IRI="#Lam_og_sau"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Ch._Giscours_2010"/>
+        <NamedIndividual IRI="#Storfe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Ch._Giscours_2010"/>
+        <NamedIndividual IRI="#Storvilt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Delirium_Tremens"/>
+        <NamedIndividual IRI="#Aperitif"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Delirium_Tremens"/>
+        <NamedIndividual IRI="#Fisk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Delirium_Tremens"/>
+        <NamedIndividual IRI="#Ost"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
+        <NamedIndividual IRI="#Fisk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
+        <NamedIndividual IRI="#Lyst_kjøtt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
+        <NamedIndividual IRI="#Skalldyr"/>
+    </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Alkoholinnhold"/>
         <NamedIndividual IRI="#Ch._Giscours_2010"/>
@@ -3557,9 +3580,17 @@
         <ObjectProperty IRI="#locatedIn"/>
         <Class IRI="#Produsent"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#passerTil"/>
+        <Class IRI="#Vinmonopolet"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#locatedIn"/>
         <Class IRI="#Opphav"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#passerTil"/>
+        <Class IRI="#Mat"/>
     </ObjectPropertyRange>
     <SubDataPropertyOf>
         <DataProperty IRI="#Alkoholinnhold"/>
