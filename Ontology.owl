@@ -301,12 +301,6 @@
         <Class IRI="#Europa"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Fast_og_fruktig"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Fat_og_frukt"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Fer"/>
     </Declaration>
     <Declaration>
@@ -334,9 +328,6 @@
         <Class IRI="#Freisa"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Frisk_og_fruktig"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Frukt"/>
     </Declaration>
     <Declaration>
@@ -350,9 +341,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Furmint"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Fyldig_og_saftig"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Gaglioppo"/>
@@ -479,9 +467,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Krassato"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Krydret_og_sødmefull"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Kékfrankos"/>
@@ -1072,9 +1057,6 @@
         <Class IRI="#Ungarn"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Utviklet_og_nyansert"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Uva_Rara"/>
     </Declaration>
     <Declaration>
@@ -1177,6 +1159,9 @@
         <Class IRI="#Smak/Krydder"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#harSmakogAroma"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#locatedIn"/>
     </Declaration>
     <Declaration>
@@ -1246,10 +1231,25 @@
         <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Fast_og_fruktig"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fat_og_frukt"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Fisk"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Frisk_og_fruktig"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fuldig_og_saftig"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Grønnsaker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Krydret_og_sødmefull"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Lam_og_sau"/>
@@ -1274,6 +1274,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Svin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Utviklet_og_nyansert"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Wemyss_Auld_Scots_Bakery_Glenrothes_1996_22_YO"/>
@@ -1688,14 +1691,6 @@
         <Class IRI="#Opphav"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Fast_og_fruktig"/>
-        <Class IRI="#Smak_og_Aroma"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Fat_og_frukt"/>
-        <Class IRI="#Smak_og_Aroma"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Fer"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -1732,10 +1727,6 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Frisk_og_fruktig"/>
-        <Class IRI="#Smak_og_Aroma"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Frukt"/>
         <Class IRI="#Råstoff"/>
     </SubClassOf>
@@ -1754,10 +1745,6 @@
     <SubClassOf>
         <Class IRI="#Furmint"/>
         <Class IRI="#Drue"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Fyldig_og_saftig"/>
-        <Class IRI="#Smak_og_Aroma"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Gaglioppo"/>
@@ -1926,10 +1913,6 @@
     <SubClassOf>
         <Class IRI="#Krassato"/>
         <Class IRI="#Drue"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Krydret_og_sødmefull"/>
-        <Class IRI="#Smak_og_Aroma"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Kékfrankos"/>
@@ -2694,10 +2677,6 @@
     <SubClassOf>
         <Class IRI="#Ungarn"/>
         <Class IRI="#Europa"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Utviklet_og_nyansert"/>
-        <Class IRI="#Smak_og_Aroma"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Uva_Rara"/>
@@ -3217,13 +3196,6 @@
         <Class IRI="#Øl"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Fast_og_fruktig"/>
-        <Class IRI="#Frisk_og_fruktig"/>
-        <Class IRI="#Fyldig_og_saftig"/>
-        <Class IRI="#Krydret_og_sødmefull"/>
-        <Class IRI="#Utviklet_og_nyansert"/>
-    </DisjointClasses>
-    <DisjointClasses>
         <Class IRI="#Frukt"/>
         <Class IRI="#Kaktus"/>
         <Class IRI="#Mais"/>
@@ -3253,10 +3225,6 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Rødvin"/>
-        <NamedIndividual IRI="#Ch._Giscours_2010"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Utviklet_og_nyansert"/>
         <NamedIndividual IRI="#Ch._Giscours_2010"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -3292,20 +3260,36 @@
         <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Fat_og_frukt"/>
+        <Class IRI="#Hvitvin"/>
         <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Hvitvin"/>
-        <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
+        <Class IRI="#Smak_og_Aroma"/>
+        <NamedIndividual IRI="#Fast_og_fruktig"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Smak_og_Aroma"/>
+        <NamedIndividual IRI="#Fat_og_frukt"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Sjømat"/>
         <NamedIndividual IRI="#Fisk"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Smak_og_Aroma"/>
+        <NamedIndividual IRI="#Frisk_og_fruktig"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Smak_og_Aroma"/>
+        <NamedIndividual IRI="#Fuldig_og_saftig"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Vegetar"/>
         <NamedIndividual IRI="#Grønnsaker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Smak_og_Aroma"/>
+        <NamedIndividual IRI="#Krydret_og_sødmefull"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Kjøtt"/>
@@ -3340,6 +3324,10 @@
         <NamedIndividual IRI="#Svin"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Smak_og_Aroma"/>
+        <NamedIndividual IRI="#Utviklet_og_nyansert"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Maltet_Bygg"/>
         <NamedIndividual IRI="#Wemyss_Auld_Scots_Bakery_Glenrothes_1996_22_YO"/>
     </ClassAssertion>
@@ -3351,6 +3339,11 @@
         <Class IRI="#Whisky"/>
         <NamedIndividual IRI="#Wemyss_Auld_Scots_Bakery_Glenrothes_1996_22_YO"/>
     </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#harSmakogAroma"/>
+        <NamedIndividual IRI="#Ch._Giscours_2010"/>
+        <NamedIndividual IRI="#Utviklet_og_nyansert"/>
+    </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#passerTil"/>
         <NamedIndividual IRI="#Ch._Giscours_2010"/>
@@ -3380,6 +3373,11 @@
         <ObjectProperty IRI="#passerTil"/>
         <NamedIndividual IRI="#Delirium_Tremens"/>
         <NamedIndividual IRI="#Ost"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#harSmakogAroma"/>
+        <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
+        <NamedIndividual IRI="#Fat_og_frukt"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#passerTil"/>
