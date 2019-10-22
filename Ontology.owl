@@ -22,7 +22,19 @@
         <Class IRI="#Aglianico"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Airén"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Akevitt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Albalonga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Albanello"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Albariño"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Albarossa"/>
@@ -40,13 +52,31 @@
         <Class IRI="#Alicante_Bouschet"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Aligoté"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Alsace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Altesse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alvarelhão"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alvarinho"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Ancellotta_Lancellotta"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Annet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ansonica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Antao_Vaz"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Aprikos"/>
@@ -58,13 +88,43 @@
         <Class IRI="#Aramon"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Arbois"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arinto"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Armagnac"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arneis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arrufiac"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Asia"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Aspiran_Noir_Ribeyrenc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assyrtiko"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Auxerrois"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Auxerrois_Blanc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avesso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Azal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bacchus"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Baga"/>
@@ -83,6 +143,15 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Belgia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bianchello_del_Metauro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biancone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bical"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Bitter"/>
@@ -106,10 +175,25 @@
         <Class IRI="#Boblevin"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Bogazkere"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bombino_Bianco"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Bonarda"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Bordeaux"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Borrado_das_Moscas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bourboulenc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bouvier"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Brachetto"/>
@@ -124,10 +208,16 @@
         <Class IRI="#Brennevin"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Bronner"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Brown_ale"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Brunello"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bukettraube"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Bulgaria"/>
@@ -166,6 +256,9 @@
         <Class IRI="#Camarate"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Canaioli_Bianco"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Canaiolo"/>
     </Declaration>
     <Declaration>
@@ -176,6 +269,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Carignan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carignan_Blanc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carignan_Gris"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Carignane"/>
@@ -205,6 +304,9 @@
         <Class IRI="#Cencibel"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Cerceal"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Cesanese"/>
     </Declaration>
     <Declaration>
@@ -218,6 +320,18 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Charente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chasan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chasselas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chenel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chenin_Blanc"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Chiavennasca"/>
@@ -244,6 +358,12 @@
         <Class IRI="#Cognac_Tradisjonell"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Colombana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Colombard"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Colorino"/>
     </Declaration>
     <Declaration>
@@ -251,6 +371,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Cornalin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cortese"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Corvina"/>
@@ -265,16 +388,37 @@
         <Class IRI="#Counoise"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Courbu"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Croatina"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Cserszegi_fűszeres"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Côdega_do_Larinho"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Danmark"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Debina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Devin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dimiat"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Dindarella"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Dolcetto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Donzelinho_Branco"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Dorrance_Wines"/>
@@ -286,7 +430,16 @@
         <Class IRI="#Druebrennevin"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Drupeggio_Canaiolo_Bianco"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#EU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Elbling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Encruzado"/>
     </Declaration>
     <Declaration>
         <Class IRI="#England"/>
@@ -295,10 +448,25 @@
         <Class IRI="#Eple"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Erbaluce"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Estland"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Europa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Faberrebe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Falanghina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Famoso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Favorita"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Fer"/>
@@ -310,10 +478,28 @@
         <Class IRI="#Fermentering"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Fernanda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fernão_Pires"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Feteasca_Alba"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Feteasca_Neagra"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Feteasca_Regala"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fiano"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Finland"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flora"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Foglia_Tonda"/>
@@ -326,6 +512,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Freisa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Friulano_Tai"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frontignan"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Frukt"/>
@@ -347,6 +539,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Gamay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Garganega"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Garnacha"/>
@@ -373,6 +568,9 @@
         <Class IRI="#Godello"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Gouveio"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Graciano"/>
     </Declaration>
     <Declaration>
@@ -383,6 +581,15 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Grasparossa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grauburgunder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grecanico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grechetto"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Greco"/>
@@ -400,19 +607,37 @@
         <Class IRI="#Grignolino"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Grillo"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Grolleau"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Groppello"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Gros_Manseng"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gros_Plant"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Groslot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grüner_Veltliner"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Gutedel"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Hellas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hondarrabi_Beltza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hondarribi_Zuri"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Humle"/>
@@ -424,10 +649,22 @@
         <Class IRI="#Hvitvin"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Hárslevelu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Incrocio_Manzoni"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#India_pale_ale"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Inzolia"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Irland"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Irsai_Oliver"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Island"/>
@@ -436,10 +673,16 @@
         <Class IRI="#Italia"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Jacquère"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Jaen"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Juan_García"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Juhfark"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Jura"/>
@@ -454,6 +697,9 @@
         <Class IRI="#Kerner"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Kisi"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Kjøtt"/>
     </Declaration>
     <Declaration>
@@ -461,6 +707,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Korsika"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Koshu"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Kotsifali"/>
@@ -487,6 +736,9 @@
         <Class IRI="#Latvia"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Lazki_Rizling"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Lemberger"/>
     </Declaration>
     <Declaration>
@@ -511,6 +763,9 @@
         <Class IRI="#Loire"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Loureira"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Lys_lager"/>
     </Declaration>
     <Declaration>
@@ -529,10 +784,16 @@
         <Class IRI="#Makedonia"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Malagousia"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Malbec"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Malbo_Gentile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Malmsey_Malvasia"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Malt"/>
@@ -550,7 +811,16 @@
         <Class IRI="#Mandó"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Manzoni_Bianco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Marawi"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Margaux"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maria_Gomes"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Marsanne"/>
@@ -568,7 +838,13 @@
         <Class IRI="#Mataro"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Maturana_Blanca"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Maturana_Trousseau"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mauzac"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Mavrud"/>
@@ -583,7 +859,16 @@
         <Class IRI="#Merlot"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Merseguera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Merwah"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Minella_bianca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Minutolo"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Misket"/>
@@ -607,16 +892,52 @@
         <Class IRI="#Moravia_Agria"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Moscatel_Branco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moscatell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moscato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moscato_Giallo_Yellow_Muscat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moschofilero"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Mouraton_Alicante_Bouschet"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Mourvèdre"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#MtSvane_Kakhuri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Muscadelle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Muscadet_Melon_de_Bourgogne"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Muscardin"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Muscat_Blanc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Muscat_Frontignan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Muscat_Ottonel"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Muscat_of_Alexandria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Muskateller"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Musserendevin"/>
@@ -626,6 +947,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Mørk_lager"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Müller-Thurgau"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nascetta"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Nebbiolo"/>
@@ -649,6 +976,9 @@
         <Class IRI="#Nero_di_Troia"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Neuburger"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Nielluccio"/>
     </Declaration>
     <Declaration>
@@ -667,10 +997,16 @@
         <Class IRI="#Nosiola"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Nuragus"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Négrette_Folle_Noir"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Nøytralt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Obaideh"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Oceania"/>
@@ -683,6 +1019,15 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Opphav"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orange_Muscat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ortega"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ortrugo"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Oselata"/>
@@ -700,6 +1045,18 @@
         <Class IRI="#Palomino"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Parellada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Passerina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pecorino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pedro_Ximénez"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Pelaverga"/>
     </Declaration>
     <Declaration>
@@ -715,6 +1072,12 @@
         <Class IRI="#Persan"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Petit_Courbu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Petit_Manseng"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Petit_Verdot"/>
     </Declaration>
     <Declaration>
@@ -724,10 +1087,28 @@
         <Class IRI="#Petite_Syrah"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Picolit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Picpoul"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Piedirosso"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Pigato"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Pignolo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pinot_Bianco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pinot_Blanc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pinot_Grigio"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Pinot_Gris"/>
@@ -745,10 +1126,16 @@
         <Class IRI="#Pinotage"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Piquepoul_Picapoll"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Plavac_Mali"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Plomme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plyto"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Polen"/>
@@ -787,6 +1174,12 @@
         <Class IRI="#Pære"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Rabigato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rabo_de_Ovelha"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Raboso"/>
     </Declaration>
     <Declaration>
@@ -805,16 +1198,43 @@
         <Class IRI="#Rhône_nord"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Ribolla"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ribolla_Gialla"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rieslaner"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Riesling"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Riesling_Italico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rivaner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rkatsiteli"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Robola"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roditis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rolle"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Rom"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Romania"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Romorantin"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Romé"/>
@@ -833,6 +1253,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Rosévin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roter_Riesling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roter_Veltliner"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Rotgipfler"/>
@@ -871,7 +1297,25 @@
         <Class IRI="#Sauvignon_Blanc"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Sauvignon_Gris"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sauvignon_Vert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Savagnin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Savagnin_Blanc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Savatiano"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Savoie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scheurebe"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Schiava"/>
@@ -883,7 +1327,16 @@
         <Class IRI="#Schwarzriesling"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Schönburger"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Scotch_ale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seara_Nova"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sercial"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Shavkapito"/>
@@ -898,6 +1351,9 @@
         <Class IRI="#Sider"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Silvaner"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Sjømat"/>
     </Declaration>
     <Declaration>
@@ -910,7 +1366,13 @@
         <Class IRI="#Smak_og_Aroma"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Solaris"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Sousão"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Souvignier_Gris"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Spania"/>
@@ -949,7 +1411,19 @@
         <Class IRI="#Sverige"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Sylvaner"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Syrah"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sárga_Muskotály"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sémillon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Síria_Doña_Blanca"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Sør_Afrika"/>
@@ -967,7 +1441,13 @@
         <Class IRI="#Tannat"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Temjanika"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Tempranillo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tempranillo_Blanco"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Tempranillo_Tinto_del_Pais"/>
@@ -983,6 +1463,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Terret_Gris"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Timorasso"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Tinta_Amarela"/>
@@ -1021,7 +1504,13 @@
         <Class IRI="#Tinto_Fino_Tempranillo"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Tocai_Friulano"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Tokay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Torrontés"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Touriga_Franca"/>
@@ -1030,7 +1519,19 @@
         <Class IRI="#Touriga_Nacional"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Trajadura"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Traminer"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Trebbiano"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trebianello"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Treixadura"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Trepat"/>
@@ -1042,13 +1543,22 @@
         <Class IRI="#Trincadeira"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Trousseau_Gris"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Trousseau_Merenzao"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Tsjekkia"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Turbiana"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Tyskland"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ugni_Blanc"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Ukraina"/>
@@ -1072,13 +1582,43 @@
         <Class IRI="#Vegetar"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Verdejo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Verdelho"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Verdello"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Verdicchio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Verduzzo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vermentino"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Vermut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vernaccia"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Vespaiola"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Vespolina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vidiano"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vigiriega"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vilana"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Vilt"/>
@@ -1096,6 +1636,15 @@
         <Class IRI="#Viognier"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Viosinho"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vital"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vitovska"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Viura"/>
     </Declaration>
     <Declaration>
@@ -1103,6 +1652,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Vranac"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weissburgunder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Welschriesling"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Wemyss_Vintage_Malts"/>
@@ -1114,13 +1669,37 @@
         <Class IRI="#Whisky"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Xarel·lo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Xarel·lo_Rosado"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Xynomavro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zalema"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zelen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zibibbo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zierfandler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zilavka"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Zinfandel"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Zweigelt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zéta_Oremus"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Øl"/>
@@ -1157,6 +1736,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Smak/Krydder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trebbiano_d&apos;Abruzzo"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#harSmakogAroma"/>
@@ -1294,8 +1876,24 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Airén"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Akevitt"/>
         <Class IRI="#Brennevin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Albalonga"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Albanello"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Albariño"/>
+        <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Albarossa"/>
@@ -1318,8 +1916,24 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Aligoté"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Alsace"/>
         <Class IRI="#Frankrike"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Altesse"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alvarelhão"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alvarinho"/>
+        <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Ancellotta_Lancellotta"/>
@@ -1334,6 +1948,14 @@
         <Class IRI="#Sterkvin"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Ansonica"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Antao_Vaz"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Aprikos"/>
         <Class IRI="#Frukt"/>
     </SubClassOf>
@@ -1346,8 +1968,24 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Arbois"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arinto"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Armagnac"/>
         <Class IRI="#Frankrike"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arneis"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arrufiac"/>
+        <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Asia"/>
@@ -1355,6 +1993,30 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Aspiran_Noir_Ribeyrenc"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assyrtiko"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Auxerrois"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Auxerrois_Blanc"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avesso"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Azal"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bacchus"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
@@ -1380,6 +2042,18 @@
     <SubClassOf>
         <Class IRI="#Belgia"/>
         <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bianchello_del_Metauro"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biancone"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bical"/>
+        <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Bitter"/>
@@ -1410,12 +2084,32 @@
         <Class IRI="#Vin"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Bogazkere"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bombino_Bianco"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Bonarda"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Bordeaux"/>
         <Class IRI="#Frankrike"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Borrado_das_Moscas"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bourboulenc"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bouvier"/>
+        <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Brachetto"/>
@@ -1441,11 +2135,19 @@
         <Class IRI="#Vinmonopolet"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Bronner"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Brown_ale"/>
         <Class IRI="#Øl"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Brunello"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bukettraube"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
@@ -1497,6 +2199,10 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Canaioli_Bianco"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Canaiolo"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -1510,6 +2216,14 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Carignan"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carignan_Blanc"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carignan_Gris"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
@@ -1549,6 +2263,10 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Cerceal"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Cesanese"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -1574,6 +2292,22 @@
     <SubClassOf>
         <Class IRI="#Charente"/>
         <Class IRI="#Frankrike"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chasan"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chasselas"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chenel"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chenin_Blanc"/>
+        <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Chiavennasca"/>
@@ -1608,6 +2342,14 @@
         <Class IRI="#Frankrike"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Colombana"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Colombard"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Colorino"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -1617,6 +2359,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Cornalin"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cortese"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
@@ -1636,7 +2382,19 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Courbu"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Croatina"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cserszegi_fűszeres"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Côdega_do_Larinho"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
@@ -1644,11 +2402,27 @@
         <Class IRI="#Europa"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Debina"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Devin"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dimiat"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Dindarella"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Dolcetto"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Donzelinho_Branco"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
@@ -1671,8 +2445,20 @@
         <Class IRI="#Brennevin"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Drupeggio_Canaiolo_Bianco"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#EU"/>
         <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Elbling"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Encruzado"/>
+        <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#England"/>
@@ -1683,12 +2469,32 @@
         <Class IRI="#Frukt"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Erbaluce"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Estland"/>
         <Class IRI="#Europa"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Europa"/>
         <Class IRI="#Opphav"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Faberrebe"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Falanghina"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Famoso"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Favorita"/>
+        <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Fer"/>
@@ -1703,12 +2509,36 @@
         <Class IRI="#Råstoff"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Fernanda"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fernão_Pires"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Feteasca_Alba"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Feteasca_Neagra"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Feteasca_Regala"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fiano"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Finland"/>
         <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flora"/>
+        <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Foglia_Tonda"/>
@@ -1724,6 +2554,14 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Freisa"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Friulano_Tai"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frontignan"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
@@ -1752,6 +2590,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Gamay"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Garganega"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
@@ -1787,6 +2629,10 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Gouveio"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Graciano"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -1800,6 +2646,18 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Grasparossa"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grauburgunder"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grecanico"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grechetto"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
@@ -1823,6 +2681,10 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Grillo"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Grolleau"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -1831,7 +2693,19 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Gros_Manseng"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gros_Plant"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Groslot"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grüner_Veltliner"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
@@ -1841,6 +2715,14 @@
     <SubClassOf>
         <Class IRI="#Hellas"/>
         <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hondarrabi_Beltza"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hondarribi_Zuri"/>
+        <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Humle"/>
@@ -1855,12 +2737,28 @@
         <Class IRI="#Vin"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Hárslevelu"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Incrocio_Manzoni"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#India_pale_ale"/>
         <Class IRI="#Øl"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Inzolia"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Irland"/>
         <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Irsai_Oliver"/>
+        <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Island"/>
@@ -1871,11 +2769,19 @@
         <Class IRI="#Europa"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Jacquère"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Jaen"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Juan_García"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Juhfark"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
@@ -1895,6 +2801,10 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Kisi"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Kjøtt"/>
         <Class IRI="#Mat"/>
     </SubClassOf>
@@ -1905,6 +2815,10 @@
     <SubClassOf>
         <Class IRI="#Korsika"/>
         <Class IRI="#Frankrike"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Koshu"/>
+        <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Kotsifali"/>
@@ -1939,6 +2853,10 @@
         <Class IRI="#Europa"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Lazki_Rizling"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Lemberger"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -1971,6 +2889,10 @@
         <Class IRI="#Frankrike"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Loureira"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Lys_lager"/>
         <Class IRI="#Øl"/>
     </SubClassOf>
@@ -1995,11 +2917,19 @@
         <Class IRI="#Europa"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Malagousia"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Malbec"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Malbo_Gentile"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malmsey_Malvasia"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
@@ -2023,8 +2953,20 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Manzoni_Bianco"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Marawi"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Margaux"/>
         <Class IRI="#Bordeaux"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maria_Gomes"/>
+        <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Marsanne"/>
@@ -2043,7 +2985,15 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Maturana_Blanca"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Maturana_Trousseau"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mauzac"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
@@ -2063,7 +3013,19 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Merseguera"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Merwah"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Minella_bianca"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Minutolo"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
@@ -2095,6 +3057,26 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Moscatel_Branco"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moscatell"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moscato"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moscato_Giallo_Yellow_Muscat"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moschofilero"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Mouraton_Alicante_Bouschet"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -2103,11 +3085,39 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#MtSvane_Kakhuri"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Muscadelle"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Muscadet_Melon_de_Bourgogne"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Muscardin"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Muscat_Blanc"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Muscat_Frontignan"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Muscat_Ottonel"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Muscat_of_Alexandria"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Muskateller"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
@@ -2121,6 +3131,14 @@
     <SubClassOf>
         <Class IRI="#Mørk_lager"/>
         <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Müller-Thurgau"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nascetta"/>
+        <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Nebbiolo"/>
@@ -2151,6 +3169,10 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Neuburger"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Nielluccio"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -2175,12 +3197,20 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Nuragus"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Négrette_Folle_Noir"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Nøytralt"/>
         <Class IRI="#Brennevin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Obaideh"/>
+        <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Oceania"/>
@@ -2192,6 +3222,18 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Olaszrizling"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orange_Muscat"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ortega"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ortrugo"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
@@ -2215,6 +3257,22 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Parellada"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Passerina"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pecorino"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pedro_Ximénez"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Pelaverga"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -2235,6 +3293,14 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Petit_Courbu"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Petit_Manseng"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Petit_Verdot"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -2247,11 +3313,35 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Picolit"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Picpoul"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Piedirosso"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Pigato"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Pignolo"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pinot_Bianco"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pinot_Blanc"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pinot_Grigio"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
@@ -2275,12 +3365,20 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Piquepoul_Picapoll"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Plavac_Mali"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Plomme"/>
         <Class IRI="#Frukt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plyto"/>
+        <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Polen"/>
@@ -2327,6 +3425,14 @@
         <Class IRI="#Frukt"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Rabigato"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rabo_de_Ovelha"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Raboso"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -2351,11 +3457,43 @@
         <Class IRI="#Frankrike"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Ribolla"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ribolla_Gialla"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rieslaner"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Riesling"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Riesling_Italico"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rivaner"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rkatsiteli"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Robola"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Roditis"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rolle"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
@@ -2365,6 +3503,10 @@
     <SubClassOf>
         <Class IRI="#Romania"/>
         <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Romorantin"/>
+        <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Romé"/>
@@ -2389,6 +3531,14 @@
     <SubClassOf>
         <Class IRI="#Rosévin"/>
         <Class IRI="#Vin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Roter_Riesling"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Roter_Veltliner"/>
+        <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Rotgipfler"/>
@@ -2435,8 +3585,32 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Sauvignon_Gris"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sauvignon_Vert"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Savagnin"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Savagnin_Blanc"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Savatiano"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Savoie"/>
         <Class IRI="#Frankrike"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scheurebe"/>
+        <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Schiava"/>
@@ -2451,8 +3625,20 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Schönburger"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Scotch_ale"/>
         <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seara_Nova"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sercial"/>
+        <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Shavkapito"/>
@@ -2471,6 +3657,10 @@
         <Class IRI="#Vinmonopolet"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Silvaner"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Sjømat"/>
         <Class IRI="#Mat"/>
     </SubClassOf>
@@ -2483,7 +3673,15 @@
         <Class IRI="#Europa"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Solaris"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Sousão"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Souvignier_Gris"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
@@ -2535,7 +3733,23 @@
         <Class IRI="#Europa"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Sylvaner"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Syrah"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sárga_Muskotály"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sémillon"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Síria_Doña_Blanca"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
@@ -2559,7 +3773,15 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Temjanika"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Tempranillo"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tempranillo_Blanco"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
@@ -2580,6 +3802,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Terret_Gris"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Timorasso"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
@@ -2631,7 +3857,15 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Tocai_Friulano"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Tokay"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Torrontés"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
@@ -2643,7 +3877,23 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Trajadura"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Traminer"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Trebbiano"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trebianello"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Treixadura"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
@@ -2659,6 +3909,10 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Trousseau_Gris"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Trousseau_Merenzao"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -2667,8 +3921,16 @@
         <Class IRI="#Europa"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Turbiana"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Tyskland"/>
         <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ugni_Blanc"/>
+        <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Ukraina"/>
@@ -2699,8 +3961,36 @@
         <Class IRI="#Mat"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Verdejo"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Verdelho"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Verdello"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Verdicchio"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Verduzzo"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vermentino"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Vermut"/>
         <Class IRI="#Sterkvin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vernaccia"/>
+        <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Vespaiola"/>
@@ -2708,6 +3998,18 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Vespolina"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vidiano"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vigiriega"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vilana"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
@@ -2727,6 +4029,18 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Viosinho"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vital"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vitovska"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Viura"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -2736,6 +4050,14 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Vranac"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weissburgunder"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Welschriesling"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
@@ -2758,7 +4080,35 @@
         <Class IRI="#Brennevin"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Xarel·lo"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Xarel·lo_Rosado"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Xynomavro"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zalema"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zelen"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zibibbo"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zierfandler"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zilavka"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
@@ -2767,6 +4117,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Zweigelt"/>
+        <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zéta_Oremus"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
@@ -2816,6 +4170,10 @@
     <SubClassOf>
         <Class IRI="#Smak/Krydder"/>
         <Class IRI="#Råstoff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trebbiano_d&apos;Abruzzo"/>
+        <Class IRI="#Drue"/>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#Afrika"/>
