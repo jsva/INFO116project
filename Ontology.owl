@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.semanticweb.org/jonas/ontologies/2019/9/untitled-ontology-14"
+     xml:base="http://www.semanticweb.org/jonas/ontologies/2019/9/Vinmonopolet"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/jonas/ontologies/2019/9/untitled-ontology-14">
+     ontologyIRI="http://www.semanticweb.org/jonas/ontologies/2019/9/Vinmonopolet">
     <Prefix name="" IRI="http://www.semanticweb.org/jonas/ontologies/2019/9/untitled-ontology-14"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
@@ -68,6 +68,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Ancellotta_Lancellotta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Angelica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anis"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Annet"/>
@@ -340,6 +346,9 @@
         <Class IRI="#Chiavennasca_Nebbiolo"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Chinook"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Ciliegiolo"/>
     </Declaration>
     <Declaration>
@@ -475,9 +484,6 @@
         <Class IRI="#Fer_Servadou"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Fermentering"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Fernanda"/>
     </Declaration>
     <Declaration>
@@ -560,9 +566,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Gin"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Gjær"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Godello"/>
@@ -679,6 +682,9 @@
         <Class IRI="#Jaen"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Japan"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Juan_García"/>
     </Declaration>
     <Declaration>
@@ -700,10 +706,16 @@
         <Class IRI="#Kisi"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Kiuchi_Brewery"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Kjøtt"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Klosterstil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Koreander"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Korsika"/>
@@ -1279,6 +1291,9 @@
         <Class IRI="#Råstoff"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Rød_ris"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Rødvin"/>
     </Declaration>
     <Declaration>
@@ -1391,6 +1406,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Sterkvin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stjerneanis"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Storbritannia"/>
@@ -1547,6 +1565,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Trousseau_Merenzao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tsantalis"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Tsjekkia"/>
@@ -1717,6 +1738,9 @@
         <Class IRI="#Korn/stivelse/sukker"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Malt_(pilsner)"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Muscat_Moscatel,_Moscato"/>
     </Declaration>
     <Declaration>
@@ -1772,6 +1796,9 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="#Lagring"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Navn"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#Pris"/>
@@ -1831,6 +1858,9 @@
         <NamedIndividual IRI="#Grønnsaker"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Hitachino_Nest_Red_Rice_Ale"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Krydret_og_sødmefull"/>
     </Declaration>
     <Declaration>
@@ -1856,6 +1886,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Svin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tsantali_Ouzo"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Utviklet_og_nyansert"/>
@@ -1938,6 +1971,14 @@
     <SubClassOf>
         <Class IRI="#Ancellotta_Lancellotta"/>
         <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Angelica"/>
+        <Class IRI="#Smak/Krydder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anis"/>
+        <Class IRI="#Smak/Krydder"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Annet"/>
@@ -2318,6 +2359,10 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Chinook"/>
+        <Class IRI="#Humle"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Ciliegiolo"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -2505,10 +2550,6 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Fermentering"/>
-        <Class IRI="#Råstoff"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Fernanda"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -2619,10 +2660,6 @@
     <SubClassOf>
         <Class IRI="#Gin"/>
         <Class IRI="#Brennevin"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Gjær"/>
-        <Class IRI="#Fermentering"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Godello"/>
@@ -2777,6 +2814,10 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Japan"/>
+        <Class IRI="#Asia"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Juan_García"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -2805,12 +2846,27 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Kiuchi_Brewery"/>
+        <Class IRI="#Produsent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kiuchi_Brewery"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#locatedIn"/>
+            <Class IRI="#Japan"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Kjøtt"/>
         <Class IRI="#Mat"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Klosterstil"/>
         <Class IRI="#Øl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Koreander"/>
+        <Class IRI="#Smak/Krydder"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Korsika"/>
@@ -2938,7 +2994,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Maltet_Bygg"/>
-        <Class IRI="#Korn/stivelse/sukker"/>
+        <Class IRI="#Malt"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Malvasia"/>
@@ -3561,6 +3617,10 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Rød_ris"/>
+        <Class IRI="#Korn/stivelse/sukker"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Rødvin"/>
         <Class IRI="#Vin"/>
     </SubClassOf>
@@ -3707,6 +3767,10 @@
     <SubClassOf>
         <Class IRI="#Sterkvin"/>
         <Class IRI="#Vin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stjerneanis"/>
+        <Class IRI="#Smak/Krydder"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Storbritannia"/>
@@ -3915,6 +3979,17 @@
     <SubClassOf>
         <Class IRI="#Trousseau_Merenzao"/>
         <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tsantalis"/>
+        <Class IRI="#Produsent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tsantalis"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#locatedIn"/>
+            <Class IRI="#Hellas"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Tsjekkia"/>
@@ -4144,6 +4219,10 @@
         <Class IRI="#Råstoff"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Malt_(pilsner)"/>
+        <Class IRI="#Malt"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Muscat_Moscatel,_Moscato"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -4189,256 +4268,6 @@
         <Class IRI="#Europa"/>
         <Class IRI="#Nord_Amerika"/>
         <Class IRI="#Sør_Amerika"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Agiorgitiko"/>
-        <Class IRI="#Aglianico"/>
-        <Class IRI="#Albarossa"/>
-        <Class IRI="#Albillo"/>
-        <Class IRI="#Aleatico"/>
-        <Class IRI="#Alfrocheiro_Preto"/>
-        <Class IRI="#Alicante_Bouschet"/>
-        <Class IRI="#Ancellotta_Lancellotta"/>
-        <Class IRI="#Aragónez"/>
-        <Class IRI="#Aramon"/>
-        <Class IRI="#Aspiran_Noir_Ribeyrenc"/>
-        <Class IRI="#Baga"/>
-        <Class IRI="#Barbarossa"/>
-        <Class IRI="#Barbera"/>
-        <Class IRI="#Bastardo"/>
-        <Class IRI="#Blatina"/>
-        <Class IRI="#Blauburgunder"/>
-        <Class IRI="#Blauer_Portugieser"/>
-        <Class IRI="#Blaufränkisch"/>
-        <Class IRI="#Bobal"/>
-        <Class IRI="#Bonarda"/>
-        <Class IRI="#Brachetto"/>
-        <Class IRI="#Brancellao_Alvarelhao"/>
-        <Class IRI="#Brunello"/>
-        <Class IRI="#Caberlot"/>
-        <Class IRI="#Cabernet_Franc"/>
-        <Class IRI="#Cabernet_Sauvignon"/>
-        <Class IRI="#Cabernet_blanc"/>
-        <Class IRI="#Caino_Blanco"/>
-        <Class IRI="#Caino_Tinto_Borracal"/>
-        <Class IRI="#Caladoc"/>
-        <Class IRI="#Callet"/>
-        <Class IRI="#Camarate"/>
-        <Class IRI="#Canaiolo"/>
-        <Class IRI="#Canaiolo_Nero"/>
-        <Class IRI="#Cannonau"/>
-        <Class IRI="#Carignan"/>
-        <Class IRI="#Carignane"/>
-        <Class IRI="#Carignano"/>
-        <Class IRI="#Cariñena"/>
-        <Class IRI="#Carménère"/>
-        <Class IRI="#Carricante"/>
-        <Class IRI="#Casetta_Foja_Tonda"/>
-        <Class IRI="#Castelão"/>
-        <Class IRI="#Catarratto"/>
-        <Class IRI="#Cencibel"/>
-        <Class IRI="#Cesanese"/>
-        <Class IRI="#Chardonnay"/>
-        <Class IRI="#Chiavennasca"/>
-        <Class IRI="#Chiavennasca_Nebbiolo"/>
-        <Class IRI="#Ciliegiolo"/>
-        <Class IRI="#Cinsault"/>
-        <Class IRI="#Cinsaut"/>
-        <Class IRI="#Clairette"/>
-        <Class IRI="#Colorino"/>
-        <Class IRI="#Corinto_Nero"/>
-        <Class IRI="#Cornalin"/>
-        <Class IRI="#Corvina"/>
-        <Class IRI="#Corvinone"/>
-        <Class IRI="#Cot"/>
-        <Class IRI="#Counoise"/>
-        <Class IRI="#Croatina"/>
-        <Class IRI="#Dindarella"/>
-        <Class IRI="#Dolcetto"/>
-        <Class IRI="#Fer"/>
-        <Class IRI="#Fer_Servadou"/>
-        <Class IRI="#Feteasca_Neagra"/>
-        <Class IRI="#Foglia_Tonda"/>
-        <Class IRI="#Frappato"/>
-        <Class IRI="#Freisa"/>
-        <Class IRI="#Frühburgunder"/>
-        <Class IRI="#Fumin"/>
-        <Class IRI="#Furmint"/>
-        <Class IRI="#Gaglioppo"/>
-        <Class IRI="#Gamay"/>
-        <Class IRI="#Garnacha"/>
-        <Class IRI="#Garnacha_Blanca"/>
-        <Class IRI="#Garnatxa"/>
-        <Class IRI="#Gewürztraminer"/>
-        <Class IRI="#Godello"/>
-        <Class IRI="#Graciano"/>
-        <Class IRI="#Graciano_Bovale"/>
-        <Class IRI="#Grand_Noir"/>
-        <Class IRI="#Grasparossa"/>
-        <Class IRI="#Greco"/>
-        <Class IRI="#Grenache"/>
-        <Class IRI="#Grenache_Blanc"/>
-        <Class IRI="#Grenache_Gris"/>
-        <Class IRI="#Grignolino"/>
-        <Class IRI="#Grolleau"/>
-        <Class IRI="#Groppello"/>
-        <Class IRI="#Groslot"/>
-        <Class IRI="#Gutedel"/>
-        <Class IRI="#Jaen"/>
-        <Class IRI="#Juan_García"/>
-        <Class IRI="#Kadarka"/>
-        <Class IRI="#Kerner"/>
-        <Class IRI="#Kotsifali"/>
-        <Class IRI="#Krassato"/>
-        <Class IRI="#Kékfrankos"/>
-        <Class IRI="#Lacrima"/>
-        <Class IRI="#Lagrein"/>
-        <Class IRI="#Lambrusco"/>
-        <Class IRI="#Lemberger"/>
-        <Class IRI="#Limnio"/>
-        <Class IRI="#Listan_Palomino_Fino"/>
-        <Class IRI="#Listán_Negro"/>
-        <Class IRI="#Lledoner_Pelut"/>
-        <Class IRI="#Macabeo"/>
-        <Class IRI="#Magliocco"/>
-        <Class IRI="#Malbec"/>
-        <Class IRI="#Malbo_Gentile"/>
-        <Class IRI="#Malvasia"/>
-        <Class IRI="#Mammolo"/>
-        <Class IRI="#Mandó"/>
-        <Class IRI="#Marsanne"/>
-        <Class IRI="#Marselan"/>
-        <Class IRI="#Marzemino"/>
-        <Class IRI="#Mataro"/>
-        <Class IRI="#Maturana_Trousseau"/>
-        <Class IRI="#Mavrud"/>
-        <Class IRI="#Mazuelo"/>
-        <Class IRI="#Mencia"/>
-        <Class IRI="#Merlot"/>
-        <Class IRI="#Minella_bianca"/>
-        <Class IRI="#Misket"/>
-        <Class IRI="#Molinara"/>
-        <Class IRI="#Monastrell"/>
-        <Class IRI="#Mondeuse"/>
-        <Class IRI="#Monica"/>
-        <Class IRI="#Montepulciano"/>
-        <Class IRI="#Moravia_Agria"/>
-        <Class IRI="#Mouraton_Alicante_Bouschet"/>
-        <Class IRI="#Mourvèdre"/>
-        <Class IRI="#Muscardin"/>
-        <Class IRI="#Muscat_of_Alexandria"/>
-        <Class IRI="#Nebbiolo"/>
-        <Class IRI="#Negrara"/>
-        <Class IRI="#Negroamaro"/>
-        <Class IRI="#Nerello_Cappuccio"/>
-        <Class IRI="#Nerello_Mascalese"/>
-        <Class IRI="#Nero_di_Troia"/>
-        <Class IRI="#Nielluccio"/>
-        <Class IRI="#Nocera"/>
-        <Class IRI="#Nosiola"/>
-        <Class IRI="#Négrette_Folle_Noir"/>
-        <Class IRI="#Oeillade_Noire"/>
-        <Class IRI="#Olaszrizling"/>
-        <Class IRI="#Oselata"/>
-        <Class IRI="#Oseleta"/>
-        <Class IRI="#Pais"/>
-        <Class IRI="#Palomino"/>
-        <Class IRI="#Pelaverga"/>
-        <Class IRI="#Periquita"/>
-        <Class IRI="#Perricone"/>
-        <Class IRI="#Persan"/>
-        <Class IRI="#Petit_Verdot"/>
-        <Class IRI="#Petite_Arvine"/>
-        <Class IRI="#Petite_Syrah"/>
-        <Class IRI="#Piedirosso"/>
-        <Class IRI="#Pignolo"/>
-        <Class IRI="#Pinot_Gris"/>
-        <Class IRI="#Pinot_Meunier"/>
-        <Class IRI="#Pinot_Nero"/>
-        <Class IRI="#Pinot_Noir"/>
-        <Class IRI="#Pinotage"/>
-        <Class IRI="#Plavac_Mali"/>
-        <Class IRI="#Poulsard"/>
-        <Class IRI="#Prieto_Picudo"/>
-        <Class IRI="#Primitivo"/>
-        <Class IRI="#Prugnolo_Gentile_Sangiovese"/>
-        <Class IRI="#Pugnitello"/>
-        <Class IRI="#Raboso"/>
-        <Class IRI="#Ramisco"/>
-        <Class IRI="#Rebo"/>
-        <Class IRI="#Refosco"/>
-        <Class IRI="#Riesling"/>
-        <Class IRI="#Robola"/>
-        <Class IRI="#Romé"/>
-        <Class IRI="#Rondinella"/>
-        <Class IRI="#Rossese"/>
-        <Class IRI="#Rossignola"/>
-        <Class IRI="#Rossola_Nera"/>
-        <Class IRI="#Rotgipfler"/>
-        <Class IRI="#Roussanne"/>
-        <Class IRI="#Ruby_Cabernet"/>
-        <Class IRI="#Ruché"/>
-        <Class IRI="#Rufete"/>
-        <Class IRI="#Sagrantino"/>
-        <Class IRI="#Sangiovese"/>
-        <Class IRI="#Saperavi"/>
-        <Class IRI="#Sauvignon_Blanc"/>
-        <Class IRI="#Schiava"/>
-        <Class IRI="#Schioppettino"/>
-        <Class IRI="#Schwarzriesling"/>
-        <Class IRI="#Shavkapito"/>
-        <Class IRI="#Shiraz"/>
-        <Class IRI="#Sousão"/>
-        <Class IRI="#Spätburgunder"/>
-        <Class IRI="#St._Laurent"/>
-        <Class IRI="#Sumoll"/>
-        <Class IRI="#Syrah"/>
-        <Class IRI="#Tai_Rosso"/>
-        <Class IRI="#Tannat"/>
-        <Class IRI="#Tempranillo"/>
-        <Class IRI="#Tempranillo_Tinto_del_Pais"/>
-        <Class IRI="#Teran"/>
-        <Class IRI="#Teroldego"/>
-        <Class IRI="#Terrantez"/>
-        <Class IRI="#Terret_Gris"/>
-        <Class IRI="#Tinta_Amarela"/>
-        <Class IRI="#Tinta_Barroca"/>
-        <Class IRI="#Tinta_Caiada"/>
-        <Class IRI="#Tinta_Miuda"/>
-        <Class IRI="#Tinta_National_Tempranillo"/>
-        <Class IRI="#Tinta_Negra_Mole"/>
-        <Class IRI="#Tinta_Roriz"/>
-        <Class IRI="#Tinta_del_Pais"/>
-        <Class IRI="#Tinta_del_Toro_Tempranillo"/>
-        <Class IRI="#Tintilia"/>
-        <Class IRI="#Tinto_Cão"/>
-        <Class IRI="#Tinto_Fino_Tempranillo"/>
-        <Class IRI="#Tokay"/>
-        <Class IRI="#Touriga_Franca"/>
-        <Class IRI="#Touriga_Nacional"/>
-        <Class IRI="#Trebbiano"/>
-        <Class IRI="#Trepat"/>
-        <Class IRI="#Tribidrag_Kratosija"/>
-        <Class IRI="#Trincadeira"/>
-        <Class IRI="#Trousseau_Merenzao"/>
-        <Class IRI="#Uva_Rara"/>
-        <Class IRI="#Uva_di_Troia"/>
-        <Class IRI="#Vaccarese"/>
-        <Class IRI="#Valdiguie_Gros_Auxerrois"/>
-        <Class IRI="#Vespaiola"/>
-        <Class IRI="#Vespolina"/>
-        <Class IRI="#Vinhão_Sousón"/>
-        <Class IRI="#Viognier"/>
-        <Class IRI="#Viura"/>
-        <Class IRI="#Vranac"/>
-        <Class IRI="#Xynomavro"/>
-        <Class IRI="#Zinfandel"/>
-        <Class IRI="#Zweigelt"/>
-        <Class IRI="#Calabrese_Nero_d&apos;Avola"/>
-        <Class IRI="#Muscat_Moscatel,_Moscato"/>
-        <Class IRI="#Nero_d&apos;Avola"/>
-        <Class IRI="#Pineau_d&apos;Aunis"/>
-        <Class IRI="#Saperavi,_rød"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Akevitt"/>
@@ -4590,10 +4419,6 @@
         <NamedIndividual IRI="#Delirium_Tremens"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Gjær"/>
-        <NamedIndividual IRI="#Delirium_Tremens"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Humle"/>
         <NamedIndividual IRI="#Delirium_Tremens"/>
     </ClassAssertion>
@@ -4646,6 +4471,26 @@
         <NamedIndividual IRI="#Grønnsaker"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Chinook"/>
+        <NamedIndividual IRI="#Hitachino_Nest_Red_Rice_Ale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kiuchi_Brewery"/>
+        <NamedIndividual IRI="#Hitachino_Nest_Red_Rice_Ale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rød_ris"/>
+        <NamedIndividual IRI="#Hitachino_Nest_Red_Rice_Ale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Spesial"/>
+        <NamedIndividual IRI="#Hitachino_Nest_Red_Rice_Ale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Malt_(pilsner)"/>
+        <NamedIndividual IRI="#Hitachino_Nest_Red_Rice_Ale"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Smak_og_Aroma"/>
         <NamedIndividual IRI="#Krydret_og_sødmefull"/>
     </ClassAssertion>
@@ -4680,6 +4525,34 @@
     <ClassAssertion>
         <Class IRI="#Kjøtt"/>
         <NamedIndividual IRI="#Svin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Angelica"/>
+        <NamedIndividual IRI="#Tsantali_Ouzo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Anis"/>
+        <NamedIndividual IRI="#Tsantali_Ouzo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Annet"/>
+        <NamedIndividual IRI="#Tsantali_Ouzo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Koreander"/>
+        <NamedIndividual IRI="#Tsantali_Ouzo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Stjerneanis"/>
+        <NamedIndividual IRI="#Tsantali_Ouzo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tsantalis"/>
+        <NamedIndividual IRI="#Tsantali_Ouzo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Korn/stivelse/sukker"/>
+        <NamedIndividual IRI="#Tsantali_Ouzo"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Smak_og_Aroma"/>
@@ -4752,6 +4625,16 @@
         <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
         <NamedIndividual IRI="#Skalldyr"/>
     </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Hitachino_Nest_Red_Rice_Ale"/>
+        <NamedIndividual IRI="#Aperitif"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Hitachino_Nest_Red_Rice_Ale"/>
+        <NamedIndividual IRI="#Skalldyr"/>
+    </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Alkoholinnhold"/>
         <NamedIndividual IRI="#Ch._Giscours_2010"/>
@@ -4776,6 +4659,11 @@
         <DataProperty IRI="#Lagring"/>
         <NamedIndividual IRI="#Ch._Giscours_2010"/>
         <Literal>Blir bedre ved lagring</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Ch._Giscours_2010"/>
+        <Literal>Ch. Giscours 2010</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Pris"/>
@@ -4833,6 +4721,11 @@
         <Literal>Kan ikke lagres</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Delirium_Tremens"/>
+        <Literal>Delirium Tremens</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#Pris"/>
         <NamedIndividual IRI="#Delirium_Tremens"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">67.90</Literal>
@@ -4878,6 +4771,11 @@
         <Literal>Kan lagres</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
+        <Literal>Dorrance Cuvée Anais Chardonnay</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#Pris"/>
         <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">259.9</Literal>
@@ -4909,8 +4807,88 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Alkoholinnhold"/>
+        <NamedIndividual IRI="#Hitachino_Nest_Red_Rice_Ale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bitterhet"/>
+        <NamedIndividual IRI="#Hitachino_Nest_Red_Rice_Ale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Fylde"/>
+        <NamedIndividual IRI="#Hitachino_Nest_Red_Rice_Ale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Lagring"/>
+        <NamedIndividual IRI="#Hitachino_Nest_Red_Rice_Ale"/>
+        <Literal>Drikkeklar, kan lagres</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Hitachino_Nest_Red_Rice_Ale"/>
+        <Literal>Hitachino Nest Red Rice Ale</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Pris"/>
+        <NamedIndividual IRI="#Hitachino_Nest_Red_Rice_Ale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">57.90</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sødme"/>
+        <NamedIndividual IRI="#Hitachino_Nest_Red_Rice_Ale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Varenummer"/>
+        <NamedIndividual IRI="#Hitachino_Nest_Red_Rice_Ale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">490902</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Volum"/>
+        <NamedIndividual IRI="#Hitachino_Nest_Red_Rice_Ale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">33</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Alkoholinnhold"/>
+        <NamedIndividual IRI="#Tsantali_Ouzo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">38</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Tsantali_Ouzo"/>
+        <Literal>Tsantali Ouzo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Pris"/>
+        <NamedIndividual IRI="#Tsantali_Ouzo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">344.90</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Pris"/>
+        <NamedIndividual IRI="#Tsantali_Ouzo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">70</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sukker"/>
+        <NamedIndividual IRI="#Tsantali_Ouzo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">30.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Varenummer"/>
+        <NamedIndividual IRI="#Tsantali_Ouzo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">689101</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Alkoholinnhold"/>
         <NamedIndividual IRI="#Wemyss_Auld_Scots_Bakery_Glenrothes_1996_22_YO"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">46</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Wemyss_Auld_Scots_Bakery_Glenrothes_1996_22_YO"/>
+        <Literal>Wemyss Auld Scots Bakery Glenrothes 1996 22 YO</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Pris"/>
@@ -5033,6 +5011,10 @@
         <Class IRI="#Vin"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
+        <DataProperty IRI="#Navn"/>
+        <Class IRI="#Vinmonopolet"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="#Pris"/>
         <Class IRI="#Vinmonopolet"/>
     </DataPropertyDomain>
@@ -5114,6 +5096,10 @@
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#Lagring"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Navn"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>

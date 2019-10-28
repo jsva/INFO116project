@@ -1,0 +1,86 @@
+What fruity red spanish wines could be served with beef.
+
+
+PREFIX vinmonopolet: <ontologienvår>
+PREFIX rdf http://www.w3.org/2000/01/rdf-schema#
+
+
+SELECT ?navn
+WHERE {
+	?vin vinmonopolet:navn ?navn
+	?vin rdf:type rødvin
+	?vin vinmonopolet:harSmakogAroma Fast_og_fruktig,Fat_og_frukt,Frisk_og_fruktig
+	?vin vinmonopolet:passerTil Storfe
+	?vin rdf:type ?produsent
+	?produsent vinmonopolet:locatedIn ?region
+	?region rdfs:subClassOf Spania
+
+}
+
+
+
+Is there a white wine with cost 500-1000NOK, that suits “vilt”. 
+
+PREFIX vinmonopolet: <ontologienvår>
+
+SELECT ?navn
+WHERE {
+	?vin vinmonopolet:navn ?navn
+	?vin rdf:type hvitvin
+	?vin vinmonopolet:passerTil storvilt,småvilt
+	?vin vinmonopolet:pris ?pris
+	FILTER (?pris >500 AND ?pris<1000)
+}
+
+
+What is the name and price of the cheapest bottle of any alcoholic drink with more than 40% alcohol and has a volume of 50cl or more.
+
+
+PREFIX vinmonopolet: <ontologienvår>
+SELECT ?navn ?pris
+WHERE {
+	?bottle vinmonopolet:navn ?navn
+	?bottle rdf:type  vinmonopolet
+	?bottle vinmonopolet:Pris ?pris
+	?bottle vinmonopolet:Alkoholinnhold ?alkoholprosent
+	?bottle vinmonopolet:Volum ?volum
+	FILTER (?alkoholprosent > 40)
+	FILTER (?Volum >= 50)
+
+}
+ORDER BY ?pris
+LIMIT 1
+	
+	
+
+Hvilket fransk vindistrikt lager mest rødvin?
+
+
+PREFIX vinmonopolet: <ontologienvår>
+PREFIX rdf http://www.w3.org/2000/01/rdf-schema#
+
+SELECT ?region
+WHERE {
+	?vin rdf:type rødvin
+	?vin rdf:type produsent
+	?produsent vinmonopolet:locatedIn ?region
+	?region rdfs:subClassOf Frankrike
+}
+GROUP BY ?region
+ORDER BY COUNT(vin)
+LIMIT 1
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
