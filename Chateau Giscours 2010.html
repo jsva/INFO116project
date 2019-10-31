@@ -677,7 +677,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	</div>
 </header>
 
-<main class="site__body js-site-body" data-currency-iso-code="NOK" prefix="vm:ontologilink">
+<main class="site__body js-site-body" data-currency-iso-code="NOK" vocab="http://schema.org" prefix="vm:ontologilink" typeof="vm:Rødvin">
 				<div id="page" data-currency-iso-code="NOK">
 					<div class="section section--breadcrumbs">
 		<div class="section__inner-container">
@@ -718,8 +718,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="product__price-and-buy">
             <div class="product__price-and-buy__inner-container">
                 <p class="product__price-and-buy__price-wrapper">
-					<span value="1229.00" property="vm:pris" class="product__price">Kr. 1 229,00</span>
-                    <span class="product__amount"> <span property="vm:volum">75</span>Cl</span>
+					<span value="1229.00" property="vm:Pris" property="vm:amount" class="product__price">Kr. 1 229,00</span>
+                    <span class="product__amount"> <span property="vm:Volum">75</span><span property="unitText">Cl</span></span>
                 	<span class="product__cost_per_unit">Kr. 1 638,67 pr. liter</span>
                 </p>
                 <div class="addtocart-component">
@@ -1042,15 +1042,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	                        <dt>Farge:</dt>
 	                            <dd>Rødlilla.</dd>
 	                        <dt>Produsent:</dt>
-	                            <dd>Ch. Giscours</dd>
+	                            <dd property="Winery">Ch. Giscours</dd>
 	                        <dt>Årgang:<span aria-describedby="product__year-footnote">*</span></dt>
 	                            <dd property="vm:Årgang">
 	                            	2010<br/>
 	                            	<span class="utils__italic" id="product__year-footnote">* Vi tar forbehold om at varen som leveres kan ha en annen årgang/etikett enn oppgitt</span>
                             	</dd>
 	                        <dt>Land, distrikt, underdistrikt:</dt>
-	                        <dd>
-	                            Frankrike, Bordeaux, Margaux</dd>
+	                        <dd typeof="Place">
+	                            <span property="country">Frankrike</span>, <span property="containsPlace">Bordeaux</span>, <span property="containsPlace">Margaux</span></dd>
 	                        <dt>Råstoff:</dt>
 	                            <dd>
 	                                Cabernet Sauvignon&nbsp;71%, Merlot&nbsp;29%</dd>
