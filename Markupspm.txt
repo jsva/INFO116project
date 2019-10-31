@@ -1,0 +1,27 @@
+I vinhtml(ch.giscours 2010.html) så begynner markup med RDFa lite på omtrent linje 680
+JSON-LD begynner rundt linje 80
+for frankrike.html så er JSONLD linje 60 og RDFalite linje 900+
+
+Hvordan referer vi til vår egen ontologi, vi har ikke skrevet inn noen URL for den i denne 
+versjonen ettersom vi ikke er sikre på hvordan det gjøres.
+
+Er property="Winery" riktig for å beskrive produsenten av vinen (Linje ca. 1045)
+Er det riktig å si typeof="vm:rødvin" for å vise at vi snakker om en rødvin. 
+Altså er det korrekt å bruke typeof til å vise at det som blir snakket om er medlem av en klasse?
+
+Ved å si property='Country' for frankrike vil det da si at vi har definert frankrike som en place?
+Og vil da det vi tagger med property="containsPlace" bli definert som at de er  i frankrike?
+
+Hvordan annoterer vi et map som er presentert via google API?
+schema.org/map 'krever' en URL
+
+når vi anngir to properties i en tag må man da bruke property= på begge eller kan man anngi begge samtidig
+f.eks. property="property1","property2"
+
+i Frankrike.html rundt linje 1050 er det korrekt å bruke typeof="vm:rødvin" for å markere at rødvin
+er det vi kaller rødvin i ontologien vår eller skal det brukes property? Og når det senere blir brukt
+ property="containsPlace" for å si at distriktene nevnt ligger i Frankrike referer vi fortsatt til frankrike?
+
+Bør vi markup informasjonen i footeren også? f.eks. tlf nr/email?
+
+Er JSON-LD korrekt?
