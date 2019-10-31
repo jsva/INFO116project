@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/jonas/ontologies/2019/9/Vinmonopolet">
-    <Prefix name="" IRI="http://www.semanticweb.org/jonas/ontologies/2019/9/Vinmonopolet"/>
+    <Prefix name="" IRI="http://www.semanticweb.org/jonas/ontologies/2019/9/untitled-ontology-14"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -4658,7 +4658,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#Lagring"/>
         <NamedIndividual IRI="#Ch._Giscours_2010"/>
-        <Literal>Kan drikkes nå, blir bedre ved lagring</Literal>
+        <Literal>Blir bedre ved lagring</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Navn"/>
@@ -5153,9 +5153,9 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Lagring</IRI>
         <Literal>Har 3 tillatte verdier
-Drikkeklar nå, men kan også lagres
-Drikkeklar, ikke egnet for lagring
-Kan drikkes nå, blir bedre ved lagring</Literal>
+Kan lagres
+Kan ikke lagres
+Bli bedre ved lagring</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
