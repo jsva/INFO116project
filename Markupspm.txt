@@ -25,3 +25,6 @@ er det vi kaller rødvin i ontologien vår eller skal det brukes property? Og når 
 Bør vi markup informasjonen i footeren også? f.eks. tlf nr/email?
 
 Er JSON-LD korrekt?
+
+På JSON-LD for Rødvinen har alle relevante datapunkter for karakteren til vinen 
+også blitt lagt til. Er det nødvendig å strukturere data som fylde o.l. i forhold til schema.org?
