@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/jonas/ontologies/2019/9/Vinmonopolet">
-    <Prefix name="" IRI="http://www.semanticweb.org/jonas/ontologies/2019/9/untitled-ontology-14"/>
+    <Prefix name="" IRI="http://www.semanticweb.org/jonas/ontologies/2019/9/Vinmonopolet"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -58,6 +58,9 @@
         <Class IRI="#Alsace"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Alta_Alella"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Altesse"/>
     </Declaration>
     <Declaration>
@@ -68,6 +71,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Ancellotta_Lancellotta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anecoop"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Angelica"/>
@@ -302,6 +308,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Castelão"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Catalonia"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Catarratto"/>
@@ -844,6 +853,9 @@
         <Class IRI="#Marzemino"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Mas_Doix"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Mat"/>
     </Declaration>
     <Declaration>
@@ -965,6 +977,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Nascetta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Navarra"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Nebbiolo"/>
@@ -1732,6 +1747,9 @@
         <Class IRI="#Øvrige"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Øvrige_Spania"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Calabrese_Nero_d&apos;Avola"/>
     </Declaration>
     <Declaration>
@@ -1825,6 +1843,9 @@
         <DataProperty IRI="#Årgang"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Alta_Alella_Merla_2017"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Aperitif"/>
     </Declaration>
     <Declaration>
@@ -1835,6 +1856,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Dessert"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dominio_de_Unx_Garnacha"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
@@ -1852,7 +1876,7 @@
         <NamedIndividual IRI="#Frisk_og_fruktig"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Fuldig_og_saftig"/>
+        <NamedIndividual IRI="#Fyldig_og_Saftig"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Grønnsaker"/>
@@ -1868,6 +1892,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Lyst_kjøtt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mas_Doix_Doix_2013"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Ost"/>
@@ -1957,6 +1984,17 @@
         <Class IRI="#Frankrike"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Alta_Alella"/>
+        <Class IRI="#Produsent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alta_Alella"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#locatedIn"/>
+            <Class IRI="#Øvrige_Spania"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Altesse"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -1971,6 +2009,17 @@
     <SubClassOf>
         <Class IRI="#Ancellotta_Lancellotta"/>
         <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anecoop"/>
+        <Class IRI="#Produsent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anecoop"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#locatedIn"/>
+            <Class IRI="#Navarra"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Angelica"/>
@@ -2294,6 +2343,17 @@
     <SubClassOf>
         <Class IRI="#Castelão"/>
         <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Catalonia"/>
+        <Class IRI="#Spania"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Catalonia"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#locatedIn"/>
+            <Class IRI="#Catalonia"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Catarratto"/>
@@ -3037,6 +3097,17 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Mas_Doix"/>
+        <Class IRI="#Produsent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mas_Doix"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#locatedIn"/>
+            <Class IRI="#Catalonia"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Mataro"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -3195,6 +3266,10 @@
     <SubClassOf>
         <Class IRI="#Nascetta"/>
         <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Navarra"/>
+        <Class IRI="#Spania"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Nebbiolo"/>
@@ -4211,6 +4286,10 @@
         <Class IRI="#Frankrike"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Øvrige_Spania"/>
+        <Class IRI="#Spania"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Calabrese_Nero_d&apos;Avola"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -4395,6 +4474,18 @@
         <Class IRI="#Perlendevin"/>
     </DisjointClasses>
     <ClassAssertion>
+        <Class IRI="#Alta_Alella"/>
+        <NamedIndividual IRI="#Alta_Alella_Merla_2017"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Monastrell"/>
+        <NamedIndividual IRI="#Alta_Alella_Merla_2017"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rødvin"/>
+        <NamedIndividual IRI="#Alta_Alella_Merla_2017"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Mat"/>
         <NamedIndividual IRI="#Aperitif"/>
     </ClassAssertion>
@@ -4435,6 +4526,18 @@
         <NamedIndividual IRI="#Dessert"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Anecoop"/>
+        <NamedIndividual IRI="#Dominio_de_Unx_Garnacha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Garnacha"/>
+        <NamedIndividual IRI="#Dominio_de_Unx_Garnacha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rødvin"/>
+        <NamedIndividual IRI="#Dominio_de_Unx_Garnacha"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Chardonnay"/>
         <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
     </ClassAssertion>
@@ -4464,7 +4567,7 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Smak_og_Aroma"/>
-        <NamedIndividual IRI="#Fuldig_og_saftig"/>
+        <NamedIndividual IRI="#Fyldig_og_Saftig"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Vegetar"/>
@@ -4501,6 +4604,22 @@
     <ClassAssertion>
         <Class IRI="#Kjøtt"/>
         <NamedIndividual IRI="#Lyst_kjøtt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Carignan"/>
+        <NamedIndividual IRI="#Mas_Doix_Doix_2013"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Garnacha"/>
+        <NamedIndividual IRI="#Mas_Doix_Doix_2013"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mas_Doix"/>
+        <NamedIndividual IRI="#Mas_Doix_Doix_2013"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rødvin"/>
+        <NamedIndividual IRI="#Mas_Doix_Doix_2013"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Vegetar"/>
@@ -4572,6 +4691,26 @@
     </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#harSmakogAroma"/>
+        <NamedIndividual IRI="#Alta_Alella_Merla_2017"/>
+        <NamedIndividual IRI="#Frisk_og_fruktig"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Alta_Alella_Merla_2017"/>
+        <NamedIndividual IRI="#Fisk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Alta_Alella_Merla_2017"/>
+        <NamedIndividual IRI="#Lyst_kjøtt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Alta_Alella_Merla_2017"/>
+        <NamedIndividual IRI="#Storfe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#harSmakogAroma"/>
         <NamedIndividual IRI="#Ch._Giscours_2010"/>
         <NamedIndividual IRI="#Utviklet_og_nyansert"/>
     </ObjectPropertyAssertion>
@@ -4607,6 +4746,26 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#harSmakogAroma"/>
+        <NamedIndividual IRI="#Dominio_de_Unx_Garnacha"/>
+        <NamedIndividual IRI="#Fyldig_og_Saftig"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Dominio_de_Unx_Garnacha"/>
+        <NamedIndividual IRI="#Lam_og_sau"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Dominio_de_Unx_Garnacha"/>
+        <NamedIndividual IRI="#Storfe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Dominio_de_Unx_Garnacha"/>
+        <NamedIndividual IRI="#Svin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#harSmakogAroma"/>
         <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
         <NamedIndividual IRI="#Fat_og_frukt"/>
     </ObjectPropertyAssertion>
@@ -4635,6 +4794,81 @@
         <NamedIndividual IRI="#Hitachino_Nest_Red_Rice_Ale"/>
         <NamedIndividual IRI="#Skalldyr"/>
     </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#harSmakogAroma"/>
+        <NamedIndividual IRI="#Mas_Doix_Doix_2013"/>
+        <NamedIndividual IRI="#Utviklet_og_nyansert"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Mas_Doix_Doix_2013"/>
+        <NamedIndividual IRI="#Lam_og_sau"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Mas_Doix_Doix_2013"/>
+        <NamedIndividual IRI="#Storfe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Mas_Doix_Doix_2013"/>
+        <NamedIndividual IRI="#Storvilt"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Alkoholinnhold"/>
+        <NamedIndividual IRI="#Alta_Alella_Merla_2017"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">13.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Friskhet"/>
+        <NamedIndividual IRI="#Alta_Alella_Merla_2017"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Fylde"/>
+        <NamedIndividual IRI="#Alta_Alella_Merla_2017"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Garvestoff"/>
+        <NamedIndividual IRI="#Alta_Alella_Merla_2017"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Lagring"/>
+        <NamedIndividual IRI="#Alta_Alella_Merla_2017"/>
+        <Literal>Drikkeklar Nå men kan også lagres</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Alta_Alella_Merla_2017"/>
+        <Literal>Alta Alella Merla 2017</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Pris"/>
+        <NamedIndividual IRI="#Alta_Alella_Merla_2017"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">299.90</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sukker"/>
+        <NamedIndividual IRI="#Alta_Alella_Merla_2017"/>
+        <Literal>&lt;3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Syre"/>
+        <NamedIndividual IRI="#Alta_Alella_Merla_2017"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Varenummer"/>
+        <NamedIndividual IRI="#Alta_Alella_Merla_2017"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10600301</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Volum"/>
+        <NamedIndividual IRI="#Alta_Alella_Merla_2017"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">75</Literal>
+    </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Alkoholinnhold"/>
         <NamedIndividual IRI="#Ch._Giscours_2010"/>
@@ -4747,6 +4981,66 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Alkoholinnhold"/>
+        <NamedIndividual IRI="#Dominio_de_Unx_Garnacha"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">14.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Friskhet"/>
+        <NamedIndividual IRI="#Dominio_de_Unx_Garnacha"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Fylde"/>
+        <NamedIndividual IRI="#Dominio_de_Unx_Garnacha"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Garvestoff"/>
+        <NamedIndividual IRI="#Dominio_de_Unx_Garnacha"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Lagring"/>
+        <NamedIndividual IRI="#Dominio_de_Unx_Garnacha"/>
+        <Literal>Drikkeklar nå, men kan også lagres</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Dominio_de_Unx_Garnacha"/>
+        <Literal>Dominio de Unx Garnacha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Pris"/>
+        <NamedIndividual IRI="#Dominio_de_Unx_Garnacha"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">119.90</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sukker"/>
+        <NamedIndividual IRI="#Dominio_de_Unx_Garnacha"/>
+        <Literal>&lt;3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Syre"/>
+        <NamedIndividual IRI="#Dominio_de_Unx_Garnacha"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Varenummer"/>
+        <NamedIndividual IRI="#Dominio_de_Unx_Garnacha"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10675001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Volum"/>
+        <NamedIndividual IRI="#Dominio_de_Unx_Garnacha"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">75</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Årgang"/>
+        <NamedIndividual IRI="#Dominio_de_Unx_Garnacha"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2016</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Alkoholinnhold"/>
         <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">14</Literal>
     </DataPropertyAssertion>
@@ -4849,6 +5143,66 @@
         <DataProperty IRI="#Volum"/>
         <NamedIndividual IRI="#Hitachino_Nest_Red_Rice_Ale"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">33</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Alkoholinnhold"/>
+        <NamedIndividual IRI="#Mas_Doix_Doix_2013"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Friskhet"/>
+        <NamedIndividual IRI="#Mas_Doix_Doix_2013"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Fylde"/>
+        <NamedIndividual IRI="#Mas_Doix_Doix_2013"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Garvestoff"/>
+        <NamedIndividual IRI="#Mas_Doix_Doix_2013"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Lagring"/>
+        <NamedIndividual IRI="#Mas_Doix_Doix_2013"/>
+        <Literal>Drikkeklar nå, men kan også lagres</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Mas_Doix_Doix_2013"/>
+        <Literal>Mas Doix Doix 2013</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Pris"/>
+        <NamedIndividual IRI="#Mas_Doix_Doix_2013"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">804.60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sukker"/>
+        <NamedIndividual IRI="#Mas_Doix_Doix_2013"/>
+        <Literal>&lt;3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Syre"/>
+        <NamedIndividual IRI="#Mas_Doix_Doix_2013"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Varenummer"/>
+        <NamedIndividual IRI="#Mas_Doix_Doix_2013"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10453401</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Volum"/>
+        <NamedIndividual IRI="#Mas_Doix_Doix_2013"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">75</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Årgang"/>
+        <NamedIndividual IRI="#Mas_Doix_Doix_2013"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2013</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Alkoholinnhold"/>
