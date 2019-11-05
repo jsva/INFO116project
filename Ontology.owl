@@ -1923,6 +1923,9 @@
     <Declaration>
         <NamedIndividual IRI="#Wemyss_Auld_Scots_Bakery_Glenrothes_1996_22_YO"/>
     </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jonastest"/>
+    </Declaration>
     <SubClassOf>
         <Class IRI="#Afrika"/>
         <Class IRI="#Opphav"/>
@@ -4689,6 +4692,10 @@
         <Class IRI="#Whisky"/>
         <NamedIndividual IRI="#Wemyss_Auld_Scots_Bakery_Glenrothes_1996_22_YO"/>
     </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hvitvin"/>
+        <NamedIndividual IRI="#jonastest"/>
+    </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#harSmakogAroma"/>
         <NamedIndividual IRI="#Alta_Alella_Merla_2017"/>
@@ -4812,6 +4819,11 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#passerTil"/>
         <NamedIndividual IRI="#Mas_Doix_Doix_2013"/>
+        <NamedIndividual IRI="#Storvilt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#jonastest"/>
         <NamedIndividual IRI="#Storvilt"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
@@ -5263,6 +5275,16 @@
         <DataProperty IRI="#Årgang"/>
         <NamedIndividual IRI="#Wemyss_Auld_Scots_Bakery_Glenrothes_1996_22_YO"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1996</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#jonastest"/>
+        <Literal>fffffffffff</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Pris"/>
+        <NamedIndividual IRI="#jonastest"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">666</Literal>
     </DataPropertyAssertion>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#locatedIn"/>
