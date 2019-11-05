@@ -9,17 +9,35 @@ SELECT ?navn
 WHERE {
 	?vin vinmonopolet:navn ?navn
 	?vin rdf:type rødvin
-	?vin vinmonopolet:harSmakogAroma Fast_og_fruktig,Fat_og_frukt,Frisk_og_fruktig
+	?vin vinmonopolet:harSmakogAroma Fast_og_fruktig
 	?vin vinmonopolet:passerTil Storfe
 	?vin rdf:type ?produsent
 	?produsent vinmonopolet:locatedIn ?region
 	?region rdfs:subClassOf Spania
 
 }
+UNION
+{
+?vin vinmonopolet:navn ?navn
+	?vin rdf:type rødvin
+	?vin vinmonopolet:harSmakogAroma Fat_og_frukt,Frisk_og_fruktig
+	?vin vinmonopolet:passerTil Storfe
+	?vin rdf:type ?produsent
+	?produsent vinmonopolet:locatedIn ?region
+	?region rdfs:subClassOf Spania
+}
+UNION
+{
+?vin vinmonopolet:navn ?navn
+	?vin rdf:type rødvin
+	?vin vinmonopolet:harSmakogAroma Frisk_og_fruktig
+	?vin vinmonopolet:passerTil Storfe
+	?vin rdf:type ?produsent
+	?produsent vinmonopolet:locatedIn ?region
+	?region rdfs:subClassOf Spania
+}
 
-
-
-Is there a white wine with cost 500-1000NOK, that suits “vilt”. 
+Is there a white wine with cost 500-1000NOK, that is paired well to a venison dinner. 
 
 PREFIX vinmonopolet: <ontologienvår>
 
@@ -27,7 +45,7 @@ SELECT ?navn
 WHERE {
 	?vin vinmonopolet:navn ?navn
 	?vin rdf:type hvitvin
-	?vin vinmonopolet:passerTil storvilt,småvilt
+	?vin vinmonopolet:passerTil storvilt
 	?vin vinmonopolet:pris ?pris
 	FILTER (?pris >500 AND ?pris<1000)
 }
@@ -59,7 +77,7 @@ Hvilket fransk vindistrikt lager mest rødvin?
 PREFIX vinmonopolet: <ontologienvår>
 PREFIX rdf http://www.w3.org/2000/01/rdf-schema#
 
-SELECT ?region
+SELECT ?region COUNT(?vin)
 WHERE {
 	?vin rdf:type rødvin
 	?vin rdf:type produsent
@@ -67,7 +85,7 @@ WHERE {
 	?region rdfs:subClassOf Frankrike
 }
 GROUP BY ?region
-ORDER BY COUNT(vin)
+ORDER BY COUNT(?vin) ---Distinct
 LIMIT 1
 	
 

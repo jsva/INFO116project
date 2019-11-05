@@ -4892,7 +4892,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#Lagring"/>
         <NamedIndividual IRI="#Ch._Giscours_2010"/>
-        <Literal>Blir bedre ved lagring</Literal>
+        <Literal>Kan drikkes nå, blir bedre ved lagring</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Navn"/>
@@ -5507,9 +5507,9 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Lagring</IRI>
         <Literal>Har 3 tillatte verdier
-Kan lagres
-Kan ikke lagres
-Bli bedre ved lagring</Literal>
+Drikkeklar nå, men kan også lagres
+Drikkeklar, ikke egnet for lagring
+Kan drikkes nå, blir bedre ved lagring</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
