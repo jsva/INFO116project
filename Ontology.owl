@@ -5011,6 +5011,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">75</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Aperitif"/>
+        <Literal>Aperitif</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#Alkoholinnhold"/>
         <NamedIndividual IRI="#Ch._Giscours_2010"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">13.5</Literal>
@@ -5119,6 +5124,11 @@
         <DataProperty IRI="#Volum"/>
         <NamedIndividual IRI="#Delirium_Tremens"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">33</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Dessert"/>
+        <Literal>Dessert</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Alkoholinnhold"/>
@@ -5241,9 +5251,34 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2017</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Fast_og_fruktig"/>
+        <Literal>Fast_og_fruktig</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Fat_og_frukt"/>
+        <Literal>Fat_og_frukt</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Frisk_og_fruktig"/>
+        <Literal>Frisk_og_fruktig</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Fyldig_og_Saftig"/>
+        <Literal>Fyldig_og_saftig</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#Alkoholinnhold"/>
         <NamedIndividual IRI="#Gosnells_Citra_Sea_Mead"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Gosnells_Citra_Sea_Mead"/>
+        <Literal>Gosnells Citra Sea Mead</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Pris"/>
@@ -5259,6 +5294,11 @@
         <DataProperty IRI="#Volum"/>
         <NamedIndividual IRI="#Gosnells_Citra_Sea_Mead"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">33</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Grønnsaker"/>
+        <Literal>Grønnsaker</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Alkoholinnhold"/>
@@ -5321,6 +5361,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Katlenburger_Mead_Dark_Aronia_Berry"/>
+        <Literal>Katlenburger Mead Dark Aronia Berry</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#Pris"/>
         <NamedIndividual IRI="#Katlenburger_Mead_Dark_Aronia_Berry"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">79.90</Literal>
@@ -5339,6 +5384,21 @@
         <DataProperty IRI="#Volum"/>
         <NamedIndividual IRI="#Katlenburger_Mead_Dark_Aronia_Berry"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Krydret_og_sødmefull"/>
+        <Literal>Krydret_og_sødmefull</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Lam_og_sau"/>
+        <Literal>Lam_og_sau</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Lyst_kjøtt"/>
+        <Literal>Lyst_kjøtt</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Alkoholinnhold"/>
@@ -5401,6 +5461,36 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2013</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Ost"/>
+        <Literal>Ost</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Skalldyr"/>
+        <Literal>Skalldyr</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Småvilt"/>
+        <Literal>Småvilt</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Storfe"/>
+        <Literal>Storfe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Storvilt"/>
+        <Literal>Storvilt</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Svin"/>
+        <Literal>Svin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#Alkoholinnhold"/>
         <NamedIndividual IRI="#Tsantali_Ouzo"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">38</Literal>
@@ -5429,6 +5519,11 @@
         <DataProperty IRI="#Varenummer"/>
         <NamedIndividual IRI="#Tsantali_Ouzo"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">689101</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Utviklet_og_nyansert"/>
+        <Literal>Utviklet_og_nyansert</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Alkoholinnhold"/>
@@ -5479,6 +5574,11 @@
         <DataProperty IRI="#Lagring"/>
         <NamedIndividual IRI="#Ægir_Heidrun_Vikingmjød"/>
         <Literal>Drikkeklar nå, men kan også lagres</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Ægir_Heidrun_Vikingmjød"/>
+        <Literal>Ægir Heidrun Vikingmjød</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Pris"/>
