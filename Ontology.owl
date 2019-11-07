@@ -82,7 +82,10 @@
         <Class IRI="#Anis"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Annet"/>
+        <Class IRI="#Annen_Brennevin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Annen_Sterkvin"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Ansonica"/>
@@ -445,6 +448,9 @@
         <Class IRI="#Dolcetto"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Domaine_du_Dragon"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Dominio_de_Tares"/>
     </Declaration>
     <Declaration>
@@ -544,6 +550,9 @@
         <Class IRI="#Friulano_Tai"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Friuli-Venezia_Giulia"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Frontignan"/>
     </Declaration>
     <Declaration>
@@ -611,6 +620,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Grauburgunder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gravner"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Grecanico"/>
@@ -1777,7 +1789,7 @@
         <Class IRI="#Østerrike"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Øvrige"/>
+        <Class IRI="#Øvrige_Frankrike"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Øvrige_Spania"/>
@@ -1897,6 +1909,9 @@
         <NamedIndividual IRI="#Dessert"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Dom._de_Dragon_Castrum"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Dominio_de_Tares_Baltos_2014"/>
     </Declaration>
     <Declaration>
@@ -1922,6 +1937,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Gosnells_Citra_Sea_Mead"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gravner_Ribolla"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Grønnsaker"/>
@@ -1951,6 +1969,9 @@
         <NamedIndividual IRI="#Pierre_Ponnelle_Mercurey_2016"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Saftig_og_frisk"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Skalldyr"/>
     </Declaration>
     <Declaration>
@@ -1967,6 +1988,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Tsantali_Ouzo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tull"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Utviklet_og_nyansert"/>
@@ -2084,11 +2108,11 @@
         <Class IRI="#Smak/Krydder"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Annet"/>
+        <Class IRI="#Annen_Brennevin"/>
         <Class IRI="#Brennevin"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Annet"/>
+        <Class IRI="#Annen_Sterkvin"/>
         <Class IRI="#Sterkvin"/>
     </SubClassOf>
     <SubClassOf>
@@ -2593,6 +2617,17 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Domaine_du_Dragon"/>
+        <Class IRI="#Produsent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Domaine_du_Dragon"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#locatedIn"/>
+            <Class IRI="#Provence"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Dominio_de_Tares"/>
         <Class IRI="#Produsent"/>
     </SubClassOf>
@@ -2739,6 +2774,10 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Friuli-Venezia_Giulia"/>
+        <Class IRI="#Italia"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Frontignan"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -2836,6 +2875,17 @@
     <SubClassOf>
         <Class IRI="#Grauburgunder"/>
         <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gravner"/>
+        <Class IRI="#Produsent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gravner"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#locatedIn"/>
+            <Class IRI="#Friuli-Venezia_Giulia"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Grecanico"/>
@@ -4408,7 +4458,7 @@
         <Class IRI="#Europa"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Øvrige"/>
+        <Class IRI="#Øvrige_Frankrike"/>
         <Class IRI="#Frankrike"/>
     </SubClassOf>
     <SubClassOf>
@@ -4491,7 +4541,21 @@
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Akevitt"/>
-        <Class IRI="#Annet"/>
+        <Class IRI="#Annen_Brennevin"/>
+        <Class IRI="#Bitter"/>
+        <Class IRI="#Druebrennevin"/>
+        <Class IRI="#Fruktbrennevin"/>
+        <Class IRI="#Genever"/>
+        <Class IRI="#Gin"/>
+        <Class IRI="#Likør"/>
+        <Class IRI="#Nøytralt"/>
+        <Class IRI="#Rom"/>
+        <Class IRI="#Vodka"/>
+        <Class IRI="#Whisky"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Akevitt"/>
+        <Class IRI="#Annen_Sterkvin"/>
         <Class IRI="#Bitter"/>
         <Class IRI="#Druebrennevin"/>
         <Class IRI="#Fruktbrennevin"/>
@@ -4524,10 +4588,10 @@
         <Class IRI="#Rhône_nord"/>
         <Class IRI="#Savoie"/>
         <Class IRI="#Sørvest"/>
-        <Class IRI="#Øvrige"/>
+        <Class IRI="#Øvrige_Frankrike"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Annet"/>
+        <Class IRI="#Annen_Sterkvin"/>
         <Class IRI="#Madeira"/>
         <Class IRI="#Portvin"/>
         <Class IRI="#Sherry"/>
@@ -4667,6 +4731,14 @@
         <NamedIndividual IRI="#Dessert"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Domaine_du_Dragon"/>
+        <NamedIndividual IRI="#Dom._de_Dragon_Castrum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hvitvin"/>
+        <NamedIndividual IRI="#Dom._de_Dragon_Castrum"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Dominio_de_Tares"/>
         <NamedIndividual IRI="#Dominio_de_Tares_Baltos_2014"/>
     </ClassAssertion>
@@ -4725,6 +4797,14 @@
     <ClassAssertion>
         <Class IRI="#Gosnells_Beverages_Ltd"/>
         <NamedIndividual IRI="#Gosnells_Citra_Sea_Mead"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gravner"/>
+        <NamedIndividual IRI="#Gravner_Ribolla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hvitvin"/>
+        <NamedIndividual IRI="#Gravner_Ribolla"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Vegetar"/>
@@ -4835,7 +4915,7 @@
         <NamedIndividual IRI="#Tsantali_Ouzo"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Annet"/>
+        <Class IRI="#Annen_Brennevin"/>
         <NamedIndividual IRI="#Tsantali_Ouzo"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -4853,6 +4933,14 @@
     <ClassAssertion>
         <Class IRI="#Korn/stivelse/sukker"/>
         <NamedIndividual IRI="#Tsantali_Ouzo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Alta_Alella"/>
+        <NamedIndividual IRI="#Tull"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hvitvin"/>
+        <NamedIndividual IRI="#Tull"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Smak_og_Aroma"/>
@@ -4934,6 +5022,26 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#harSmakogAroma"/>
+        <NamedIndividual IRI="#Dom._de_Dragon_Castrum"/>
+        <NamedIndividual IRI="#Saftig_og_frisk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Dom._de_Dragon_Castrum"/>
+        <NamedIndividual IRI="#Fisk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Dom._de_Dragon_Castrum"/>
+        <NamedIndividual IRI="#Lyst_kjøtt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Dom._de_Dragon_Castrum"/>
+        <NamedIndividual IRI="#Småvilt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#harSmakogAroma"/>
         <NamedIndividual IRI="#Dominio_de_Tares_Baltos_2014"/>
         <NamedIndividual IRI="#Fast_og_fruktig"/>
     </ObjectPropertyAssertion>
@@ -4991,6 +5099,21 @@
         <ObjectProperty IRI="#passerTil"/>
         <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
         <NamedIndividual IRI="#Skalldyr"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#harSmakogAroma"/>
+        <NamedIndividual IRI="#Gravner_Ribolla"/>
+        <NamedIndividual IRI="#Utviklet_og_nyansert"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Gravner_Ribolla"/>
+        <NamedIndividual IRI="#Ost"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Gravner_Ribolla"/>
+        <NamedIndividual IRI="#Småvilt"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#passerTil"/>
@@ -5051,6 +5174,41 @@
         <ObjectProperty IRI="#passerTil"/>
         <NamedIndividual IRI="#Pierre_Ponnelle_Mercurey_2016"/>
         <NamedIndividual IRI="#Svin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#harSmakogAroma"/>
+        <NamedIndividual IRI="#Tull"/>
+        <NamedIndividual IRI="#Frisk_og_fruktig"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Tull"/>
+        <NamedIndividual IRI="#Småvilt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Tull"/>
+        <NamedIndividual IRI="#Storfe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Tull"/>
+        <NamedIndividual IRI="#Storvilt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Utviklet_og_nyansert"/>
+        <NamedIndividual IRI="#Fisk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Utviklet_og_nyansert"/>
+        <NamedIndividual IRI="#Lyst_kjøtt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Utviklet_og_nyansert"/>
+        <NamedIndividual IRI="#Småvilt"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#passerTil"/>
@@ -5241,6 +5399,66 @@
         <DataProperty IRI="#Navn"/>
         <NamedIndividual IRI="#Dessert"/>
         <Literal>Dessert</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Alkoholinnhold"/>
+        <NamedIndividual IRI="#Dom._de_Dragon_Castrum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Friskhet"/>
+        <NamedIndividual IRI="#Dom._de_Dragon_Castrum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Fylde"/>
+        <NamedIndividual IRI="#Dom._de_Dragon_Castrum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Lagring"/>
+        <NamedIndividual IRI="#Dom._de_Dragon_Castrum"/>
+        <Literal>Drikkeklar nå, men kan også lagres</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Dom._de_Dragon_Castrum"/>
+        <Literal>Dom. de Dragon Castrum</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Pris"/>
+        <NamedIndividual IRI="#Dom._de_Dragon_Castrum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">220.90</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sukker"/>
+        <NamedIndividual IRI="#Dom._de_Dragon_Castrum"/>
+        <Literal>&lt;3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Syre"/>
+        <NamedIndividual IRI="#Dom._de_Dragon_Castrum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sødme"/>
+        <NamedIndividual IRI="#Dom._de_Dragon_Castrum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Varenummer"/>
+        <NamedIndividual IRI="#Dom._de_Dragon_Castrum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10123101</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Volum"/>
+        <NamedIndividual IRI="#Dom._de_Dragon_Castrum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">75</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Årgang"/>
+        <NamedIndividual IRI="#Dom._de_Dragon_Castrum"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2015</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Alkoholinnhold"/>
@@ -5468,6 +5686,66 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">33</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#Alkoholinnhold"/>
+        <NamedIndividual IRI="#Gravner_Ribolla"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">14.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Friskhet"/>
+        <NamedIndividual IRI="#Gravner_Ribolla"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Fylde"/>
+        <NamedIndividual IRI="#Gravner_Ribolla"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Lagring"/>
+        <NamedIndividual IRI="#Gravner_Ribolla"/>
+        <Literal>Drikkeklar nå, men kan også lagres.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Gravner_Ribolla"/>
+        <Literal>Gravner Ribolla</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Pris"/>
+        <NamedIndividual IRI="#Gravner_Ribolla"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">699.90</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sukker"/>
+        <NamedIndividual IRI="#Gravner_Ribolla"/>
+        <Literal>&lt;3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Syre"/>
+        <NamedIndividual IRI="#Gravner_Ribolla"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sødme"/>
+        <NamedIndividual IRI="#Gravner_Ribolla"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Varenummer"/>
+        <NamedIndividual IRI="#Gravner_Ribolla"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8301401</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Volum"/>
+        <NamedIndividual IRI="#Gravner_Ribolla"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">75</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Årgang"/>
+        <NamedIndividual IRI="#Gravner_Ribolla"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2008</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#Navn"/>
         <NamedIndividual IRI="#Grønnsaker"/>
         <Literal>Grønnsaker</Literal>
@@ -5678,24 +5956,19 @@
         <Literal>&lt;3</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#Syre"/>
-        <NamedIndividual IRI="#Pierre_Ponnelle_Mercurey_2016"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
         <DataProperty IRI="#Varenummer"/>
         <NamedIndividual IRI="#Pierre_Ponnelle_Mercurey_2016"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1096901</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#Volum"/>
-        <NamedIndividual IRI="#Pierre_Ponnelle_Mercurey_2016"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">75</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
         <DataProperty IRI="#Årgang"/>
         <NamedIndividual IRI="#Pierre_Ponnelle_Mercurey_2016"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2016</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Saftig_og_frisk"/>
+        <Literal>Saftig_og_frisk</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Navn"/>
@@ -5738,11 +6011,6 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">344.90</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#Pris"/>
-        <NamedIndividual IRI="#Tsantali_Ouzo"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">70</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
         <DataProperty IRI="#Sukker"/>
         <NamedIndividual IRI="#Tsantali_Ouzo"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">30.3</Literal>
@@ -5751,6 +6019,21 @@
         <DataProperty IRI="#Varenummer"/>
         <NamedIndividual IRI="#Tsantali_Ouzo"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">689101</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Volum"/>
+        <NamedIndividual IRI="#Tsantali_Ouzo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">70</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Tull"/>
+        <Literal>Tull</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Pris"/>
+        <NamedIndividual IRI="#Tull"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Navn"/>
