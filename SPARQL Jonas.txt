@@ -1,69 +1,69 @@
+
+
+
+PREFIX vm: <http://www.semanticweb.org/Info116/ontologies/2019/9/Vinmonopolet#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
 What fruity red spanish wines could be served with beef.
 
-
-PREFIX vinmonopolet: <ontologienvår>
-PREFIX rdf http://www.w3.org/2000/01/rdf-schema#
-
-
-SELECT ?navn
-WHERE {
-	?vin vinmonopolet:navn ?navn
-	?vin rdf:type rødvin
-	?vin vinmonopolet:harSmakogAroma Fast_og_fruktig
-	?vin vinmonopolet:passerTil Storfe
-	?vin rdf:type ?produsent
-	?produsent vinmonopolet:locatedIn ?region
-	?region rdfs:subClassOf Spania
-
-}
-UNION
-{
-?vin vinmonopolet:navn ?navn
-	?vin rdf:type rødvin
-	?vin vinmonopolet:harSmakogAroma Fat_og_frukt,Frisk_og_fruktig
-	?vin vinmonopolet:passerTil Storfe
-	?vin rdf:type ?produsent
-	?produsent vinmonopolet:locatedIn ?region
-	?region rdfs:subClassOf Spania
-}
-UNION
-{
-?vin vinmonopolet:navn ?navn
-	?vin rdf:type rødvin
-	?vin vinmonopolet:harSmakogAroma Frisk_og_fruktig
-	?vin vinmonopolet:passerTil Storfe
-	?vin rdf:type ?produsent
-	?produsent vinmonopolet:locatedIn ?region
-	?region rdfs:subClassOf Spania
-}
-
-Is there a white wine with cost 500-1000NOK, that is paired well to a venison dinner. 
-
-PREFIX vinmonopolet: <ontologienvår>
-
-SELECT ?navn
-WHERE {
-	?vin vinmonopolet:navn ?navn
-	?vin rdf:type hvitvin
-	?vin vinmonopolet:passerTil storvilt
-	?vin vinmonopolet:pris ?pris
-	FILTER (?pris >500 AND ?pris<1000)
+SELECT ?vin ?navn ?SmakogAroma ?mat ?produsent ?region ?land ?Produkttype
+	WHERE { ?vin vm:Navn ?navn . 
+	?vin vm:harSmakogAroma ?SmakogAroma.
+	?SmakogAroma vm:Navn ?SmakogAromanavn.
+	?vin vm:passerTil ?mat.
+	?mat vm:Navn ?matnavn.
+	?vin rdf:type ?produsent.
+	?produsent rdfs:subClassOf ?location.
+	?location owl:allValuesFrom ?region.
+	?region rdfs:subClassOf  vm:Spania.
+	?region rdfs:subClassOf ?land.
+	?vin rdf:type ?Produkttype.
+	?vin rdf:type vm:Rødvin.
+	?Produkttype rdfs:subClassOf vm:Vin.
+	FILTER(regex(?matnavn, "Storfe","i")).
+	FILTER(regex(?SmakogAromanavn, "Frisk_og_fruktig","i")).
 }
 
 
-What is the name and price of the cheapest bottle of any alcoholic drink with more than 40% alcohol and has a volume of 50cl or more.
 
 
-PREFIX vinmonopolet: <ontologienvår>
-SELECT ?navn ?pris
-WHERE {
-	?bottle vinmonopolet:navn ?navn
-	?bottle rdf:type  vinmonopolet
-	?bottle vinmonopolet:Pris ?pris
-	?bottle vinmonopolet:Alkoholinnhold ?alkoholprosent
-	?bottle vinmonopolet:Volum ?volum
-	FILTER (?alkoholprosent > 40)
-	FILTER (?Volum >= 50)
+Frisk_og_fruktig,Fat_og_frukt,Fast_og_fruktig
+
+
+Is there a white wine with cost less than 500NOK that is paired well to a grouse dinner. 
+
+PREFIX vm: <ontologienvår>
+
+SELECT ?vin ?navn ?mat ?Produkttype ?pris
+	WHERE { ?vin vm:Navn ?navn . 
+	?vin vm:passerTil ?mat.
+	?mat vm:Navn ?matnavn.
+	?vin rdf:type ?Produkttype.
+	?vin rdf:type vm:Hvitvin.
+	?Produkttype rdfs:subClassOf vm:Vin.
+	?vin vm:Pris ?pris
+	FILTER(regex(?matnavn, "Småvilt","i")).
+	FILTER(?pris <500).
+
+}
+
+
+What is the name and price of the cheapest bottle of Brennevin with more than 40% alcohol and has a volume of 50cl or more.
+
+
+SELECT ?bottle ?navn  ?Produkttype ?pris ?volum ?alkoholprosent
+	WHERE { 
+	?bottle vm:Navn ?navn . 
+	?bottle rdf:type ?Produkttype.
+	?Produkttype rdfs:subClassOf vm:Brennevin.
+	?bottle vm:Pris ?pris.
+	?bottle vm:Volum ?volum.
+	?bottle vm:Alkoholinnhold ?alkoholprosent.
+	FILTER(?alkoholprosent >40).
+	FILTER(?volum >= 50).
 
 }
 ORDER BY ?pris
@@ -74,18 +74,18 @@ LIMIT 1
 Hvilket fransk vindistrikt lager mest rødvin?
 
 
-PREFIX vinmonopolet: <ontologienvår>
+PREFIX vm: <ontologienvår>
 PREFIX rdf http://www.w3.org/2000/01/rdf-schema#
 
 SELECT ?region COUNT(?vin)
 WHERE {
-	?vin rdf:type rødvin
-	?vin rdf:type produsent
-	?produsent vinmonopolet:locatedIn ?region
-	?region rdfs:subClassOf Frankrike
+	?vin rdf:type vm:Rødvin.
+	?vin rdf:type produsent.
+	?produsent vm:locatedIn ?region.
+	?region rdfs:subClassOf vm:Frankrike.
 }
 GROUP BY ?region
-ORDER BY COUNT(?vin) ---Distinct
+ORDER BY COUNT(?vin)
 LIMIT 1
 	
 
