@@ -10,7 +10,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 What fruity red spanish wines could be served with beef.
 
 SELECT ?vin ?navn ?SmakogAroma ?mat ?produsent ?region ?land ?Produkttype
-	WHERE { ?vin vm:Navn ?navn . 
+WHERE { 
+	{
+	?vin vm:Navn ?navn. 
 	?vin vm:harSmakogAroma ?SmakogAroma.
 	?SmakogAroma vm:Navn ?SmakogAromanavn.
 	?vin vm:passerTil ?mat.
@@ -25,6 +27,45 @@ SELECT ?vin ?navn ?SmakogAroma ?mat ?produsent ?region ?land ?Produkttype
 	?Produkttype rdfs:subClassOf vm:Vin.
 	FILTER(regex(?matnavn, "Storfe","i")).
 	FILTER(regex(?SmakogAromanavn, "Frisk_og_fruktig","i")).
+	}
+	UNION
+	{
+	?vin vm:Navn ?navn. 
+	?vin vm:harSmakogAroma ?SmakogAroma.
+	?SmakogAroma vm:Navn ?SmakogAromanavn.
+	?vin vm:passerTil ?mat.
+	?mat vm:Navn ?matnavn.
+	?vin rdf:type ?produsent.
+	?produsent rdfs:subClassOf ?location.
+	?location owl:allValuesFrom ?region.
+	?region rdfs:subClassOf  vm:Spania.
+	?region rdfs:subClassOf ?land.
+	?vin rdf:type ?Produkttype.
+	?vin rdf:type vm:Rødvin.
+	?Produkttype rdfs:subClassOf vm:Vin.
+	FILTER(regex(?matnavn, "Storfe","i")).
+	FILTER(regex(?SmakogAromanavn, "Fast_og_fruktig","i")).
+	}
+	UNION
+	{
+	?vin vm:Navn ?navn. 
+	?vin vm:harSmakogAroma ?SmakogAroma.
+	?SmakogAroma vm:Navn ?SmakogAromanavn.
+	?vin vm:passerTil ?mat.
+	?mat vm:Navn ?matnavn.
+	?vin rdf:type ?produsent.
+	?produsent rdfs:subClassOf ?location.
+	?location owl:allValuesFrom ?region.
+	?region rdfs:subClassOf  vm:Spania.
+	?region rdfs:subClassOf ?land.
+	?vin rdf:type ?Produkttype.
+	?vin rdf:type vm:Rødvin.
+	?Produkttype rdfs:subClassOf vm:Vin.
+	FILTER(regex(?matnavn, "Storfe","i")).
+	FILTER(regex(?SmakogAromanavn, "Fat_og_frukt","i")).
+	}
+	
+	
 }
 
 
@@ -71,23 +112,176 @@ LIMIT 1
 	
 	
 
-Hvilket fransk vindistrikt lager mest rødvin?
+Hvilke tre vindistrikt i ett gitt land(f.eks. Spania) lager mest rødvin?
 
 
-PREFIX vm: <ontologienvår>
-PREFIX rdf http://www.w3.org/2000/01/rdf-schema#
-
-SELECT ?region COUNT(?vin)
+SELECT ?region (COUNT(DISTINCT ?vin) as ?vincount)
 WHERE {
+	?vin vm:Navn ?navn.
+	?vin rdf:type ?Produkttype.
 	?vin rdf:type vm:Rødvin.
-	?vin rdf:type produsent.
-	?produsent vm:locatedIn ?region.
-	?region rdfs:subClassOf vm:Frankrike.
+	?vin rdf:type ?produsent.
+	?produsent rdfs:subClassOf ?location.
+	?location owl:allValuesFrom ?region.
+	?region rdfs:subClassOf  vm:Spania.
 }
 GROUP BY ?region
-ORDER BY COUNT(?vin)
+ORDER BY DESC(?vincount )
+LIMIT 3
+	
+
+
+
+
+ADGØAKGNØAKDGØAN GDØKA
+NUMMER TO
+
+
+
+
+PREFIX vm: <http://www.semanticweb.org/Info116/ontologies/2019/9/Vinmonopolet#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+What fruity red spanish wines could be served with beef.
+
+SELECT ?vin ?navn ?SmakogAroma ?mat ?produsent ?region ?land ?Produkttype
+WHERE { 
+	{
+	?vin vm:Navn ?navn. 
+	?vin vm:harSmakogAroma ?SmakogAroma.
+	?SmakogAroma vm:Navn ?SmakogAromanavn.
+	?vin vm:passerTil ?mat.
+	?mat vm:Navn ?matnavn.
+	?vin rdf:type ?produsent.
+	?produsent rdfs:subClassOf ?location.
+	?location owl:allValuesFrom ?region.
+	?region rdfs:subClassOf  vm:Spania.
+	?region rdfs:subClassOf ?land.
+	?vin rdf:type ?Produkttype.
+	?vin rdf:type vm:Rødvin.
+	?Produkttype rdfs:subClassOf vm:Vin.
+	FILTER(regex(?matnavn, "Storfe","i")).
+	FILTER(regex(?SmakogAromanavn, "Frisk_og_fruktig","i")).
+	}
+	UNION
+	{
+	?vin vm:Navn ?navn. 
+	?vin vm:harSmakogAroma ?SmakogAroma.
+	?SmakogAroma vm:Navn ?SmakogAromanavn.
+	?vin vm:passerTil ?mat.
+	?mat vm:Navn ?matnavn.
+	?vin rdf:type ?produsent.
+	?produsent rdfs:subClassOf ?location.
+	?location owl:allValuesFrom ?region.
+	?region rdfs:subClassOf  vm:Spania.
+	?region rdfs:subClassOf ?land.
+	?vin rdf:type ?Produkttype.
+	?vin rdf:type vm:Rødvin.
+	?Produkttype rdfs:subClassOf vm:Vin.
+	FILTER(regex(?matnavn, "Storfe","i")).
+	FILTER(regex(?SmakogAromanavn, "Fast_og_fruktig","i")).
+	}
+	UNION
+	{
+	?vin vm:Navn ?navn. 
+	?vin vm:harSmakogAroma ?SmakogAroma.
+	?SmakogAroma vm:Navn ?SmakogAromanavn.
+	?vin vm:passerTil ?mat.
+	?mat vm:Navn ?matnavn.
+	?vin rdf:type ?produsent.
+	?produsent rdfs:subClassOf ?location.
+	?location owl:allValuesFrom ?region.
+	?region rdfs:subClassOf  vm:Spania.
+	?region rdfs:subClassOf ?land.
+	?vin rdf:type ?Produkttype.
+	?vin rdf:type vm:Rødvin.
+	?Produkttype rdfs:subClassOf vm:Vin.
+	FILTER(regex(?matnavn, "Storfe","i")).
+	FILTER(regex(?SmakogAromanavn, "Fat_og_frukt","i")).
+	}
+	
+	
+}
+
+
+
+
+Frisk_og_fruktig,Fat_og_frukt,Fast_og_fruktig
+
+
+Is there a white wine with cost less than 500NOK that is paired well to a grouse dinner. 
+
+PREFIX vm: <ontologienvår>
+
+SELECT ?vin ?navn ?mat ?Produkttype ?pris
+	WHERE { ?vin vm:Navn ?navn . 
+	?vin vm:passerTil ?mat.
+	?mat vm:Navn ?matnavn.
+	?vin rdf:type ?Produkttype.
+	?vin rdf:type vm:Hvitvin.
+	?Produkttype rdfs:subClassOf vm:Vin.
+	?vin vm:Pris ?pris
+	FILTER(regex(?matnavn, "Småvilt","i")).
+	FILTER(?pris <500).
+
+}
+
+
+What is the name and price of the cheapest bottle of Brennevin with more than 40% alcohol and has a volume of 50cl or more.
+
+
+SELECT ?bottle ?navn  ?Produkttype ?pris ?volum ?alkoholprosent
+	WHERE { 
+	?bottle vm:Navn ?navn . 
+	?bottle rdf:type ?Produkttype.
+	?Produkttype rdfs:subClassOf vm:Brennevin.
+	?bottle vm:Pris ?pris.
+	?bottle vm:Volum ?volum.
+	?bottle vm:Alkoholinnhold ?alkoholprosent.
+	FILTER(?alkoholprosent >40).
+	FILTER(?volum >= 50).
+
+}
+ORDER BY ?pris
 LIMIT 1
 	
+	
+
+Hvilke tre vindistrikt i ett gitt land(f.eks. Spania) lager mest rødvin?
+
+
+SELECT ?region (COUNT(DISTINCT ?vin) as ?vincount)
+WHERE {
+	?vin vm:Navn ?navn.
+	?vin rdf:type ?Produkttype.
+	?vin rdf:type vm:Rødvin.
+	?vin rdf:type ?produsent.
+	?produsent rdfs:subClassOf ?location.
+	?location owl:allValuesFrom ?region.
+	?region rdfs:subClassOf  vm:Spania.
+}
+GROUP BY ?region
+ORDER BY DESC(?vincount )
+LIMIT 3
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
