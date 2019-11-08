@@ -94,6 +94,9 @@
         <Class IRI="#Antao_Vaz"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Appelsinskall"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Aprikos"/>
     </Declaration>
     <Declaration>
@@ -188,6 +191,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Boblevin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bod._y_Viñedos_Neo"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Bogazkere"/>
@@ -472,6 +478,9 @@
         <Class IRI="#EU"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Einer"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Elbling"/>
     </Declaration>
     <Declaration>
@@ -692,6 +701,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Hárslevelu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ian_MacLeod_Dist."/>
     </Declaration>
     <Declaration>
         <Class IRI="#Incrocio_Manzoni"/>
@@ -1423,6 +1435,9 @@
         <Class IRI="#Silvaner"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Sitronskall"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Sjømat"/>
     </Declaration>
     <Declaration>
@@ -1789,7 +1804,13 @@
         <Class IRI="#Østerrike"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Øvrige_England"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Øvrige_Frankrike"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Øvrige_Italia"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Øvrige_Spania"/>
@@ -1957,6 +1978,9 @@
         <NamedIndividual IRI="#Lam_og_sau"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#London_Hill_Dry_Gin"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Lyst_kjøtt"/>
     </Declaration>
     <Declaration>
@@ -1970,6 +1994,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Saftig_og_frisk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sentido_2014"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Skalldyr"/>
@@ -2124,6 +2151,10 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Appelsinskall"/>
+        <Class IRI="#Smak/Krydder"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Aprikos"/>
         <Class IRI="#Frukt"/>
     </SubClassOf>
@@ -2250,6 +2281,17 @@
     <SubClassOf>
         <Class IRI="#Boblevin"/>
         <Class IRI="#Vin"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bod._y_Viñedos_Neo"/>
+        <Class IRI="#Produsent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bod._y_Viñedos_Neo"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#locatedIn"/>
+            <Class IRI="#Castilla_y_León"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Bogazkere"/>
@@ -2670,6 +2712,10 @@
         <Class IRI="#Europa"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Einer"/>
+        <Class IRI="#Smak/Krydder"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Elbling"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -2978,6 +3024,17 @@
     <SubClassOf>
         <Class IRI="#Hárslevelu"/>
         <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ian_MacLeod_Dist."/>
+        <Class IRI="#Produsent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ian_MacLeod_Dist."/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#locatedIn"/>
+            <Class IRI="#Øvrige_England"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Incrocio_Manzoni"/>
@@ -3957,6 +4014,10 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Sitronskall"/>
+        <Class IRI="#Smak/Krydder"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Sjømat"/>
         <Class IRI="#Mat"/>
     </SubClassOf>
@@ -4458,8 +4519,16 @@
         <Class IRI="#Europa"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Øvrige_England"/>
+        <Class IRI="#England"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Øvrige_Frankrike"/>
         <Class IRI="#Frankrike"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Øvrige_Italia"/>
+        <Class IRI="#Italia"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Øvrige_Spania"/>
@@ -4851,6 +4920,34 @@
         <NamedIndividual IRI="#Lam_og_sau"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Angelica"/>
+        <NamedIndividual IRI="#London_Hill_Dry_Gin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Appelsinskall"/>
+        <NamedIndividual IRI="#London_Hill_Dry_Gin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Einer"/>
+        <NamedIndividual IRI="#London_Hill_Dry_Gin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gin"/>
+        <NamedIndividual IRI="#London_Hill_Dry_Gin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ian_MacLeod_Dist."/>
+        <NamedIndividual IRI="#London_Hill_Dry_Gin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Koreander"/>
+        <NamedIndividual IRI="#London_Hill_Dry_Gin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sitronskall"/>
+        <NamedIndividual IRI="#London_Hill_Dry_Gin"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Kjøtt"/>
         <NamedIndividual IRI="#Lyst_kjøtt"/>
     </ClassAssertion>
@@ -4885,6 +4982,18 @@
     <ClassAssertion>
         <Class IRI="#Rødvin"/>
         <NamedIndividual IRI="#Pierre_Ponnelle_Mercurey_2016"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bod._y_Viñedos_Neo"/>
+        <NamedIndividual IRI="#Sentido_2014"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rødvin"/>
+        <NamedIndividual IRI="#Sentido_2014"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tempranillo_Tinto_del_Pais"/>
+        <NamedIndividual IRI="#Sentido_2014"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Sjømat"/>
@@ -5174,6 +5283,26 @@
         <ObjectProperty IRI="#passerTil"/>
         <NamedIndividual IRI="#Pierre_Ponnelle_Mercurey_2016"/>
         <NamedIndividual IRI="#Svin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#harSmakogAroma"/>
+        <NamedIndividual IRI="#Sentido_2014"/>
+        <NamedIndividual IRI="#Krydret_og_sødmefull"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Sentido_2014"/>
+        <NamedIndividual IRI="#Småvilt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Sentido_2014"/>
+        <NamedIndividual IRI="#Storfe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Sentido_2014"/>
+        <NamedIndividual IRI="#Storvilt"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#harSmakogAroma"/>
@@ -5846,6 +5975,31 @@
         <Literal>Lam_og_sau</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#Alkoholinnhold"/>
+        <NamedIndividual IRI="#London_Hill_Dry_Gin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#London_Hill_Dry_Gin"/>
+        <Literal>London Hill Dry Gin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Pris"/>
+        <NamedIndividual IRI="#London_Hill_Dry_Gin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">369.90</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Varenummer"/>
+        <NamedIndividual IRI="#London_Hill_Dry_Gin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">756501</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Volum"/>
+        <NamedIndividual IRI="#London_Hill_Dry_Gin"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">70</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#Navn"/>
         <NamedIndividual IRI="#Lyst_kjøtt"/>
         <Literal>Lyst_kjøtt</Literal>
@@ -5969,6 +6123,66 @@
         <DataProperty IRI="#Navn"/>
         <NamedIndividual IRI="#Saftig_og_frisk"/>
         <Literal>Saftig_og_frisk</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Alkoholinnhold"/>
+        <NamedIndividual IRI="#Sentido_2014"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Friskhet"/>
+        <NamedIndividual IRI="#Sentido_2014"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Fylde"/>
+        <NamedIndividual IRI="#Sentido_2014"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Garvestoff"/>
+        <NamedIndividual IRI="#Sentido_2014"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Lagring"/>
+        <NamedIndividual IRI="#Sentido_2014"/>
+        <Literal>Drikkeklar nå, men kan også lagres</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Sentido_2014"/>
+        <Literal>Sentido 2014</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Pris"/>
+        <NamedIndividual IRI="#Sentido_2014"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">216.90</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sukker"/>
+        <NamedIndividual IRI="#Sentido_2014"/>
+        <Literal>&lt;3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Syre"/>
+        <NamedIndividual IRI="#Sentido_2014"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Varenummer"/>
+        <NamedIndividual IRI="#Sentido_2014"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9391701</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Volum"/>
+        <NamedIndividual IRI="#Sentido_2014"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">75</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Årgang"/>
+        <NamedIndividual IRI="#Sentido_2014"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2014</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Navn"/>
