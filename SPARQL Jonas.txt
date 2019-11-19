@@ -103,7 +103,7 @@ SELECT ?bottle ?navn  ?Produkttype ?pris ?volum ?alkoholprosent
 	?bottle vm:Pris ?pris.
 	?bottle vm:Volum ?volum.
 	?bottle vm:Alkoholinnhold ?alkoholprosent.
-	FILTER(?alkoholprosent >40).
+	FILTER(?alkoholprosent >=40).
 	FILTER(?volum >= 50).
 
 }

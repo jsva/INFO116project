@@ -58,16 +58,16 @@
 
 
 <script type="application/ld+json">
+	[
 	{
 		"@context": {
 		"AdministrativeArea" : "http://schema.org/AdministrativeArea",
 		"Country": "http://schema.org/Country",
 		"ContainsPlace" : "http://schema.org/containsPlace",
-		"Product" : "http://schema.org/Product",
 		"name" : "http://schema.org/name",
 		"Vinmonopolet": "http://www.semanticweb.org/Info116/ontologies/2019/9/Vinmonopolet"
 		},
-
+		"@id" : "http://www.semanticweb.org/Info116/ontologies/2019/9/Vinmonopolet#Frankrike",
 		"@type" : "Country","name" : "Frankrike",
 		"ContainsPlace": [
 			{"@type":"AdministrativeArea" ,"name": "Burgund"},
@@ -91,7 +91,17 @@
 			{"@type":"AdministrativeArea" ,"name": "Bretagne"},
 			{"@type":"AdministrativeArea" ,"name": "Normandie"},
 			{"@type":"AdministrativeArea" ,"name": "Korsika"}
-			],
+			]
+	},
+
+
+	{
+		"@context": {
+		"Product" : "http://schema.org/Product",
+		"name" : "http://schema.org/name",
+		"Vinmonopolet": "http://www.semanticweb.org/Info116/ontologies/2019/9/Vinmonopolet"
+		},
+		"@id" : "http://www.semanticweb.org/Info116/ontologies/2019/9/Vinmonopolet#Vinmonopolet",
 		"Product" : [
 		{"Vinmonopolet" : "Rødvin"},
 		{"Vinmonopolet" : "Hvitvin"},
@@ -104,6 +114,9 @@
 		{"Vinmonopolet" : "Sider"}
 		]
 	}
+]
+	
+
 </script>
 
 
@@ -1082,31 +1095,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 									<h2 class="category__headline">Varetyper fra Frankrike</h2>
 									<ul class="link-list">
 									<li>
-										<a href="/search?q=%3Arelevance%3AmainCountry%3Afrankrike%3AvisibleInSearch%3Atrue%3AmainCategory%3Ar%25C3%25B8dvin:country:frankrike" resource="#Frankrike"> <span typeof="vm:rødvin" property="Product">Rødvin</span>&nbsp;(3 661)</a>
+										<a href="/search?q=%3Arelevance%3AmainCountry%3Afrankrike%3AvisibleInSearch%3Atrue%3AmainCategory%3Ar%25C3%25B8dvin:country:frankrike" resource="http://www.semanticweb.org/Info116/ontologies/2019/9/Vinmonopolet#Vinmonopolet"> <span typeof="vm:rødvin" property="Product">Rødvin</span>&nbsp;(3 661)</a>
 										</li>
 									<li>
-										<a href="/search?q=%3Arelevance%3AmainCountry%3Afrankrike%3AvisibleInSearch%3Atrue%3AmainCategory%3Ahvitvin:country:frankrike" resource="#Frankrike"> <span typeof="vm:hvitvin" property="Product">Hvitvin&nbsp;(2 342)</a>
+										<a href="/search?q=%3Arelevance%3AmainCountry%3Afrankrike%3AvisibleInSearch%3Atrue%3AmainCategory%3Ahvitvin:country:frankrike" resource="http://www.semanticweb.org/Info116/ontologies/2019/9/Vinmonopolet#Vinmonopolet"> <span typeof="vm:hvitvin" property="Product">Hvitvin&nbsp;(2 342)</a>
 										</li>
 									<li>
-										<a href="/search?q=%3Arelevance%3AmainCountry%3Afrankrike%3AvisibleInSearch%3Atrue%3AmainCategory%3Amusserende_vin:country:frankrike" resource="#Frankrike"> <span typeof="vm:Musserendevin" property="Product">Musserende vin</span>&nbsp;(1 026)</a>
+										<a href="/search?q=%3Arelevance%3AmainCountry%3Afrankrike%3AvisibleInSearch%3Atrue%3AmainCategory%3Amusserende_vin:country:frankrike" resource="http://www.semanticweb.org/Info116/ontologies/2019/9/Vinmonopolet#Vinmonopolet"> <span typeof="vm:Musserendevin" property="Product">Musserende vin</span>&nbsp;(1 026)</a>
 										</li>
 									<li>
-										<a href="/search?q=%3Arelevance%3AmainCountry%3Afrankrike%3AvisibleInSearch%3Atrue%3AmainCategory%3Abrennevin:country:frankrike" resource="#Frankrike"> <span typeof="vm:Brennevin" property="Product">Brennevin</span>&nbsp;(701)</a>
+										<a href="/search?q=%3Arelevance%3AmainCountry%3Afrankrike%3AvisibleInSearch%3Atrue%3AmainCategory%3Abrennevin:country:frankrike" resource="http://www.semanticweb.org/Info116/ontologies/2019/9/Vinmonopolet#Vinmonopolet"> <span typeof="vm:Brennevin" property="Product">Brennevin</span>&nbsp;(701)</a>
 										</li>
 									<li>
-										<a href="/search?q=%3Arelevance%3AmainCountry%3Afrankrike%3AvisibleInSearch%3Atrue%3AmainCategory%3Aros%25C3%25A9vin:country:frankrike" resource="#Frankrike"> <span typeof="vm:Rosevin" property="Product">Rosévin</span>&nbsp;(266)</a>
+										<a href="/search?q=%3Arelevance%3AmainCountry%3Afrankrike%3AvisibleInSearch%3Atrue%3AmainCategory%3Aros%25C3%25A9vin:country:frankrike" resource="http://www.semanticweb.org/Info116/ontologies/2019/9/Vinmonopolet#Vinmonopolet"> <span typeof="vm:Rosevin" property="Product">Rosévin</span>&nbsp;(266)</a>
 										</li>
 									<li>
-										<a href="/search?q=%3Arelevance%3AmainCountry%3Afrankrike%3AvisibleInSearch%3Atrue%3AmainCategory%3Asterkvin:country:frankrike" resource="#Frankrike"> <span typeof="vm:Sterkvin" property="Product">Sterkvin</span>&nbsp;(70)</a>
+										<a href="/search?q=%3Arelevance%3AmainCountry%3Afrankrike%3AvisibleInSearch%3Atrue%3AmainCategory%3Asterkvin:country:frankrike" resource="http://www.semanticweb.org/Info116/ontologies/2019/9/Vinmonopolet#Vinmonopolet"> <span typeof="vm:Sterkvin" property="Product">Sterkvin</span>&nbsp;(70)</a>
 										</li>
 									<li>
-										<a href="/search?q=%3Arelevance%3AmainCountry%3Afrankrike%3AvisibleInSearch%3Atrue%3AmainCategory%3A%25C3%25B8l:country:frankrike"resource="#Frankrike"> <span typeof="vm:Øl" property="Product">Øl</span>&nbsp;(26)</a>
+										<a href="/search?q=%3Arelevance%3AmainCountry%3Afrankrike%3AvisibleInSearch%3Atrue%3AmainCategory%3A%25C3%25B8l:country:frankrike"resource="http://www.semanticweb.org/Info116/ontologies/2019/9/Vinmonopolet#Vinmonopolet"> <span typeof="vm:Øl" property="Product">Øl</span>&nbsp;(26)</a>
 										</li>
 									<li>
-										<a href="/search?q=%3Arelevance%3AmainCountry%3Afrankrike%3AvisibleInSearch%3Atrue%3AmainCategory%3Aperlende_vin:country:frankrike" resource="#Frankrike"> <span typeof="vm:Perlendevin" property="Product">Perlende vin</span>&nbsp;(25)</a>
+										<a href="/search?q=%3Arelevance%3AmainCountry%3Afrankrike%3AvisibleInSearch%3Atrue%3AmainCategory%3Aperlende_vin:country:frankrike" resource="http://www.semanticweb.org/Info116/ontologies/2019/9/Vinmonopolet#Vinmonopolet"> <span typeof="vm:Perlendevin" property="Product">Perlende vin</span>&nbsp;(25)</a>
 										</li>
 									<li>
-										<a href="/search?q=%3Arelevance%3AmainCountry%3Afrankrike%3AvisibleInSearch%3Atrue%3AmainCategory%3Asider:country:frankrike" resource="#Frankrike"> <span typeof="vm:Sider" property="Product">Sider</span>&nbsp;(21)</a>
+										<a href="/search?q=%3Arelevance%3AmainCountry%3Afrankrike%3AvisibleInSearch%3Atrue%3AmainCategory%3Asider:country:frankrike" resource="http://www.semanticweb.org/Info116/ontologies/2019/9/Vinmonopolet#Vinmonopolet"> <span typeof="vm:Sider" property="Product">Sider</span>&nbsp;(21)</a>
 										</li>
 									<li>
 										<a href="/search?q=%3Arelevance%3AmainCountry%3Afrankrike%3AvisibleInSearch%3Atrue%3AmainCategory%3Aaromatisert_vin:country:frankrike"> Aromatisert vin&nbsp;(12)</a>
