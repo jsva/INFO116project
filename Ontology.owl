@@ -2017,9 +2017,6 @@
         <NamedIndividual IRI="#Tsantali_Ouzo"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Tull"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Utviklet_og_nyansert"/>
     </Declaration>
     <Declaration>
@@ -5044,14 +5041,6 @@
         <NamedIndividual IRI="#Tsantali_Ouzo"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Alta_Alella"/>
-        <NamedIndividual IRI="#Tull"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Hvitvin"/>
-        <NamedIndividual IRI="#Tull"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Smak_og_Aroma"/>
         <NamedIndividual IRI="#Utviklet_og_nyansert"/>
     </ClassAssertion>
@@ -5302,26 +5291,6 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#passerTil"/>
         <NamedIndividual IRI="#Sentido_2014"/>
-        <NamedIndividual IRI="#Storvilt"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#harSmakogAroma"/>
-        <NamedIndividual IRI="#Tull"/>
-        <NamedIndividual IRI="#Frisk_og_fruktig"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#passerTil"/>
-        <NamedIndividual IRI="#Tull"/>
-        <NamedIndividual IRI="#Småvilt"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#passerTil"/>
-        <NamedIndividual IRI="#Tull"/>
-        <NamedIndividual IRI="#Storfe"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#passerTil"/>
-        <NamedIndividual IRI="#Tull"/>
         <NamedIndividual IRI="#Storvilt"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -6238,16 +6207,6 @@
         <DataProperty IRI="#Volum"/>
         <NamedIndividual IRI="#Tsantali_Ouzo"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">70</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#Navn"/>
-        <NamedIndividual IRI="#Tull"/>
-        <Literal>Tull</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#Pris"/>
-        <NamedIndividual IRI="#Tull"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">600</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Navn"/>
