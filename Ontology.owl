@@ -1834,10 +1834,19 @@
         <Class IRI="#Øvrige_Frankrike"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Øvrige_Hellas"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Øvrige_Italia"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Øvrige_Japan"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Øvrige_Spania"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Øvrige_Tyskland"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Calabrese_Nero_d&apos;Avola"/>
@@ -2949,7 +2958,7 @@
         <Class IRI="#Gosnells_Beverages_Ltd"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#locatedIn"/>
-            <Class IRI="#England"/>
+            <Class IRI="#Øvrige_England"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3166,7 +3175,7 @@
         <Class IRI="#Kiuchi_Brewery"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#locatedIn"/>
-            <Class IRI="#Japan"/>
+            <Class IRI="#Øvrige_Japan"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3834,13 +3843,6 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Produsent"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#locatedIn"/>
-            <Class IRI="#Rioja"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Provence"/>
         <Class IRI="#Frankrike"/>
     </SubClassOf>
@@ -4398,7 +4400,7 @@
         <Class IRI="#Tsantalis"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#locatedIn"/>
-            <Class IRI="#Hellas"/>
+            <Class IRI="#Øvrige_Hellas"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4534,6 +4536,13 @@
         <Class IRI="#Produsent"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Vivanco"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#locatedIn"/>
+            <Class IRI="#Rioja"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Vodka"/>
         <Class IRI="#Brennevin"/>
     </SubClassOf>
@@ -4640,12 +4649,24 @@
         <Class IRI="#Frankrike"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Øvrige_Hellas"/>
+        <Class IRI="#Hellas"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Øvrige_Italia"/>
         <Class IRI="#Italia"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Øvrige_Japan"/>
+        <Class IRI="#Japan"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Øvrige_Spania"/>
         <Class IRI="#Spania"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Øvrige_Tyskland"/>
+        <Class IRI="#Tyskland"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Calabrese_Nero_d&apos;Avola"/>
@@ -4659,7 +4680,7 @@
         <Class IRI="#Katlenburger_Kellerei_GmbH_&amp;_C"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#locatedIn"/>
-            <Class IRI="#Tyskland"/>
+            <Class IRI="#Øvrige_Tyskland"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -5640,7 +5661,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#Lagring"/>
         <NamedIndividual IRI="#Alta_Alella_Merla_2017"/>
-        <Literal>Drikkeklar Nå men kan også lagres</Literal>
+        <Literal>Drikkeklar nå, men kan også lagres</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Navn"/>
@@ -5655,7 +5676,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#Sukker"/>
         <NamedIndividual IRI="#Alta_Alella_Merla_2017"/>
-        <Literal>&lt;3</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Syre"/>
@@ -5700,7 +5721,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#Lagring"/>
         <NamedIndividual IRI="#Bangla_Beer"/>
-        <Literal>DRIKKEKLAR, IKKE EGNET FOR LAGRING</Literal>
+        <Literal>Drikkeklar, ikke egnet for lagring</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Navn"/>
@@ -5745,7 +5766,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#Lagring"/>
         <NamedIndividual IRI="#Ch._Giscours_2010"/>
-        <Literal>Kan drikkes nå, blir bedre ved lagring</Literal>
+        <Literal>Drikkeklar nå, men kan også lagres</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Navn"/>
@@ -5760,7 +5781,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#Sukker"/>
         <NamedIndividual IRI="#Ch._Giscours_2010"/>
-        <Literal>&lt;3</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Syre"/>
@@ -5805,7 +5826,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#Lagring"/>
         <NamedIndividual IRI="#Delirium_Tremens"/>
-        <Literal>Kan ikke lagres</Literal>
+        <Literal>Drikkeklar, ikke egnet for lagring</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Navn"/>
@@ -5870,7 +5891,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#Sukker"/>
         <NamedIndividual IRI="#Dom._de_Dragon_Castrum"/>
-        <Literal>&lt;3</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Syre"/>
@@ -5935,7 +5956,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#Sukker"/>
         <NamedIndividual IRI="#Dominio_de_Tares_Baltos_2014"/>
-        <Literal>&lt;3</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Syre"/>
@@ -5995,7 +6016,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#Sukker"/>
         <NamedIndividual IRI="#Dominio_de_Unx_Garnacha"/>
-        <Literal>&lt;3</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Syre"/>
@@ -6040,7 +6061,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#Lagring"/>
         <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
-        <Literal>Kan lagres</Literal>
+        <Literal>Drikkeklar nå, men kan også lagres</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Navn"/>
@@ -6055,7 +6076,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#Sukker"/>
         <NamedIndividual IRI="#Dorrance_Cuvée_Anais_Chardonnay"/>
-        <Literal>&lt;3</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Syre"/>
@@ -6140,7 +6161,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#Lagring"/>
         <NamedIndividual IRI="#Gran_Feudo_Moscatel_2015"/>
-        <Literal>DRIKKEKLAR NÅ, MEN KAN OGSÅ LAGRES</Literal>
+        <Literal>Drikkeklar nå, men kan også lagres</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Navn"/>
@@ -6200,7 +6221,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#Lagring"/>
         <NamedIndividual IRI="#Gravner_Ribolla"/>
-        <Literal>Drikkeklar nå, men kan også lagres.</Literal>
+        <Literal>Drikkeklar nå, men kan også lagres</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Navn"/>
@@ -6215,7 +6236,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#Sukker"/>
         <NamedIndividual IRI="#Gravner_Ribolla"/>
-        <Literal>&lt;3</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Syre"/>
@@ -6265,7 +6286,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#Lagring"/>
         <NamedIndividual IRI="#Hitachino_Nest_Red_Rice_Ale"/>
-        <Literal>Drikkeklar, kan lagres</Literal>
+        <Literal>Drikkeklar nå, men kan også lagres</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Navn"/>
@@ -6410,7 +6431,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#Sukker"/>
         <NamedIndividual IRI="#Mas_Doix_Doix_2013"/>
-        <Literal>&lt;3</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Syre"/>
@@ -6475,7 +6496,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#Sukker"/>
         <NamedIndividual IRI="#Pierre_Ponnelle_Mercurey_2016"/>
-        <Literal>&lt;3</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Varenummer"/>
@@ -6505,7 +6526,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#Lagring"/>
         <NamedIndividual IRI="#Quinta_de_la_Rosa_2017"/>
-        <Literal>DRIKKEKLAR, IKKE EGNET FOR LAGRING</Literal>
+        <Literal>Drikkeklar, ikke egnet for lagring</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Navn"/>
@@ -6520,7 +6541,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#Sukker"/>
         <NamedIndividual IRI="#Quinta_de_la_Rosa_2017"/>
-        <Literal>&lt;3</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Varenummer"/>
@@ -6580,7 +6601,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#Sukker"/>
         <NamedIndividual IRI="#Sentido_2014"/>
-        <Literal>&lt;3</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Syre"/>
@@ -6650,7 +6671,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#Lagring"/>
         <NamedIndividual IRI="#Thornbridge_Melba"/>
-        <Literal>DRIKKEKLAR, IKKE EGNET FOR LAGRING</Literal>
+        <Literal>Drikkeklar, ikke egnet for lagring</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Navn"/>
@@ -6725,7 +6746,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#Lagring"/>
         <NamedIndividual IRI="#Vivanco_Colección_4_Varietales_Dulce_de_Invierno_2014"/>
-        <Literal>DRIKKEKLAR NÅ, MEN KAN OGSÅ LAGRES</Literal>
+        <Literal>Drikkeklar nå, men kan også lagres</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Navn"/>
@@ -6820,7 +6841,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#Lagring"/>
         <NamedIndividual IRI="#Zorita_Magister_2015"/>
-        <Literal>DRIKKEKLAR NÅ, MEN KAN OGSÅ LAGRES</Literal>
+        <Literal>Drikkeklar nå, men kan også lagres</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Navn"/>
@@ -6835,7 +6856,7 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#Sukker"/>
         <NamedIndividual IRI="#Zorita_Magister_2015"/>
-        <Literal>&lt;3</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Syre"/>
@@ -6962,6 +6983,9 @@
         <DataProperty IRI="#Årgang"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Lagring"/>
+    </FunctionalDataProperty>
     <DataPropertyDomain>
         <DataProperty IRI="#Alkoholinnhold"/>
         <Class IRI="#Vinmonopolet"/>
@@ -7139,11 +7163,6 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Lagring</IRI>
-        <Literal>Bedre å måte å gjøre dette på?</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Lagring</IRI>
         <Literal>Har 3 tillatte verdier
 Drikkeklar nå, men kan også lagres
 Drikkeklar, ikke egnet for lagring
@@ -7152,7 +7171,8 @@ Kan drikkes nå, blir bedre ved lagring</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Sukker</IRI>
-        <Literal>g per Liter</Literal>
+        <Literal>g per Liter
+The value 0 of this data property represents &quot;&lt;3&quot; from Vinmonopolets web shop</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
