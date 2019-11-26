@@ -70,6 +70,9 @@
         <Class IRI="#Alvarinho"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Amarillo"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Ancellotta_Lancellotta"/>
     </Declaration>
     <Declaration>
@@ -130,6 +133,9 @@
         <Class IRI="#Assyrtiko"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Aust-Agder"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Auxerrois"/>
     </Declaration>
     <Declaration>
@@ -152,6 +158,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Barbera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barkan_Wineyards"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Barley_wine"/>
@@ -406,6 +415,9 @@
         <Class IRI="#Colorino"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Columbus"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Corinto_Nero"/>
     </Declaration>
     <Declaration>
@@ -506,6 +518,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Europa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Explotaciones_Hermanos_Delgado"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Faberrebe"/>
@@ -730,6 +745,9 @@
         <Class IRI="#Island"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Israel"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Italia"/>
     </Declaration>
     <Declaration>
@@ -791,6 +809,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#LWC_Drinks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#La_Mancha"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Lacrima"/>
@@ -1000,6 +1021,9 @@
         <Class IRI="#MtSvane_Kakhuri"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Munich"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Muscadelle"/>
     </Declaration>
     <Declaration>
@@ -1066,6 +1090,9 @@
         <Class IRI="#Neuburger"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#New_Zealand"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Nielluccio"/>
     </Declaration>
     <Declaration>
@@ -1124,6 +1151,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Pais"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pale"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Pale_ale"/>
@@ -1339,6 +1369,9 @@
         <Class IRI="#Rondinella"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Rosmersholm"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Rossese"/>
     </Declaration>
     <Declaration>
@@ -1451,6 +1484,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Silvaner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Simcoe"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Sitronskall"/>
@@ -1573,7 +1609,13 @@
         <Class IRI="#Terret_Gris"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#The_Absolut_Company"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Thornbridge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tierra_de_Castilla"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Timorasso"/>
@@ -1678,6 +1720,9 @@
         <Class IRI="#Ukraina"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Underfundig"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Ungarn"/>
     </Declaration>
     <Declaration>
@@ -1747,6 +1792,9 @@
         <Class IRI="#Vinmonopolet"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Vinterhvete"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Viognier"/>
     </Declaration>
     <Declaration>
@@ -1771,6 +1819,9 @@
         <Class IRI="#Vranac"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Warrior"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Weissburgunder"/>
     </Declaration>
     <Declaration>
@@ -1781,6 +1832,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Western_Cape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wheat"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Whisky"/>
@@ -1828,6 +1882,9 @@
         <Class IRI="#Østerrike"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Øvrige_Danmark"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Øvrige_England"/>
     </Declaration>
     <Declaration>
@@ -1837,16 +1894,31 @@
         <Class IRI="#Øvrige_Hellas"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Øvrige_Israel"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Øvrige_Italia"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Øvrige_Japan"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Øvrige_New_Zealand"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Øvrige_Spania"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Øvrige_Sverige"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Øvrige_Tyskland"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#3_shades_of_Crystal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#8_Wired"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Calabrese_Nero_d&apos;Avola"/>
@@ -1948,13 +2020,22 @@
         <DataProperty IRI="#Årgang"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Absolut_Vodka"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Alta_Alella_Merla_2017"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ankerdram_Aquavit"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Aperitif"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Bangla_Beer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Barkan_Special_Reserve_Petit_Verdot"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Ch._Giscours_2010"/>
@@ -2056,10 +2137,19 @@
         <NamedIndividual IRI="#Svin"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Tall_Poppy_India_Red_Ale"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Thornbridge_Melba"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Tierra_de_Toros_Tinto"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Tsantali_Ouzo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Underfundig_Mjød"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Utviklet_og_nyansert"/>
@@ -2160,6 +2250,10 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Amarillo"/>
+        <Class IRI="#Humle"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Ancellotta_Lancellotta"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -2247,6 +2341,10 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Aust-Agder"/>
+        <Class IRI="#Norge"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Auxerrois"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -2277,6 +2375,17 @@
     <SubClassOf>
         <Class IRI="#Barbera"/>
         <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Barkan_Wineyards"/>
+        <Class IRI="#Produsent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Barkan_Wineyards"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#locatedIn"/>
+            <Class IRI="#Øvrige_Israel"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Barley_wine"/>
@@ -2650,6 +2759,10 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Columbus"/>
+        <Class IRI="#Humle"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Corinto_Nero"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -2805,6 +2918,17 @@
     <SubClassOf>
         <Class IRI="#Europa"/>
         <Class IRI="#Opphav"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Explotaciones_Hermanos_Delgado"/>
+        <Class IRI="#Produsent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Explotaciones_Hermanos_Delgado"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#locatedIn"/>
+            <Class IRI="#Tierra_de_Castilla"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Faberrebe"/>
@@ -3124,6 +3248,10 @@
         <Class IRI="#Europa"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Israel"/>
+        <Class IRI="#Asia"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Italia"/>
         <Class IRI="#Europa"/>
     </SubClassOf>
@@ -3220,6 +3348,10 @@
             <ObjectProperty IRI="#locatedIn"/>
             <Class IRI="#Øvrige_England"/>
         </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#La_Mancha"/>
+        <Class IRI="#Spania"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Lacrima"/>
@@ -3508,6 +3640,10 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Munich"/>
+        <Class IRI="#Malt"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Muscadelle"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -3596,6 +3732,10 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#New_Zealand"/>
+        <Class IRI="#Oceania"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Nielluccio"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -3670,6 +3810,10 @@
     <SubClassOf>
         <Class IRI="#Pais"/>
         <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pale"/>
+        <Class IRI="#Malt"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Pale_ale"/>
@@ -3966,6 +4110,17 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Rosmersholm"/>
+        <Class IRI="#Produsent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rosmersholm"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#locatedIn"/>
+            <Class IRI="#Aust-Agder"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Rossese"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -4112,6 +4267,10 @@
     <SubClassOf>
         <Class IRI="#Silvaner"/>
         <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Simcoe"/>
+        <Class IRI="#Humle"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Sitronskall"/>
@@ -4270,6 +4429,17 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#The_Absolut_Company"/>
+        <Class IRI="#Produsent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#The_Absolut_Company"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#locatedIn"/>
+            <Class IRI="#Øvrige_Sverige"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Thornbridge"/>
         <Class IRI="#Produsent"/>
     </SubClassOf>
@@ -4279,6 +4449,10 @@
             <ObjectProperty IRI="#locatedIn"/>
             <Class IRI="#Øvrige_England"/>
         </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tierra_de_Castilla"/>
+        <Class IRI="#La_Mancha"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Timorasso"/>
@@ -4424,6 +4598,17 @@
         <Class IRI="#Europa"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Underfundig"/>
+        <Class IRI="#Produsent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Underfundig"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#locatedIn"/>
+            <Class IRI="#Øvrige_Danmark"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Ungarn"/>
         <Class IRI="#Europa"/>
     </SubClassOf>
@@ -4512,6 +4697,10 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Vinterhvete"/>
+        <Class IRI="#Korn/stivelse/sukker"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Viognier"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -4551,6 +4740,10 @@
         <Class IRI="#Drue"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Warrior"/>
+        <Class IRI="#Humle"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Weissburgunder"/>
         <Class IRI="#Drue"/>
     </SubClassOf>
@@ -4572,6 +4765,10 @@
     <SubClassOf>
         <Class IRI="#Western_Cape"/>
         <Class IRI="#Sør_Afrika"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wheat"/>
+        <Class IRI="#Malt"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Whisky"/>
@@ -4641,6 +4838,10 @@
         <Class IRI="#Europa"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Øvrige_Danmark"/>
+        <Class IRI="#Danmark"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Øvrige_England"/>
         <Class IRI="#England"/>
     </SubClassOf>
@@ -4653,6 +4854,10 @@
         <Class IRI="#Hellas"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Øvrige_Israel"/>
+        <Class IRI="#Israel"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Øvrige_Italia"/>
         <Class IRI="#Italia"/>
     </SubClassOf>
@@ -4661,12 +4866,35 @@
         <Class IRI="#Japan"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Øvrige_New_Zealand"/>
+        <Class IRI="#New_Zealand"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Øvrige_Spania"/>
         <Class IRI="#Spania"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Øvrige_Sverige"/>
+        <Class IRI="#Sverige"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Øvrige_Tyskland"/>
         <Class IRI="#Tyskland"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#3_shades_of_Crystal"/>
+        <Class IRI="#Malt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#8_Wired"/>
+        <Class IRI="#Produsent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#8_Wired"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#locatedIn"/>
+            <Class IRI="#Øvrige_New_Zealand"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Calabrese_Nero_d&apos;Avola"/>
@@ -4882,6 +5110,18 @@
         <Class IRI="#Perlendevin"/>
     </DisjointClasses>
     <ClassAssertion>
+        <Class IRI="#The_Absolut_Company"/>
+        <NamedIndividual IRI="#Absolut_Vodka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vinterhvete"/>
+        <NamedIndividual IRI="#Absolut_Vodka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vodka"/>
+        <NamedIndividual IRI="#Absolut_Vodka"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Alta_Alella"/>
         <NamedIndividual IRI="#Alta_Alella_Merla_2017"/>
     </ClassAssertion>
@@ -4894,6 +5134,18 @@
         <NamedIndividual IRI="#Alta_Alella_Merla_2017"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Akevitt"/>
+        <NamedIndividual IRI="#Ankerdram_Aquavit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Potet"/>
+        <NamedIndividual IRI="#Ankerdram_Aquavit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rosmersholm"/>
+        <NamedIndividual IRI="#Ankerdram_Aquavit"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Mat"/>
         <NamedIndividual IRI="#Aperitif"/>
     </ClassAssertion>
@@ -4904,6 +5156,18 @@
     <ClassAssertion>
         <Class IRI="#Lys_lager"/>
         <NamedIndividual IRI="#Bangla_Beer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Barkan_Wineyards"/>
+        <NamedIndividual IRI="#Barkan_Special_Reserve_Petit_Verdot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Petit_Verdot"/>
+        <NamedIndividual IRI="#Barkan_Special_Reserve_Petit_Verdot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rødvin"/>
+        <NamedIndividual IRI="#Barkan_Special_Reserve_Petit_Verdot"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Cabernet_Sauvignon"/>
@@ -5010,6 +5274,10 @@
         <NamedIndividual IRI="#Gosnells_Citra_Sea_Mead"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Mjød"/>
+        <NamedIndividual IRI="#Gosnells_Citra_Sea_Mead"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Bod._Julián_Chivite"/>
         <NamedIndividual IRI="#Gran_Feudo_Moscatel_2015"/>
     </ClassAssertion>
@@ -5102,7 +5370,7 @@
         <NamedIndividual IRI="#London_Hill_Dry_Gin"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Kjøtt"/>
+        <Class IRI="#Lyst_Kjøtt"/>
         <NamedIndividual IRI="#Lyst_kjøtt"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -5186,12 +5454,68 @@
         <NamedIndividual IRI="#Svin"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Amarillo"/>
+        <NamedIndividual IRI="#Tall_Poppy_India_Red_Ale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Columbus"/>
+        <NamedIndividual IRI="#Tall_Poppy_India_Red_Ale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Munich"/>
+        <NamedIndividual IRI="#Tall_Poppy_India_Red_Ale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pale"/>
+        <NamedIndividual IRI="#Tall_Poppy_India_Red_Ale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Simcoe"/>
+        <NamedIndividual IRI="#Tall_Poppy_India_Red_Ale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Warrior"/>
+        <NamedIndividual IRI="#Tall_Poppy_India_Red_Ale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wheat"/>
+        <NamedIndividual IRI="#Tall_Poppy_India_Red_Ale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#3_shades_of_Crystal"/>
+        <NamedIndividual IRI="#Tall_Poppy_India_Red_Ale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#8_Wired"/>
+        <NamedIndividual IRI="#Tall_Poppy_India_Red_Ale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Red/amber"/>
+        <NamedIndividual IRI="#Tall_Poppy_India_Red_Ale"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#India_pale_ale"/>
         <NamedIndividual IRI="#Thornbridge_Melba"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Thornbridge"/>
         <NamedIndividual IRI="#Thornbridge_Melba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Explotaciones_Hermanos_Delgado"/>
+        <NamedIndividual IRI="#Tierra_de_Toros_Tinto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Garnacha"/>
+        <NamedIndividual IRI="#Tierra_de_Toros_Tinto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rødvin"/>
+        <NamedIndividual IRI="#Tierra_de_Toros_Tinto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tempranillo_Tinto_del_Pais"/>
+        <NamedIndividual IRI="#Tierra_de_Toros_Tinto"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Angelica"/>
@@ -5220,6 +5544,26 @@
     <ClassAssertion>
         <Class IRI="#Korn/stivelse/sukker"/>
         <NamedIndividual IRI="#Tsantali_Ouzo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Eple"/>
+        <NamedIndividual IRI="#Underfundig_Mjød"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Honning"/>
+        <NamedIndividual IRI="#Underfundig_Mjød"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Humle"/>
+        <NamedIndividual IRI="#Underfundig_Mjød"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mjød"/>
+        <NamedIndividual IRI="#Underfundig_Mjød"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Underfundig"/>
+        <NamedIndividual IRI="#Underfundig_Mjød"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Smak_og_Aroma"/>
@@ -5315,6 +5659,16 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Ankerdram_Aquavit"/>
+        <NamedIndividual IRI="#Lam_og_sau"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Ankerdram_Aquavit"/>
+        <NamedIndividual IRI="#Svin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
         <NamedIndividual IRI="#Bangla_Beer"/>
         <NamedIndividual IRI="#Aperitif"/>
     </ObjectPropertyAssertion>
@@ -5326,6 +5680,21 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#passerTil"/>
         <NamedIndividual IRI="#Bangla_Beer"/>
+        <NamedIndividual IRI="#Storfe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Barkan_Special_Reserve_Petit_Verdot"/>
+        <NamedIndividual IRI="#Lam_og_sau"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Barkan_Special_Reserve_Petit_Verdot"/>
+        <NamedIndividual IRI="#Småvilt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Barkan_Special_Reserve_Petit_Verdot"/>
         <NamedIndividual IRI="#Storfe"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -5565,6 +5934,21 @@
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Tall_Poppy_India_Red_Ale"/>
+        <NamedIndividual IRI="#Lam_og_sau"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Tall_Poppy_India_Red_Ale"/>
+        <NamedIndividual IRI="#Storfe"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Tall_Poppy_India_Red_Ale"/>
+        <NamedIndividual IRI="#Svin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
         <NamedIndividual IRI="#Thornbridge_Melba"/>
         <NamedIndividual IRI="#Aperitif"/>
     </ObjectPropertyAssertion>
@@ -5576,6 +5960,31 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#passerTil"/>
         <NamedIndividual IRI="#Thornbridge_Melba"/>
+        <NamedIndividual IRI="#Ost"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Tierra_de_Toros_Tinto"/>
+        <NamedIndividual IRI="#Lyst_kjøtt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Tierra_de_Toros_Tinto"/>
+        <NamedIndividual IRI="#Ost"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Tierra_de_Toros_Tinto"/>
+        <NamedIndividual IRI="#Småvilt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Underfundig_Mjød"/>
+        <NamedIndividual IRI="#Aperitif"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Underfundig_Mjød"/>
         <NamedIndividual IRI="#Ost"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -5640,6 +6049,31 @@
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Alkoholinnhold"/>
+        <NamedIndividual IRI="#Absolut_Vodka"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Pris"/>
+        <NamedIndividual IRI="#Absolut_Vodka"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">189.90</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sukker"/>
+        <NamedIndividual IRI="#Absolut_Vodka"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Varenummer"/>
+        <NamedIndividual IRI="#Absolut_Vodka"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3902</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Volum"/>
+        <NamedIndividual IRI="#Absolut_Vodka"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">35</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Alkoholinnhold"/>
         <NamedIndividual IRI="#Alta_Alella_Merla_2017"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">13.5</Literal>
     </DataPropertyAssertion>
@@ -5694,6 +6128,31 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">75</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#Alkoholinnhold"/>
+        <NamedIndividual IRI="#Ankerdram_Aquavit"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Pris"/>
+        <NamedIndividual IRI="#Ankerdram_Aquavit"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">429.90</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sukker"/>
+        <NamedIndividual IRI="#Ankerdram_Aquavit"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Varenummer"/>
+        <NamedIndividual IRI="#Ankerdram_Aquavit"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9192901</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Volum"/>
+        <NamedIndividual IRI="#Ankerdram_Aquavit"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">70</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#Navn"/>
         <NamedIndividual IRI="#Aperitif"/>
         <Literal>Aperitif</Literal>
@@ -5742,6 +6201,61 @@
         <DataProperty IRI="#Volum"/>
         <NamedIndividual IRI="#Bangla_Beer"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">66</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Alkoholinnhold"/>
+        <NamedIndividual IRI="#Barkan_Special_Reserve_Petit_Verdot"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">13.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Friskhet"/>
+        <NamedIndividual IRI="#Barkan_Special_Reserve_Petit_Verdot"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Fylde"/>
+        <NamedIndividual IRI="#Barkan_Special_Reserve_Petit_Verdot"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Garvestoff"/>
+        <NamedIndividual IRI="#Barkan_Special_Reserve_Petit_Verdot"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Lagring"/>
+        <NamedIndividual IRI="#Barkan_Special_Reserve_Petit_Verdot"/>
+        <Literal>Kan drikkes nå, blir bedre ved lagring</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Pris"/>
+        <NamedIndividual IRI="#Barkan_Special_Reserve_Petit_Verdot"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">260.20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sukker"/>
+        <NamedIndividual IRI="#Barkan_Special_Reserve_Petit_Verdot"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Syre"/>
+        <NamedIndividual IRI="#Barkan_Special_Reserve_Petit_Verdot"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Varenummer"/>
+        <NamedIndividual IRI="#Barkan_Special_Reserve_Petit_Verdot"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10381301</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Volum"/>
+        <NamedIndividual IRI="#Barkan_Special_Reserve_Petit_Verdot"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">75</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Årgang"/>
+        <NamedIndividual IRI="#Barkan_Special_Reserve_Petit_Verdot"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2014</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Alkoholinnhold"/>
@@ -6650,6 +7164,41 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Alkoholinnhold"/>
+        <NamedIndividual IRI="#Tall_Poppy_India_Red_Ale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bitterhet"/>
+        <NamedIndividual IRI="#Tall_Poppy_India_Red_Ale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Friskhet"/>
+        <NamedIndividual IRI="#Tall_Poppy_India_Red_Ale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Fylde"/>
+        <NamedIndividual IRI="#Tall_Poppy_India_Red_Ale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Pris"/>
+        <NamedIndividual IRI="#Tall_Poppy_India_Red_Ale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">67</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Varenummer"/>
+        <NamedIndividual IRI="#Tall_Poppy_India_Red_Ale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10285702</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Volum"/>
+        <NamedIndividual IRI="#Tall_Poppy_India_Red_Ale"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">44</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Alkoholinnhold"/>
         <NamedIndividual IRI="#Thornbridge_Melba"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.2</Literal>
     </DataPropertyAssertion>
@@ -6695,6 +7244,61 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Alkoholinnhold"/>
+        <NamedIndividual IRI="#Tierra_de_Toros_Tinto"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Friskhet"/>
+        <NamedIndividual IRI="#Tierra_de_Toros_Tinto"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Fylde"/>
+        <NamedIndividual IRI="#Tierra_de_Toros_Tinto"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Garvestoff"/>
+        <NamedIndividual IRI="#Tierra_de_Toros_Tinto"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Lagring"/>
+        <NamedIndividual IRI="#Tierra_de_Toros_Tinto"/>
+        <Literal>Drikkeklar, ikke egnet for lagring</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Pris"/>
+        <NamedIndividual IRI="#Tierra_de_Toros_Tinto"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">199.90</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sukker"/>
+        <NamedIndividual IRI="#Tierra_de_Toros_Tinto"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Syre"/>
+        <NamedIndividual IRI="#Tierra_de_Toros_Tinto"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Varenummer"/>
+        <NamedIndividual IRI="#Tierra_de_Toros_Tinto"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10381705</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Volum"/>
+        <NamedIndividual IRI="#Tierra_de_Toros_Tinto"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">150</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Årgang"/>
+        <NamedIndividual IRI="#Tierra_de_Toros_Tinto"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2017</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Alkoholinnhold"/>
         <NamedIndividual IRI="#Tsantali_Ouzo"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">38</Literal>
     </DataPropertyAssertion>
@@ -6722,6 +7326,46 @@
         <DataProperty IRI="#Volum"/>
         <NamedIndividual IRI="#Tsantali_Ouzo"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">70</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Alkoholinnhold"/>
+        <NamedIndividual IRI="#Underfundig_Mjød"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">11</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Bitterhet"/>
+        <NamedIndividual IRI="#Underfundig_Mjød"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Friskhet"/>
+        <NamedIndividual IRI="#Underfundig_Mjød"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Fylde"/>
+        <NamedIndividual IRI="#Underfundig_Mjød"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Lagring"/>
+        <NamedIndividual IRI="#Underfundig_Mjød"/>
+        <Literal>Drikkeklar nå, men kan også lagres</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Pris"/>
+        <NamedIndividual IRI="#Underfundig_Mjød"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">243.20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Varenummer"/>
+        <NamedIndividual IRI="#Underfundig_Mjød"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">11094602</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Volum"/>
+        <NamedIndividual IRI="#Underfundig_Mjød"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Navn"/>
