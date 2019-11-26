@@ -80,101 +80,68 @@
 	<script type="text/javascript" src="/_ui/shared/js/analyticsmediator.js"></script>
 	<!-- Google Tag Manager -->
 
-<script type='application/ld+json'>
-	{
-		"@context":"https://schema.org",
-		"@type":"product",
-		"name":"Ch. Giscours 2010",
-		"sku":"2838701",
-		"productionDate":"2010",
-		"material":"Cabernet Sauvignon 71%, Merlot 29%",
-		"image":"https://bilder.vinmonopolet.no/cache/1200x1200-0/2838701-1.jpg",
-		"category":"Rødvin",
-		"description":"Balansert og fyldig med integrerte tanniner og rene frukter.",
-		"color":"Rødlilla",
-		"additionalProperty":[
-			{
-				"@type":"propertyValue",
-				"name":"Friskhet",
-				"value":"8",
-				"minValue":"0",
-				"maxValue":"12"
-
+	<script type='application/ld+json'>
+		{
+			"@context":{
+				"sc" : "http://schema.org/",
+				"vm": "http://www.semanticweb.org/Info116/ontologies/2019/9/Vinmonopolet#"
 			},
-			{
-				"@type":"propertyValue",
-				"name":"Fylde",
-				"value":"9",
-				"minValue":"0",
-				"maxValue":"12"
-
-			},
-			{
-				"@type":"propertyValue",
-				"name":"Garvestoff",
-				"value":"8",
-				"minValue":"0",
-				"maxValue":"12"
-
-			},
-			{
-				"@type":"propertyValue",
-				"name":"Alkoholprosent",
-				"value":"15.5%",
-				"unitCode":"ASU"
-			},
-			{
-				"@type":"propertyValue",
-				"name":"Syre",
-				"value":"4.2",
-				"unitCode":"GM"
-			},
-			{
-				"@type":"propertyValue",
-				"name":"Sukker",
-				"value":"<3>",
-				"unitCode":"GM"
-			},
-			{
-				"@type":"propertyValue",
-				"name":"Emballasjetype",
-				"value":"Glass"
-			}
-		],
-	
-		"brand":[
-			{
-				"@type":"winery",
-				"name":"Ch. Giscours",
-				"location":[
-					{
-						"@type":"AdministrativeArea",
-						"name":"Margaux",
-						"containedInPlace":[
-							{
-								"@type":"AdministrativeArea",
-								"name":"Bordeaux",
-								"containedInPlace":[
-									{
-										"@type":"country",
-										"name":"Frankrike"
-									}
-								]
-							}
-						]
-					}
-				]
-			}
-		],
-		"offers":[
-			{
-				"@type":"offer",
-				"price":"1229.00",
-				"priceCurrency":"NOK"
-			}
-		]
-	}
-</script>
+			"@type":"sc:Product",
+			"sc:name":"Ch. Giscours 2010",
+			"sc:sku":"2838701",
+			"sc:productionDate":"2010",
+			"sc:material":"Cabernet Sauvignon 71%, Merlot 29%",
+			"sc:image":"https://bilder.vinmonopolet.no/cache/1200x1200-0/2838701-1.jpg",
+			"sc:category":"Rødvin",
+			"sc:description":"Balansert og fyldig med integrerte tanniner og rene frukter.",
+			"sc:color":"Rødlilla",
+			"sc:brand":[
+				{
+					"@type":"sc:winery",
+					"sc:name":"Ch. Giscours",
+					"sc:location":[
+						{
+							"@type":"sc:AdministrativeArea",
+							"sc:name":"Margaux",
+							"sc:containedInPlace":[
+								{
+									"@type":"sc:AdministrativeArea",
+									"sc:name":"Bordeaux",
+									"sc:containedInPlace":[
+										{
+											"@type":"sc:country",
+											"sc:name":"Frankrike"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"sc:offers":[
+				{
+					"@type":"sc:offer",
+					"sc:price":"1229.00",
+					"sc:priceCurrency":"NOK"
+				}
+			],
+			"vm:Friskhet":"8",
+			"vm:Fylde":"9",
+			"vm:Garvestoff":"8",
+			"vm:Alkoholinnhold":"13.5",
+			"vm:Syre":"4.2",
+			"vm:Lagring":"Kan drikkes nå, blir bedre ved lagring",
+			"vm:Sukker":"<3",
+			"vm:Volum":"75",
+			"vm:SmakogAroma":"Utviklet_og_nyansert",
+			"vm:passerTil":[
+				"Storvilt", 
+				"Storfe", 
+				"Lam_og_sau"
+			]
+		}
+	</script>
 
 <script type="text/javascript">
 	dataLayer = [];
@@ -773,7 +740,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	</div>
 </header>
 
-<main class="site__body js-site-body" data-currency-iso-code="NOK" vocab="http://schema.org" prefix="vm:ontologilink" typeof="vm:Rødvin">
+<main class="site__body js-site-body" data-currency-iso-code="NOK" vocab="http://schema.org" prefix="vm:http://www.semanticweb.org/Info116/ontologies/2019/9/Vinmonopolet#" typeof="vm:Rødvin">
 				<div id="page" data-currency-iso-code="NOK">
 					<div class="section section--breadcrumbs">
 		<div class="section__inner-container">
@@ -815,7 +782,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="product__price-and-buy__inner-container">
                 <p class="product__price-and-buy__price-wrapper">
 					<span value="1229.00" property="vm:Pris" property="vm:amount" class="product__price">Kr. 1 229,00</span>
-                    <span class="product__amount"> <span property="vm:Volum">75</span><span property="unitText">Cl</span></span>
+                    <span class="product__amount"> <span property="vm:Volum">75</span>Cl</span>
                 	<span class="product__cost_per_unit">Kr. 1 638,67 pr. liter</span>
                 </p>
                 <div class="addtocart-component">
@@ -908,17 +875,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	                    <ul class="goes-well-with">
 	                        <li class="goes-well-with__item">
 	                                <span class="goes-well-with__icon goes-well-with__icon--F">
-	                                    <span class="sr-only">Lam og sau</span>
+	                                    <span class="sr-only" property="vm:passerTil">Lam og sau</span>
 	                                </span>
 	                            </li>
 	                        <li class="goes-well-with__item">
 	                                <span class="goes-well-with__icon goes-well-with__icon--E">
-	                                    <span class="sr-only">Storfe</span>
+	                                    <span class="sr-only" property="vm:passerTil">Storfe</span>
 	                                </span>
 	                            </li>
 	                        <li class="goes-well-with__item">
 	                                <span class="goes-well-with__icon goes-well-with__icon--H">
-	                                    <span class="sr-only">Storvilt</span>
+	                                    <span class="sr-only" property="vm:passerTil">Storvilt</span>
 	                                </span>
 	                            </li>
 	                        </ul>
@@ -1128,7 +1095,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	                    <dl>
 	                        <dt>Varetype:</dt>
 								<dd>Rødvin</dd>
-
 	                        <dt>Varenummer:</dt>
 	                            <dd property="vm:Varenummer">2838701</dd>
 	                        <dt>Smak:</dt>
@@ -1136,12 +1102,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	                        <dt>Lukt:</dt>
 	                            <dd>Modne jordbær og kirsebær.</dd>
 	                        <dt>Farge:</dt>
-	                            <dd>Rødlilla.</dd>
+	                            <dd property="Color">Rødlilla.</dd>
 	                        <dt>Produsent:</dt>
 	                            <dd property="Winery">Ch. Giscours</dd>
 	                        <dt>Årgang:<span aria-describedby="product__year-footnote">*</span></dt>
-	                            <dd property="vm:Årgang">
-	                            	2010<br/>
+	                            <dd>
+	                            	<span property="vm:Årgang">2010</span><br/>
 	                            	<span class="utils__italic" id="product__year-footnote">* Vi tar forbehold om at varen som leveres kan ha en annen årgang/etikett enn oppgitt</span>
                             	</dd>
 	                        <dt>Land, distrikt, underdistrikt:</dt>
@@ -1149,7 +1115,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	                            <span property="country">Frankrike</span>, <span property="containsPlace">Bordeaux</span>, <span property="containsPlace">Margaux</span></dd>
 	                        <dt>Råstoff:</dt>
 	                            <dd>
-	                                Cabernet Sauvignon&nbsp;71%, Merlot&nbsp;29%</dd>
+	                                <span property="Material">Cabernet Sauvignon</span>&nbsp;71%, <span property="Material">Merlot</span>&nbsp;29%</dd>
 	                        <dt>Metode:</dt>
 	                            <dd>Klassisk Bordeaux-vinifikasjon. Lagret på franske eikefat.</dd>
 	                        </dl>
