@@ -256,6 +256,9 @@
         <Class IRI="#Bulgaria"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Burgenland"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Burgund"/>
     </Declaration>
     <Declaration>
@@ -953,6 +956,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Mazuelo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Meinklang"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Mencia"/>
@@ -2107,6 +2113,9 @@
         <NamedIndividual IRI="#Mas_Doix_Doix_2013"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Meinklang_Foam_Petillant_Naturel_2017"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Ost"/>
     </Declaration>
     <Declaration>
@@ -2531,6 +2540,10 @@
     <SubClassOf>
         <Class IRI="#Bulgaria"/>
         <Class IRI="#Europa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Burgenland"/>
+        <Class IRI="#Østerrike"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Burgund"/>
@@ -3550,6 +3563,17 @@
     <SubClassOf>
         <Class IRI="#Mazuelo"/>
         <Class IRI="#Drue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meinklang"/>
+        <Class IRI="#Produsent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meinklang"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#locatedIn"/>
+            <Class IRI="#Burgenland"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Mencia"/>
@@ -5390,6 +5414,18 @@
         <NamedIndividual IRI="#Mas_Doix_Doix_2013"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Meinklang"/>
+        <NamedIndividual IRI="#Meinklang_Foam_Petillant_Naturel_2017"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Perlendevin"/>
+        <NamedIndividual IRI="#Meinklang_Foam_Petillant_Naturel_2017"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pinot_Gris"/>
+        <NamedIndividual IRI="#Meinklang_Foam_Petillant_Naturel_2017"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Mat"/>
         <NamedIndividual IRI="#Ost"/>
     </ClassAssertion>
@@ -5871,6 +5907,11 @@
         <ObjectProperty IRI="#passerTil"/>
         <NamedIndividual IRI="#Mas_Doix_Doix_2013"/>
         <NamedIndividual IRI="#Storvilt"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#passerTil"/>
+        <NamedIndividual IRI="#Meinklang_Foam_Petillant_Naturel_2017"/>
+        <NamedIndividual IRI="#Skalldyr"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#harSmakogAroma"/>
@@ -6968,6 +7009,71 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2013</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#Alkoholinnhold"/>
+        <NamedIndividual IRI="#Meinklang_Foam_Petillant_Naturel_2017"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Friskhet"/>
+        <NamedIndividual IRI="#Meinklang_Foam_Petillant_Naturel_2017"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Fylde"/>
+        <NamedIndividual IRI="#Meinklang_Foam_Petillant_Naturel_2017"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Lagring"/>
+        <NamedIndividual IRI="#Meinklang_Foam_Petillant_Naturel_2017"/>
+        <Literal>Drikkeklar nå, men kan også lagres</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Navn"/>
+        <NamedIndividual IRI="#Meinklang_Foam_Petillant_Naturel_2017"/>
+        <Literal>Meinklang Foam Petillant Naturel 2017</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Pris"/>
+        <NamedIndividual IRI="#Meinklang_Foam_Petillant_Naturel_2017"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">279.90</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sukker"/>
+        <NamedIndividual IRI="#Meinklang_Foam_Petillant_Naturel_2017"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Syre"/>
+        <NamedIndividual IRI="#Meinklang_Foam_Petillant_Naturel_2017"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Sødme"/>
+        <NamedIndividual IRI="#Meinklang_Foam_Petillant_Naturel_2017"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Trykk"/>
+        <NamedIndividual IRI="#Meinklang_Foam_Petillant_Naturel_2017"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Varenummer"/>
+        <NamedIndividual IRI="#Meinklang_Foam_Petillant_Naturel_2017"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2052901</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Volum"/>
+        <NamedIndividual IRI="#Meinklang_Foam_Petillant_Naturel_2017"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">75</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Årgang"/>
+        <NamedIndividual IRI="#Meinklang_Foam_Petillant_Naturel_2017"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2017</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#Navn"/>
         <NamedIndividual IRI="#Ost"/>
         <Literal>Ost</Literal>
@@ -7797,12 +7903,41 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Alkoholinnhold</IRI>
-        <Literal>Anngitt i %</Literal>
+        <Literal>Alcohol content in % of volume.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bitterhet</IRI>
+        <Literal>Bitterness given on a scale of 1 - 12</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Bitterhet</IRI>
         <Literal>Verdi mellom 1 og 12</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Friskhet</IRI>
+        <Literal>Freshness given on a scale of 1 - 12</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fylde</IRI>
+        <Literal>Richness given on a scale of 1 - 12</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Garvestoff</IRI>
+        <Literal>Tannin  given on a scale of 1 - 12</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lagring</IRI>
+        <Literal>Can have three different string values:
+
+Drikkeklar nå, men kan også lagres
+Drikkeklar, ikke egnet for lagring
+Kan drikkes nå, blir bedre ved lagring</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7814,6 +7949,16 @@ Kan drikkes nå, blir bedre ved lagring</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Navn</IRI>
+        <Literal>Name of individual</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pris</IRI>
+        <Literal>Price in NOK</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Sukker</IRI>
         <Literal>g per Liter
 The value 0 of this data property represents &quot;&lt;3&quot; from Vinmonopolets web shop</Literal>
@@ -7821,7 +7966,12 @@ The value 0 of this data property represents &quot;&lt;3&quot; from Vinmonopolet
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Syre</IRI>
-        <Literal>g per liter</Literal>
+        <Literal>g per Liter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sødme</IRI>
+        <Literal>Sweetness given on a scale of 1 - 12</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -7830,8 +7980,18 @@ The value 0 of this data property represents &quot;&lt;3&quot; from Vinmonopolet
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Varenummer</IRI>
+        <Literal>The internal number given to the product by Vinmonopolet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Volum</IRI>
-        <Literal>cL</Literal>
+        <Literal>Volume of product in cL (0.01L)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Årgang</IRI>
+        <Literal>Vintage given by year</Literal>
     </AnnotationAssertion>
 </Ontology>
 
