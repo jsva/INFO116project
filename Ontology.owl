@@ -7976,7 +7976,7 @@ The value 0 of this data property represents &quot;&lt;3&quot; from Vinmonopolet
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Trykk</IRI>
-        <Literal>I bar</Literal>
+        <Literal>Pressure in bottle given in bar</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
