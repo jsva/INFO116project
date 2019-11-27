@@ -1795,7 +1795,7 @@
         <Class IRI="#Vinhão_Sousón"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Vinmonopolet"/>
+        <Class IRI="#Vinmonopolet_Sortiment"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Vinterhvete"/>
@@ -2519,7 +2519,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Brennevin"/>
-        <Class IRI="#Vinmonopolet"/>
+        <Class IRI="#Vinmonopolet_Sortiment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Bronner"/>
@@ -3605,7 +3605,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Mjød"/>
-        <Class IRI="#Vinmonopolet"/>
+        <Class IRI="#Vinmonopolet_Sortiment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Molinara"/>
@@ -4286,7 +4286,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Sider"/>
-        <Class IRI="#Vinmonopolet"/>
+        <Class IRI="#Vinmonopolet_Sortiment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Silvaner"/>
@@ -4714,7 +4714,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Vin"/>
-        <Class IRI="#Vinmonopolet"/>
+        <Class IRI="#Vinmonopolet_Sortiment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Vinhão_Sousón"/>
@@ -4855,7 +4855,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Øl"/>
-        <Class IRI="#Vinmonopolet"/>
+        <Class IRI="#Vinmonopolet_Sortiment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Østerrike"/>
@@ -7679,7 +7679,7 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#passerTil"/>
-        <Class IRI="#Vinmonopolet"/>
+        <Class IRI="#Vinmonopolet_Sortiment"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#locatedIn"/>
@@ -7738,7 +7738,7 @@
     </FunctionalDataProperty>
     <DataPropertyDomain>
         <DataProperty IRI="#Alkoholinnhold"/>
-        <Class IRI="#Vinmonopolet"/>
+        <Class IRI="#Vinmonopolet_Sortiment"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#Bitterhet"/>
@@ -7778,11 +7778,11 @@
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#Navn"/>
-        <Class IRI="#Vinmonopolet"/>
+        <Class IRI="#Vinmonopolet_Sortiment"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#Pris"/>
-        <Class IRI="#Vinmonopolet"/>
+        <Class IRI="#Vinmonopolet_Sortiment"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#Sukker"/>
@@ -7826,11 +7826,11 @@
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#Varenummer"/>
-        <Class IRI="#Vinmonopolet"/>
+        <Class IRI="#Vinmonopolet_Sortiment"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#Volum"/>
-        <Class IRI="#Vinmonopolet"/>
+        <Class IRI="#Vinmonopolet_Sortiment"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#Årgang"/>
