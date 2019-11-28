@@ -1996,6 +1996,9 @@
         <DataProperty IRI="#Karakteristikk"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#Kosher"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#Lagring"/>
     </Declaration>
     <Declaration>
@@ -6264,6 +6267,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#Kosher"/>
+        <NamedIndividual IRI="#Barkan_Special_Reserve_Petit_Verdot"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#Lagring"/>
         <NamedIndividual IRI="#Barkan_Special_Reserve_Petit_Verdot"/>
         <Literal>Kan drikkes nå, blir bedre ved lagring</Literal>
@@ -7367,6 +7375,11 @@
         <DataProperty IRI="#Garvestoff"/>
         <NamedIndividual IRI="#Tierra_de_Toros_Tinto"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Kosher"/>
+        <NamedIndividual IRI="#Tierra_de_Toros_Tinto"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#Lagring"/>
